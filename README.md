@@ -18,3 +18,6 @@ Why These Work Together:
     Thematic Unity: All three names tie into cephalopods and technology.
     Clear Roles: Each name suggests a different component (software, PCB/OS, and device).
     Memorable: They’re short, catchy, and easy to remember.
+
+
+This is a collection of hardware and Arduino projects
