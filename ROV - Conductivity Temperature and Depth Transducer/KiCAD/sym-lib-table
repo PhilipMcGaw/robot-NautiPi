@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "KiCad Symbols") (type "KiCad") (uri "${KIPRJMOD}/Common/Symbols.kicad_sym") (options "") (descr ""))
+	(lib (name "Partsbox") (type "HTTP") (uri "${KIPRJMOD}/Common/Partsbox.kicad_httplib") (options "") (descr ""))
+)

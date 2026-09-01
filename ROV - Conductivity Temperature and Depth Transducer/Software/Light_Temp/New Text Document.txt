@@ -1,0 +1,7 @@
+https://willem.aandewiel.nl/index.php/2024/08/16/arduino-to-platformio-project-conversion/
+
+https://github.com/mrWheel/arduinoIDE2platformIO-convertor
+
+https://community.platformio.org/t/migrating-from-arduino-ide-to-platformio/54000
+
+https://community.platformio.org/t/migration-arduino-to-platformio-first-steps/47993

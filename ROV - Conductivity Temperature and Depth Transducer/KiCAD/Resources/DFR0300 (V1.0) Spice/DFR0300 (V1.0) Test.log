@@ -1,0 +1,5 @@
+LTspice 24.0.12 for Windows
+Circuit: * \\emc\EMC\GIT\ROV-Conductivity-Temperature-and-Depth-Transducer\KiCAD\Resources\DFR0300 (V1.0) Spice\DFR0300 (V1.0) Test.asc
+Start Time: Fri Jul 10 14:11:20 2026
+Fatal Error: Unknown subcircuit called in:
+   xu1 0 n005 +ve -ve n006 tl034.mod b
