@@ -1,0 +1,141 @@
+MASTER PROMPT — GENERATE FULL FIRMWARE
+
+I want you to generate a complete ATtiny1614 firmware in one shot.
+Use the following requirements exactly:
+1. Microcontroller + Environment
+
+    Target MCU: ATtiny1614
+
+    Core: megaTinyCore
+
+    Language: Arduino C++
+
+    No blocking delays in the main loop
+
+    Watchdog enabled (1s)
+
+    Use FastLED for WS2812 (GRB order)
+
+2. Hardware Features
+
+    Main LED on PA0 (PWM)
+
+    Status LED + thermistor on PA1 (active‑LOW LED, shared ADC)
+
+    Built‑in LED on PA2
+
+    RS‑485 DE/RE on PA3
+
+    VIN sense on PA4 (37k/12k divider)
+
+    WS2812 ring on PA5 (4 LEDs, GRB)
+
+3. Node ID System
+
+    Read the ATtiny1614’s 8‑byte unique die ID from SIGROW
+
+    Compute Adler‑16 over those 8 bytes
+
+    Format as 4 uppercase hex characters
+
+    This becomes the node ID
+
+4. Message Format
+
+Every message (inbound and outbound) must be:
+Code
+
+<ID>/<topic><SEP><value>
+
+Where:
+
+    <ID> = Adler‑16 hex string
+
+    <SEP> = a configurable constant at the top of the file (: or =)
+
+    <topic> = ASCII topic
+
+    <value> = ASCII value
+
+5. Inbound Commands (PC → Node)
+Code
+
+<ID>/in/main/en<SEP>0|1
+<ID>/in/main/level<SEP>0..255
+<ID>/in/builtin/en<SEP>0|1
+<ID>/in/rgb/en<SEP>0|1
+<ID>/in/rgb/hex<SEP>#RRGGBB
+
+6. Outbound Telemetry (Node → PC)
+Code
+
+<ID>/out/temp<SEP>float
+<ID>/out/volt<SEP>float
+<ID>/out/main/pwm<SEP>0..255
+<ID>/out/board/uptime<SEP>seconds
+<ID>/out/board/health<SEP>temp=..,volt=..,pwm=..,reset=..,uptime=..
+<ID>/out/board/reset<SEP>cause
+
+7. Outbound Telemetry Timing (IMPORTANT)
+
+Use the following transmission periods:
+
+    out/temp → every 1000 ms
+
+    out/volt → every 1000 ms
+
+    out/main/pwm → every 1000 ms
+
+    out/board/uptime → every 5000 ms
+
+    out/board/health → every 2000 ms
+
+Implement these using an outbound topic scheduler table.
+8. Behaviour Rules
+
+    Node must ignore inbound messages whose <ID> does not match its own
+
+    Node must prefix every outbound message with its <ID>
+
+    Use RS‑485 half‑duplex with bus‑idle detection
+
+    No blocking delays
+
+    Use smoothing, soft‑start, VIN compensation, thermal derating
+
+    WS2812 ring uses FastLED, GRB, fixed brightness
+
+9. Output Requirements
+
+    Produce one giant code block containing the full .ino
+
+    Include ultra‑verbose teaching comments explaining:
+
+        Every subsystem
+
+        Every function
+
+        Key lines of code
+
+        Protocol behaviour
+
+        Electrical behaviour
+
+        Timing behaviour
+
+    Include a full protocol specification at the top of the file
+
+    Use 57600 baud
+
+    Use the out/ prefix for outbound topics
+
+10. Separator
+
+At the top of the file include:
+cpp
+
+const char CMD_SEP = ':';   // Change to '=' if needed
+
+11. Deliverable
+
+Generate the complete firmware, fully commented, ready to compile.
