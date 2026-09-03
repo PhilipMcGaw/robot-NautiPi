@@ -1,6 +1,6 @@
 # robot-NautiPi
 
-[![Software, documentation, and reference material: CC BY-NC-SA 4.0](https://img.shields.io/badge/Software_and_documentation-CC_BY--NC--SA_4.0-purple.svg)](LICENSE-CC-BY-NC-SA-4.0.txt)
+[![Software, documentation, and reference material: CC BY-NC-SA 4.0](https://img.shields.io/badge/Software_and_documentation-CC_BY--NC-SA_4.0-purple.svg)](LICENSE-CC-BY-NC-SA-4.0.txt)
 [![Hardware: CERN-OHL-S 2.0](https://img.shields.io/badge/Hardware-CERN--OHL--S_2.0-purple.svg)](LICENSE-CERN-OHL-S-2.0.txt)
 [![KiCad](https://img.shields.io/badge/Design-KiCad-314cb0.svg)](https://www.kicad.org/)
 [![Fusion 360](https://img.shields.io/badge/Design-Fusion_360-f26b38.svg)](https://www.autodesk.com/products/fusion-360/overview)
@@ -14,6 +14,8 @@ NautiPi works alongside the other current project repositories:
 - [SquidLink](https://github.com/PhilipMcGaw/robot-SquidLink) provides the independent ROS 2/Gazebo simulation and integration-test environment.
 
 The repositories are separate and connected by documented interfaces. NautiPi is the source of truth for the physical hardware design record; it is not the source of truth for software implementation or simulation behaviour.
+
+The cross-repository system architecture is authoritative in [CuttleOS `docs/system-architecture.md`](https://github.com/PhilipMcGaw/robot-CuttleOS/blob/main/docs/system-architecture.md). NautiPi-specific physical hardware architecture is defined in [`docs/hardware-architecture.md`](docs/hardware-architecture.md).
 
 ## Repository layout
 
@@ -47,7 +49,7 @@ The ROV hardware projects are not currently represented as production-validated 
 
 CuttleOS is the current software architecture and runtime boundary. SquidLink is the current simulation and integration-test boundary. Historical software notes retained in NautiPi must not be treated as authoritative when they conflict with those repositories.
 
-Hardware references in NautiPi do not, by themselves, authorise a Control allocation, GPIO assignment, RS485 mapping, or production wiring arrangement. Such allocations must be established by the current engineering and software interface documentation.
+Hardware references in NautiPi do not, by themselves, authorise a Control allocation, GPIO assignment, RS-485 mapping, or production wiring arrangement. Such allocations must be established by the current engineering and software interface documentation.
 
 ## Documentation
 
