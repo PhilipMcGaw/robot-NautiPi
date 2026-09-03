@@ -6,21 +6,54 @@
 [![Fusion 360](https://img.shields.io/badge/Design-Fusion_360-f26b38.svg)](https://www.autodesk.com/products/fusion-360/overview)
 [![Arduino](https://img.shields.io/badge/Embedded-Arduino-00878f.svg)](https://www.arduino.cc/)
 
-NautiPi is the physical hardware and embedded-project companion to the ROV
-software. It contains electronics, PCB and KiCad work, Arduino projects,
-component records and hardware reference material.
+NautiPi is the physical hardware and embedded-project repository for the robot projects. It contains electronics, PCB and KiCad work, Arduino projects, component records, mechanical references, photographs, and retained historical hardware material.
 
-NautiPi works alongside the other related projects:
+NautiPi works alongside the other current project repositories:
 
-- [CuttleOS](https://github.com/PhilipMcGaw/robot-CuttleOS) runs the robot-side
-  Cockpit, Control and Datalogger services on Raspberry Pi.
-- [SquidLink](https://github.com/PhilipMcGaw/robot-SquidLink) provides the
-  independent ROS 2/Gazebo software-in-the-loop and hardware-in-the-loop
-  environment.
+- [CuttleOS](https://github.com/PhilipMcGaw/robot-CuttleOS) owns the robot-side software, including Cockpit, Control, and Datalogger.
+- [SquidLink](https://github.com/PhilipMcGaw/robot-SquidLink) provides the independent ROS 2/Gazebo simulation and integration-test environment.
 
-The projects are separate and connected by documented interfaces. Hardware
-references in NautiPi do not automatically authorise a Control allocation or
-claim that a board has been commissioned.
+The repositories are separate and connected by documented interfaces. NautiPi is the source of truth for the physical hardware design record; it is not the source of truth for software implementation or simulation behaviour.
+
+## Repository layout
+
+### ROV hardware
+
+- [`ROV - Conductivity Temperature and Depth Transducer/`](<ROV - Conductivity Temperature and Depth Transducer/README.md>) — conductivity, temperature, and depth transducer design and embedded-project material.
+- [`ROV - Light Module/`](<ROV - Light Module/README.md>) — ROV lighting electronics and embedded-project material.
+- [`ROV - Main Body/`](<ROV - Main Body/README.md>) — main-body hardware archive, including PCB designs, component records, mechanical references, and historical integration material.
+- [`ROV - Navigator/`](<ROV - Navigator/README.md>) — Navigator PCB, schematics, power-management, status LED, leak-detection, and shared KiCad resources.
+
+### K9 hardware
+
+- [`K9 - Camera/`](<K9 - Camera/>) — retained camera setup material and reference videos.
+- [`K9 - Main Body/`](<K9 - Main Body/README.md>) — K9 main-body hardware designs, body-control modules, motor-driver material, and project references.
+
+### Other retained material
+
+- [`Remote Sensors/`](<Remote Sensors/>) — retained remote-sensor project material.
+- [`Traffic Light/`](<Traffic Light/>) — historical traffic-light project photographs and reference material.
+- [`docs/images/`](docs/images/) — README and project imagery.
+
+## Current status
+
+NautiPi contains a mixture of current design work, development material, and historical project records. The presence of a design file, firmware, photograph, or other project artefact does not establish that the associated hardware is currently manufactured, assembled, commissioned, calibrated, or integrated.
+
+Hardware assembly, electrical commissioning, calibration, environmental testing, and robot integration are separate engineering activities and require their own evidence.
+
+The ROV hardware projects are not currently represented as production-validated by this repository unless explicit validation evidence is recorded.
+
+## Relationship to software and simulation
+
+CuttleOS is the current software architecture and runtime boundary. SquidLink is the current simulation and integration-test boundary. Historical software notes retained in NautiPi must not be treated as authoritative when they conflict with those repositories.
+
+Hardware references in NautiPi do not, by themselves, authorise a Control allocation, GPIO assignment, RS485 mapping, or production wiring arrangement. Such allocations must be established by the current engineering and software interface documentation.
+
+## Documentation
+
+The NautiPi documentation policy is maintained in [`docs/documentation-policy.md`](docs/documentation-policy.md). It follows the wider project documentation style, including formal British English, Oxford commas, NIST SI conventions, precise technical terminology, and explicit validation status.
+
+Each substantial hardware project should have a local `README.md` describing its purpose, contents, current status, and relationship to the wider system.
 
 ## People who have helped
 
@@ -28,31 +61,6 @@ claim that a board has been commissioned.
 - Tamarisk 'NotQuiteHere' McGaw - <tamarisk@mcgaw.eu> - [tamarisk.it](https://tamarisk.it)
 - Bob 'thinkl33t' Clough - <bob@clough.me> - [thinkl33t.co.uk](https://thinkl33t.co.uk)
 
-## Repository layout
-
-- [`ROV - Conductivity Temperature and Depth Transducer/`](<ROV - Conductivity Temperature and Depth Transducer/README.md>) — KiCad design files, resources, and embedded project material for the conductivity, temperature, and depth transducer.
-- [`ROV - Light Module/`](<ROV - Light Module/README.md>) — KiCad design files and embedded project material for the ROV light module.
-- [ROV - Main Body/](<ROV - Main Body/README.md>) — the ROV main-body hardware archive, including PCB designs, BOMs, mechanical references, and historical integration material.
-- [K9 - Main Body/](<K9 - Main Body/README.md>) — K9 main-body hardware designs, body-control modules, motor-driver material, and project references.
-- [`docs/images/`](docs/images/) — README and project imagery.
-
-## Current status
-
-The repository contains the current design and reference material for the listed
-hardware projects. Hardware assembly, electrical commissioning, and ROV
-integration should be treated as separate activities and recorded with their
-own evidence. No physical or production validation is claimed here without
-that evidence.
-
-## Documentation
-
-The project-specific README files are the primary documentation for the
-hardware folders. The related software and simulation projects are documented
-in [CuttleOS](https://github.com/PhilipMcGaw/robot-CuttleOS) and
-[SquidLink](https://github.com/PhilipMcGaw/robot-SquidLink).
-
 ## Licence
 
-The repository uses separate licences for project software and documentation,
-and for hardware design material. See [`LICENSES.md`](LICENSES.md) for the
-licensing map and the complete licence texts.
+The repository uses separate licences for project software and documentation, and for hardware design material. See [`LICENSES.md`](LICENSES.md) for the authoritative licensing map and the complete licence texts.
