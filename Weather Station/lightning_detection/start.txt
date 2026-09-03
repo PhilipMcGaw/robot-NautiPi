@@ -1,0 +1,5 @@
+===== Lightning Detection =====
+
+{{ :projects:weather_station:lightning_detection:lightning-detector.jpg?600 |}}
+found [[http://www.electroschematics.com/1021/lightning-detector/]]
+{{tag>new}}

@@ -1,0 +1,3 @@
+===== Weather Station =====
+
+{{tag>projects "weather station"}}
