@@ -1,0 +1,100 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f6c27ed3-073f-4619-8c01-ca19cd948077")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 29.21 29.21)
+		(size 67.31 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "55397c44-dbc5-41d8-a573-23f6cff1fdff")
+		(property "Sheetname" "Top PCB"
+			(at 29.21 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Top PCB.kicad_sch"
+			(at 29.21 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 29.21)
+		(size 72.39 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f83681f2-a142-428e-8a19-9575426a7c2b")
+		(property "Sheetname" "Bottom PCB"
+			(at 118.11 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Bottom PCB.kicad_sch"
+			(at 118.11 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

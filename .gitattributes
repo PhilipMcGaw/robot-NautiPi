@@ -1,10 +1,31 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Normalise text files to LF on commit
+* text=auto eol=lf
 
-# KiCAD things for the languages list on GitHub
+# KiCad source files
 *.kicad_pcb linguist-detectable=true
 *.kicad_sch linguist-detectable=true
-fp-lib-table linguist-generated=true
-*.xml linguist-generated=true
-*.txt linguist-generated=true
-*.pretty/* linguist-vendored=true
+*.kicad_pro linguist-detectable=true
+
+# KiCad generated or vendor material
+fp-info-cache linguist-generated=true
+*.kicad_prl linguist-generated=true
+**/*.pretty/** linguist-vendored=true
+
+# Binary CAD, manufacturing, media, and archive files
+*.3mf binary
+*.7z binary
+*.dwg binary
+*.dxf binary
+*.gif binary
+*.jpeg binary
+*.jpg binary
+*.mp4 binary
+*.pdf binary
+*.png binary
+*.pptx binary
+*.stl binary
+*.step binary
+*.stp binary
+*.webp binary
+*.xlsx binary
+*.zip binary

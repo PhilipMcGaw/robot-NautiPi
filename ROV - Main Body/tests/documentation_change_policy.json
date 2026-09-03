@@ -1,0 +1,17 @@
+{
+  "documentation_patterns": [
+    "MASTER_CONTEXT.md",
+    "README.md",
+    "Pins.md",
+    "LICENSES.md",
+    "docs/**"
+  ],
+  "documentation_required_patterns": [
+    "KiCAD/**",
+    "CPS/**",
+    "*.kicad_pcb",
+    "*.kicad_sch",
+    "*.kicad_pro",
+    "requirements.txt"
+  ]
+}

@@ -1,0 +1,143 @@
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(title_block
+		(title "${Project Title}")
+		(date "2025-07-26")
+		(rev "${Revision}")
+		(company "${Company Name}")
+		(comment 1 "${Designed By}")
+	)
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+		(47 "User.5" user)
+		(49 "User.6" user)
+		(51 "User.7" user)
+		(53 "User.8" user)
+		(55 "User.9" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(property "Company Name" "Philip McGaw.")
+	(property "Designed By" "Designed by Philip McGaw - philip@mcgaw.eu")
+	(property "Project Title" "Project Title")
+	(property "Revision" "0.1")
+	(property "Website" "https://philipmcgaw.com")
+	(net 0 "")
+	(gr_text "${COMMENT1}\n© ${COMPANY} - ${Website}"
+		(at 117.475 145.415 0)
+		(layer "F.SilkS")
+		(uuid "ea226411-c651-4d36-afbc-eeac28fb35bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "${TITLE}\nRev: ${REVISION}"
+		(at 117.475 139.7 0)
+		(layer "F.SilkS")
+		(uuid "ebb49c6d-e30f-48e7-9833-cf6d5b63f88d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "PhilipMcGaw.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WBYCS0VAJbdYClQrw4ws4yqqqpUgz5kaTCM6MG0+xcD4/DYBVPrTEsRK6VpeDbBTHqmBlYA
+				UQBXABsdO+jOYLK2/MwYLXLCfXmzgG1VPbPLDPozmwXr1n+U0x36TQAAAh3P/rRWGxVSGt25/NDs
+				UK7RLeo/H0MABAqatda69fqJ5lT/hwAIpBtQWIpk3hACt1qrAgT2iV6s4+sp2tmhBxGWspTv0O9x
+				V1wtfL3iP7MDYTmYT0UhTZ75+ha/8/pPjZLb9Or1Xr9enn9ZXq31rcWdUpv8CcJS/hzx3ORrDroD
+				Ek4yyl9poqNfN/Mq3eTzE03DbHX5Vi0GiXjfpKuECi7hNUgDXOEKe7UWbxXmmYZLHcgpwo7yfR5p
+				4IjfokJfWl8i/ft80kWXvFOPBl+3Fie62Ks13nEMgQJ2q922LbswzNouvte6LAjpHvVa1Zv54k+e
+				T2aH/39u8JIFwkkekYTplF2w6xjf/s98mqZZ1WUfHKRzeIu8uFlVbbWdA/RAc2fw2mwTHEqC0tMm
+				XYCJoMFYiIqGFBQkKRSGNaBEpOSqDkIcRHByIZ491H1HuhyvTPPHt03rLDi05xA8CXOGQZFchllL
+				IXdMZDIhOgZe6jRdj75oOYPslGq7LH2l/cUHj7WXMQ2+S8mZJsAIy1wf3BRqtQEHnzTKtETPDzEU
+				RhzYaE/NGotHk2IJ4+qqekFJYehSOnHKDrOf9ShfIVhOhxyARBHdtYGLmfK03G7rQQcjTnKSzkj9
+				VTmMUQfoBW92t93g3Wu5uFZhgvN2yneX+J1aMctyycfPt7Bvy3U7RLKa2pDS0bUNZO1mz7trwB5X
+				ANes3jOvVo811/P0jQUi2n2KCYIxAXMC3JPWoYuOQdcClhOv4cgZotzGdortSlN7QClivNObBrEZ
+				H7QK|
+			)
+			(checksum "D993650128FA4B8F1071A8DCEC6A3953")
+		)
+	)
+)

@@ -1,20 +1,27 @@
 # ROV Light Module
 
-[![License: CC BY-NC-SA](https://img.shields.io/badge/License-CC_BY--NC--SA-purple.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Hardware: CERN-OHL-S](https://img.shields.io/badge/License-CERN--OHL--S--2.0-purple)](https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/819d71bea3458f71fba6cf4fb0f2de6b/cern_ohl_s_v2.txt)
+This folder contains the KiCad design files, reference material, and embedded
+project work for the ROV light module.
 
-This is a KiCad and software project
+## Contents
 
-## License
+- `KiCAD/` — schematics, PCB layouts, project files, and generated documents.
+- `Software/` — Arduino and PlatformIO firmware experiments and supporting libraries.
 
- * Hardware design files in this repository are licensed under the **[CERN Open Hardware Licence v2 — Strongly Reciprocal (CERN-OHL-S-2.0)](https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/819d71bea3458f71fba6cf4fb0f2de6b/cern_ohl_s_v2.txt)**, an open source hardware license recommended by the [Open Source Hardware Association (OSHWA)](https://oshwa.org/).
- * Software files in this repository are licensed under the **[Creatice Commons - Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)**
+## Current status
 
-- **Copyright:** [Philip McGaw](https://philipmcgaw.com/)
+The design and reference material are retained for continued development and
+review. Assembly, electrical commissioning, thermal testing, and integration
+with the ROV are not recorded as complete here.
 
-You may use, study, modify, and redistribute the sorcecode, schematic and PCB layout under those terms. **Derivative designs must be released under the same license(s).** If you share the design or boards built from it, include a link to the licenses.
+## Related material
 
-## Related links
-
-- [SquashedFly](https://squashedfly.eu/)
 - [KiCad](https://www.kicad.org/) — PCB design software
+- `Software/Light/led-tricks-gamma-correction.pdf` — retained LED control reference
+
+## Licensing
+
+See the parent [NautiPi README](../README.md) and [licensing map](../LICENSES.md).
+Hardware design files are covered by CERN-OHL-S 2.0; project software,
+documentation, and reference material are covered by CC BY-NC-SA 4.0, subject to
+any separate third-party notices.

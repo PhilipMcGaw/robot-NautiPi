@@ -1,0 +1,1445 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1ae363e9-2b94-498d-8c74-3452d879f5a6")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 99.06 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0553a5cc-eae8-40fd-b793-6a1ad363d5c2")
+	)
+	(junction
+		(at 99.06 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08a17c81-22fc-4bef-8930-95ecd1ed4b1f")
+	)
+	(junction
+		(at 101.6 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "974d1d5f-1e17-4856-89cb-0482f704b9bf")
+	)
+	(junction
+		(at 101.6 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb26d3ad-c1d0-454b-8103-e5d3f4c346b0")
+	)
+	(wire
+		(pts
+			(xy 68.58 77.47) (xy 104.14 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b9c007-9fce-41d4-928d-2b2243ec24e5")
+	)
+	(wire
+		(pts
+			(xy 68.58 67.31) (xy 104.14 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7f8b11-5fc2-44a8-8e54-f5fd8d980cb7")
+	)
+	(wire
+		(pts
+			(xy 101.6 57.15) (xy 101.6 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fed0205-38f3-44a4-9ff6-3a8ccb2d0ea9")
+	)
+	(wire
+		(pts
+			(xy 137.16 115.57) (xy 172.72 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e7761a-6d62-49fe-a0fe-1b88bfbc5f30")
+	)
+	(wire
+		(pts
+			(xy 68.58 62.23) (xy 104.14 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a3a753-ebc9-480a-a3f4-b02792284f34")
+	)
+	(wire
+		(pts
+			(xy 68.58 69.85) (xy 104.14 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c281db-2627-4bb1-819f-46bd69221ed9")
+	)
+	(wire
+		(pts
+			(xy 96.52 102.87) (xy 68.58 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47311ad0-94ab-4410-bc72-aff7ae545417")
+	)
+	(wire
+		(pts
+			(xy 93.98 105.41) (xy 68.58 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "494ced37-5428-4561-b959-56e11862612f")
+	)
+	(wire
+		(pts
+			(xy 68.58 85.09) (xy 104.14 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af52957-a66e-4eba-a010-0348375a82f6")
+	)
+	(wire
+		(pts
+			(xy 68.58 90.17) (xy 104.14 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b0e95d0-6f85-42fd-bda0-372a3e39f510")
+	)
+	(wire
+		(pts
+			(xy 104.14 139.7) (xy 99.06 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "632394c7-e5c8-4d3d-ae78-4ac9a4b6ef0e")
+	)
+	(wire
+		(pts
+			(xy 68.58 80.01) (xy 104.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68495a89-fdee-416b-b848-b1ee042604a2")
+	)
+	(wire
+		(pts
+			(xy 96.52 149.86) (xy 104.14 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dc4033c-6c51-4598-8ea0-cb572444beaa")
+	)
+	(wire
+		(pts
+			(xy 137.16 125.73) (xy 172.72 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7224a635-3b0f-4ba4-8348-51e9f81d01ee")
+	)
+	(wire
+		(pts
+			(xy 101.6 113.03) (xy 104.14 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ddf833-9f2a-4697-8476-3cbc1134d3e8")
+	)
+	(wire
+		(pts
+			(xy 68.58 100.33) (xy 104.14 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78288d99-f4af-4984-a548-e99a9c4ae8e4")
+	)
+	(wire
+		(pts
+			(xy 68.58 74.93) (xy 104.14 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b936236-c9e7-4edb-8848-771cfa1079a9")
+	)
+	(wire
+		(pts
+			(xy 101.6 137.16) (xy 101.6 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c903847-83c6-403b-9ec0-25d192604ea5")
+	)
+	(wire
+		(pts
+			(xy 104.14 115.57) (xy 99.06 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9174c1b7-03e0-4524-8641-92e6351732c4")
+	)
+	(wire
+		(pts
+			(xy 68.58 57.15) (xy 101.6 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95429df7-1f85-4e02-91f7-bf218e67a7be")
+	)
+	(wire
+		(pts
+			(xy 101.6 57.15) (xy 104.14 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "984c82bd-d827-45d1-941c-9075ab0a0489")
+	)
+	(wire
+		(pts
+			(xy 99.06 59.69) (xy 104.14 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9986d4f8-2e23-4897-bb22-ce83cafbd827")
+	)
+	(wire
+		(pts
+			(xy 99.06 59.69) (xy 99.06 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7e7f12-e9b9-49ae-8b38-02f1c7cd3d01")
+	)
+	(wire
+		(pts
+			(xy 68.58 82.55) (xy 104.14 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b4f24d-8b9d-4b83-aeae-3dd1f390ca0a")
+	)
+	(wire
+		(pts
+			(xy 137.16 128.27) (xy 172.72 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97f082b-a46c-4a78-8a32-411c362e1517")
+	)
+	(wire
+		(pts
+			(xy 104.14 160.02) (xy 93.98 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0ab114-63d1-4a72-b210-87f50e42888b")
+	)
+	(wire
+		(pts
+			(xy 68.58 64.77) (xy 104.14 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba29b44d-fa89-4849-b789-77a4a7ad7819")
+	)
+	(wire
+		(pts
+			(xy 68.58 72.39) (xy 104.14 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf6db83-8b4d-4a6e-8aee-5571917aa451")
+	)
+	(wire
+		(pts
+			(xy 137.16 130.81) (xy 172.72 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca38930e-2cf3-4e83-af60-a42666e396f5")
+	)
+	(wire
+		(pts
+			(xy 68.58 59.69) (xy 99.06 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca49634d-ac0a-4d98-8451-788f715b22be")
+	)
+	(wire
+		(pts
+			(xy 68.58 97.79) (xy 104.14 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0ebcdc3-0562-44f2-87d0-0a95ea0dabe1")
+	)
+	(wire
+		(pts
+			(xy 137.16 123.19) (xy 172.72 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d12aa2b7-76b7-4a8a-a703-8c268270b6a5")
+	)
+	(wire
+		(pts
+			(xy 137.16 120.65) (xy 172.72 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e49869-f0b6-4b69-b9db-9c7656e9cc48")
+	)
+	(wire
+		(pts
+			(xy 99.06 139.7) (xy 99.06 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6f91634-91c0-4a05-9e2f-8010cf315da2")
+	)
+	(wire
+		(pts
+			(xy 137.16 118.11) (xy 172.72 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7513173-2b94-4f6e-80df-cab4e1833c85")
+	)
+	(wire
+		(pts
+			(xy 68.58 87.63) (xy 104.14 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e048ade6-2273-445c-96bc-bb012306307c")
+	)
+	(wire
+		(pts
+			(xy 68.58 95.25) (xy 104.14 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1372a90-da26-47b6-9050-84e7b5d64128")
+	)
+	(wire
+		(pts
+			(xy 137.16 113.03) (xy 172.72 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1467dc2-d0c3-4ab5-9c55-d90767639194")
+	)
+	(wire
+		(pts
+			(xy 68.58 92.71) (xy 104.14 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1fd67fe-0315-43f1-8ca3-1a804cd69244")
+	)
+	(wire
+		(pts
+			(xy 104.14 137.16) (xy 101.6 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f21387a2-833b-4f4b-a5b1-ec994a9ac02f")
+	)
+	(wire
+		(pts
+			(xy 96.52 102.87) (xy 96.52 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2fb36bf-974e-4d02-ba1b-764d8714fd48")
+	)
+	(wire
+		(pts
+			(xy 93.98 160.02) (xy 93.98 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff73e505-fe74-49be-ab9b-543eee60ee28")
+	)
+	(sheet
+		(at 35.56 55.88)
+		(size 33.02 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c29a319-fa29-4600-894d-03ac54bed777")
+		(property "Sheetname" "RPi Header"
+			(at 35.56 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RPi Header.kicad_sch"
+			(at 35.56 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "GPIO02(SDA)" bidirectional
+			(at 68.58 57.15 0)
+			(uuid "9fe99154-1074-4fda-a47b-54a13e008c5a")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO03(SCL)" bidirectional
+			(at 68.58 59.69 0)
+			(uuid "e9ddcf25-6a46-4361-93f3-6b315105a0d0")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO05" output
+			(at 68.58 62.23 0)
+			(uuid "c3f48f2c-d007-47d2-8fdb-b80522863074")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO06" output
+			(at 68.58 64.77 0)
+			(uuid "18cfd6e9-a009-4b81-9fe4-679dc84f1af7")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO13" output
+			(at 68.58 67.31 0)
+			(uuid "33d95161-3a6c-4921-9bc1-6e269f4563f4")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO14(TX)" bidirectional
+			(at 68.58 69.85 0)
+			(uuid "14056b07-44aa-4f05-b5d7-a40af168a872")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO15(RX)" bidirectional
+			(at 68.58 72.39 0)
+			(uuid "b2241395-bb6f-4d8f-b7e9-425f26b33818")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO19" output
+			(at 68.58 74.93 0)
+			(uuid "b05c8e0c-c035-49fe-a6da-1ca5617a4826")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID SC(eeprom)" output
+			(at 68.58 77.47 0)
+			(uuid "3715db7c-5211-431f-b522-425d386040fe")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID SD(eeprom)" output
+			(at 68.58 80.01 0)
+			(uuid "9efa9a91-3b2b-43fa-ad2b-2e5176f7a712")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO17(GEN0)" bidirectional
+			(at 68.58 82.55 0)
+			(uuid "0d4a6386-aca2-4d5e-9dae-582dac7e7f72")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO22(GEN3)" bidirectional
+			(at 68.58 87.63 0)
+			(uuid "136070ce-6d3d-44bd-a09d-b9c0357c4525")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO23(GEN4)" bidirectional
+			(at 68.58 90.17 0)
+			(uuid "102619f3-da4b-4d2a-b9a8-ec75fc907ead")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO24(GEN5)" bidirectional
+			(at 68.58 92.71 0)
+			(uuid "6533f380-53c8-40ce-bef8-6a224f1f04fa")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO27(GEN2)" bidirectional
+			(at 68.58 85.09 0)
+			(uuid "feed58b9-c29e-4d1c-be8f-3bb375fb2864")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO10(SPI_MOSI)" output
+			(at 68.58 102.87 0)
+			(uuid "247c9854-1166-4ec9-b3e3-ed0a4caaa306")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO09(SPI_MISO)" output
+			(at 68.58 95.25 0)
+			(uuid "de16c8cb-4b36-497b-87c1-28707becf30b")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO11(SPI_CLK)" output
+			(at 68.58 97.79 0)
+			(uuid "3e4df9de-95a6-4576-ae0a-5430fa85de4d")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO25(GEN6)" output
+			(at 68.58 100.33 0)
+			(uuid "0e36ae8d-a51f-4faa-9747-cc68f65cd161")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO18(GEN1)" output
+			(at 68.58 105.41 0)
+			(uuid "fca7815e-9b81-46ad-9761-9b5be9890cef")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ADM133 - Adeept Robot"
+				(path "/1ae363e9-2b94-498d-8c74-3452d879f5a6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 111.76)
+		(size 33.02 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "639011ba-5aaa-41cd-a8a7-61a456f2e64a")
+		(property "Sheetname" "Motor Driver"
+			(at 172.72 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor driver.kicad_sch"
+			(at 172.72 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "CH8" input
+			(at 172.72 113.03 180)
+			(uuid "be252fca-9138-4c9c-8c7e-f48aa932778e")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH9" input
+			(at 172.72 115.57 180)
+			(uuid "bdf91e38-40cf-4f61-85ac-1550dcb64563")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH10" input
+			(at 172.72 118.11 180)
+			(uuid "3ee5633c-18d7-414d-8104-ac855095219e")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH11" input
+			(at 172.72 120.65 180)
+			(uuid "3028946a-3ea5-472a-b34d-385fa694d869")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH12" input
+			(at 172.72 123.19 180)
+			(uuid "dd6f12e9-2a00-414f-a8e9-2d4c2f754f3e")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH13" input
+			(at 172.72 125.73 180)
+			(uuid "d5824be3-0c46-4717-bd8d-0d11fcb5c6ca")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH14" input
+			(at 172.72 128.27 180)
+			(uuid "716107f2-c3d8-4192-8e85-b6795c129872")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH15" input
+			(at 172.72 130.81 180)
+			(uuid "1ef3ab24-2c2c-454a-ad90-71725b2155db")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ADM133 - Adeept Robot"
+				(path "/1ae363e9-2b94-498d-8c74-3452d879f5a6"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 147.32)
+		(size 33.02 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6b2a42c4-0dc6-4701-96fb-b48114ab72ff")
+		(property "Sheetname" "Neopixle Interface"
+			(at 104.14 146.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Neopixles.kicad_sch"
+			(at 104.14 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "GPIO10(SPI_MOSI)" input
+			(at 104.14 149.86 180)
+			(uuid "07424b92-646d-41a7-8a46-9fea7c3b4d22")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ADM133 - Adeept Robot"
+				(path "/1ae363e9-2b94-498d-8c74-3452d879f5a6"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 35.56)
+		(size 33.02 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6be3e703-2495-4071-a0c9-0a7f63b2bd6b")
+		(property "Sheetname" "Power"
+			(at 35.56 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 35.56 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ADM133 - Adeept Robot"
+				(path "/1ae363e9-2b94-498d-8c74-3452d879f5a6"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 55.88)
+		(size 33.02 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "881f5f5d-c02b-4461-8be2-8f68babbc72c")
+		(property "Sheetname" "Topside Ports"
+			(at 104.14 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Topside Ports.kicad_sch"
+			(at 104.14 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "GPIO02(SDA)" bidirectional
+			(at 104.14 57.15 180)
+			(uuid "daf75d67-a227-445b-8790-caa0209b599b")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO03(SCL)" bidirectional
+			(at 104.14 59.69 180)
+			(uuid "689a9e59-0c49-4465-89ce-ecacd44afd1c")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO05" input
+			(at 104.14 62.23 180)
+			(uuid "ad4d2969-f252-4398-bc10-faac639b6cb3")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO06" input
+			(at 104.14 64.77 180)
+			(uuid "c24c46f1-8be0-4be4-9f0a-22d9e5cf4d3b")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO13" input
+			(at 104.14 67.31 180)
+			(uuid "ec817619-46fe-491f-9d1d-5b9983bf6040")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO14(TX)" bidirectional
+			(at 104.14 69.85 180)
+			(uuid "3f6a1118-20c1-4d1f-aea3-112190b7e45b")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO15(RX)" bidirectional
+			(at 104.14 72.39 180)
+			(uuid "34217c7e-6148-450e-8c57-7bcff72d2257")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO19" input
+			(at 104.14 74.93 180)
+			(uuid "89302bca-8810-4658-a0ee-51d2498b77f3")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID SC(eeprom)" input
+			(at 104.14 77.47 180)
+			(uuid "7e6abfcb-e12b-43a2-9492-f36037a08957")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID SD(eeprom)" input
+			(at 104.14 80.01 180)
+			(uuid "48a8afe4-c4ab-42cc-8cec-eaed6b5e9e35")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO17(GEN0)" bidirectional
+			(at 104.14 82.55 180)
+			(uuid "f2e18dd8-2f90-46dd-9294-68bb581cc00d")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO22(GEN3)" bidirectional
+			(at 104.14 87.63 180)
+			(uuid "bc2d25ac-9a75-41df-990b-a3874deb97f2")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO23(GEN4)" bidirectional
+			(at 104.14 90.17 180)
+			(uuid "d71f7b31-f884-4ea6-b656-7a30bb871d02")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO24(GEN5)" bidirectional
+			(at 104.14 92.71 180)
+			(uuid "d4f0da25-a3fc-4ab7-9723-9c6c02dc0d3f")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO27(GEN2)" bidirectional
+			(at 104.14 85.09 180)
+			(uuid "05c5bd6a-99e2-42c3-ae1f-7a79cbbc4e07")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO09(SPI_MISO)" input
+			(at 104.14 95.25 180)
+			(uuid "a617c025-1f28-4e26-8eec-3c44e2dbda25")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO11(SPI_CLK)" input
+			(at 104.14 97.79 180)
+			(uuid "941817da-ddf8-4867-8be0-13d6bf6963c0")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO25(GEN6)" input
+			(at 104.14 100.33 180)
+			(uuid "a1431a5c-b5cd-4b32-94b1-02cdec24cd54")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ADM133 - Adeept Robot"
+				(path "/1ae363e9-2b94-498d-8c74-3452d879f5a6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 157.48)
+		(size 33.02 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c4306a9-95de-41c2-b0fe-6af093d64e0d")
+		(property "Sheetname" "Buzzer"
+			(at 104.14 156.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buzzer.kicad_sch"
+			(at 104.14 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "GPIO18(GEN1)" input
+			(at 104.14 160.02 180)
+			(uuid "19df0218-1066-465e-81e7-f8c6da574b83")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ADM133 - Adeept Robot"
+				(path "/1ae363e9-2b94-498d-8c74-3452d879f5a6"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 134.62)
+		(size 33.02 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a406a35b-087c-4972-a9e8-7bd7f67ed8a0")
+		(property "Sheetname" "Analogue Interface"
+			(at 104.14 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analogue.kicad_sch"
+			(at 104.14 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "GPIO02(SDA)" bidirectional
+			(at 104.14 137.16 180)
+			(uuid "d78fed9c-daeb-41a4-b67b-6a42daa18d21")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO03(SCL)" bidirectional
+			(at 104.14 139.7 180)
+			(uuid "bec3336b-508a-48a4-a353-13aad7000f60")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ADM133 - Adeept Robot"
+				(path "/1ae363e9-2b94-498d-8c74-3452d879f5a6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 35.56)
+		(size 33.02 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b5093487-7854-4b2e-ba8f-728a7d408bd9")
+		(property "Sheetname" "Battery Guage"
+			(at 104.14 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery guage.kicad_sch"
+			(at 104.14 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ADM133 - Adeept Robot"
+				(path "/1ae363e9-2b94-498d-8c74-3452d879f5a6"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 111.76)
+		(size 33.02 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b98a8bf2-7a9a-4410-9211-0c804e558c78")
+		(property "Sheetname" "Servo Interface"
+			(at 104.14 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "I2C Servo.kicad_sch"
+			(at 104.14 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "GPIO02(SDA)" bidirectional
+			(at 104.14 113.03 180)
+			(uuid "2393f115-6fae-4e28-b60e-d02746e602c6")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO03(SCL)" bidirectional
+			(at 104.14 115.57 180)
+			(uuid "64340085-885b-47e9-a298-413b391190b0")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH8" output
+			(at 137.16 113.03 0)
+			(uuid "6851a5cb-edba-491c-bdf8-255cb6a66374")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "CH9" output
+			(at 137.16 115.57 0)
+			(uuid "78cab978-cccc-4dfe-886b-901aa7bd1a6a")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "CH10" output
+			(at 137.16 118.11 0)
+			(uuid "7837ced9-18c3-4cec-b99f-e7c805e380c3")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "CH11" output
+			(at 137.16 120.65 0)
+			(uuid "a18f93ab-90cb-4768-909d-a02c27923fd4")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "CH12" output
+			(at 137.16 123.19 0)
+			(uuid "680ad088-36c5-4796-b596-ff3d41ed9c77")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "CH13" output
+			(at 137.16 125.73 0)
+			(uuid "90650ab4-6348-4cdb-9efe-d6e5a1e8e0d0")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "CH14" output
+			(at 137.16 128.27 0)
+			(uuid "5dad02f6-ccdc-4d85-9523-210744250bed")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "CH15" output
+			(at 137.16 130.81 0)
+			(uuid "642773bc-d036-4068-b74c-acdcb7c69094")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ADM133 - Adeept Robot"
+				(path "/1ae363e9-2b94-498d-8c74-3452d879f5a6"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

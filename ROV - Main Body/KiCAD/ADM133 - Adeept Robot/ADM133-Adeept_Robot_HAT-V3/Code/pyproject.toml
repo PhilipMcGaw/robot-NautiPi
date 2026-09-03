@@ -1,0 +1,14 @@
+[project]
+name = "code"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "adafruit-circuitpython-motor>=3.4.18",
+    "adafruit-circuitpython-pca9685>=3.4.20",
+    "board>=1.0",
+    "numpy>=2.3.5",
+    "rpi-gpio>=0.7.1",
+    "spidev>=3.8",
+]

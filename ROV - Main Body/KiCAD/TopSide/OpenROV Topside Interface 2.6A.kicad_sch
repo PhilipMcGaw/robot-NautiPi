@@ -1,0 +1,6713 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28")
+	(paper "User" 471.907 317.627)
+	(lib_symbols
+		(symbol "Device:LED_Small_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small_Filled"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_Filled_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_Filled_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "OpenROV Topside Interface 2.6A-eagle-import:AP1117SOT223"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -4.572 9.144 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 5.588 -11.176 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "OpenROV Topside Interface 2.6A:SOT223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diodes, Inc.   Voltage Regulator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AP1117SOT223_1_0"
+				(polyline
+					(pts
+						(xy -7.62 7.62) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -7.62) (xy -7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 7.62) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy -7.62 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "OpenROV Topside Interface 2.6A-eagle-import:CAP1206"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.016 0.635 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.016 -4.191 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "OpenROV Topside Interface 2.6A:R1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic Non-Polarized Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAP1206_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1)
+					(mid 1.3158 -1.2195)
+					(end 2.4892 -1.8541)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4668 -1.8504)
+					(mid -1.302 -1.2303)
+					(end 0 -1.0161)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "OpenROV Topside Interface 2.6A-eagle-import:FCI_TERMINAL_BLOCK_2PL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -3.048 0.762 0)
+				(effects
+					(font
+						(size 1.524 1.2954)
+					)
+					(justify right top)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "OpenROV Topside Interface 2.6A:FCI_09-381_2PL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "FCI 2-place Terminal Block  09-381 / 20020303"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FCI_TERMINAL_BLOCK_2PL_1_0"
+				(polyline
+					(pts
+						(xy -1.778 0.508) (xy 0 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "FCI_TERMINAL_BLOCK_2PL_2_0"
+				(polyline
+					(pts
+						(xy -1.778 0.508) (xy 0 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "OpenROV Topside Interface 2.6A-eagle-import:FERRITESIZE_0805"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -1.27 -5.08 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 3.81 -5.08 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "OpenROV Topside Interface 2.6A:R0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic Surface Mount Ferrite Chip"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FERRITESIZE_0805_1_0"
+				(arc
+					(start 1.27 3.81)
+					(mid 0.898 2.912)
+					(end 0 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.08)
+					(mid 0.898 4.708)
+					(end 1.27 3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 1.27)
+					(mid 0.898 0.372)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.54)
+					(mid 0.898 2.168)
+					(end 1.27 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -1.27)
+					(mid 0.898 -2.168)
+					(end 0 -2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.898 -0.372)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -3.81)
+					(mid 0.898 -4.708)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.54)
+					(mid 0.898 -2.912)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "OpenROV Topside Interface 2.6A-eagle-import:FIDUCIAL_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "OpenROV Topside Interface 2.6A:FIDUCIAL_1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Alignment Fiducial"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FIDUCIAL_1_1_0"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "OpenROV Topside Interface 2.6A-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#SUPPLY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.905 -3.175 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "GROUND SYMBOL\n\nAdapted from Eagle supply2 library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "OpenROV Topside Interface 2.6A-eagle-import:HDR_1X2X0.100-ALT_SILK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 2.54 -0.762 0)
+				(effects
+					(font
+						(size 1.524 1.2954)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -0.762 1.397 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "OpenROV Topside Interface 2.6A:22-23-2021_ALT_SILK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ".100\" (2.54mm) Center Header - 2 Pin\n\nDerived from Molex 22-23-2021"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HDR_1X2X0.100-ALT_SILK_1_0"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.6096)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HDR_1X2X0.100-ALT_SILK_2_0"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.6096)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "OpenROV Topside Interface 2.6A-eagle-import:HDR_SOCKET_2X3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -3.048 0.762 0)
+				(effects
+					(font
+						(size 1.524 1.2954)
+					)
+					(justify right top)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "OpenROV Topside Interface 2.6A:SSW-103-02-S-D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2X3 THROUGH-HOLE .025\" SQ POST SOCKET\n\nBased upon Samtec SSW-103-02-S-D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HDR_SOCKET_2X3_1_0"
+				(polyline
+					(pts
+						(xy -1.778 0.508) (xy 0 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HDR_SOCKET_2X3_2_0"
+				(polyline
+					(pts
+						(xy -1.778 0.508) (xy 0 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HDR_SOCKET_2X3_3_0"
+				(polyline
+					(pts
+						(xy -1.778 0.508) (xy 0 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HDR_SOCKET_2X3_4_0"
+				(polyline
+					(pts
+						(xy -1.778 0.508) (xy 0 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HDR_SOCKET_2X3_5_0"
+				(polyline
+					(pts
+						(xy -1.778 0.508) (xy 0 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HDR_SOCKET_2X3_6_0"
+				(polyline
+					(pts
+						(xy -1.778 0.508) (xy 0 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "OpenROV Topside Interface 2.6A-eagle-import:USB_MINI-BSURFACE_MOUNT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 11.43 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 7.62 -7.62 90)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "OpenROV Topside Interface 2.6A:USB_MINI-B_SM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MINI USB-B Conector\n\nAdapted from Eagle Cypress connector library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB_MINI-BSURFACE_MOUNT_1_0"
+				(polyline
+					(pts
+						(xy -5.08 6.35) (xy -5.08 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -10.16) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -11.43) (xy -5.08 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 7.62) (xy -2.54 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -7.62) (xy -2.54 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 6.35)
+					(mid -4.708 7.248)
+					(end -3.81 7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.81 -7.62)
+					(mid -4.708 -7.248)
+					(end -5.08 -6.35)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 8.128)
+					(mid -1.972 7.7541)
+					(end -2.54 7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -7.62)
+					(mid -1.972 -7.7541)
+					(end -1.524 -8.128)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -10.16) (xy 0 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -11.43) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -6.35) (xy 1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 8.89) (xy 2.54 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 8.128)
+					(mid -0.8519 8.6889)
+					(end 0.0001 8.89)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.0001 -8.89)
+					(mid -0.8519 -8.6889)
+					(end -1.524 -8.128)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -8.89) (xy 2.54 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 2.54 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -11.43) (xy 0 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy -1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -6.35) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 10.16) (xy -2.54 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 10.16)
+					(mid 4.3361 9.4161)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 8.89)
+					(mid 3.438 8.518)
+					(end 3.81 7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 -7.62)
+					(mid 3.438 -8.518)
+					(end 2.54 -8.89)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 -7.62)
+					(mid 4.3361 -9.4161)
+					(end 2.54 -10.16)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -7.62) (xy 3.81 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 7.62)
+					(name "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 7.62)
+					(name "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 7.62)
+					(name "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 90)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "M1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.7 90)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "M2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "S3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "M3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -12.7 90)
+					(length 2.54)
+					(name "S4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "M4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "1.) 5V bias on tether is used to turn ROV power on\n2.) Remove Resistor R1 to disable auto-power-on\n3.) Remove Resistors R1 and R2 to electrically isolate tether from USB\n4.) To add power switch to topside box, remove resistor R6 and connect\nswitch across J5"
+		(exclude_from_sim no)
+		(at 33.02 284.48 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bcbf069-e3d7-42e9-99c8-35d85b50bf01")
+	)
+	(text "Alignment Fiducials"
+		(exclude_from_sim no)
+		(at 381 238.76 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "1545e001-0ecc-478e-9d08-26d1545d9f6d")
+	)
+	(text "Homeplug\nConnect"
+		(exclude_from_sim no)
+		(at 378.46 182.88 0)
+		(effects
+			(font
+				(size 2.1844 1.8567)
+			)
+			(justify left bottom)
+		)
+		(uuid "33e7b091-a6b2-46cc-b916-915d77ce945e")
+	)
+	(text "USB Power\nConnection"
+		(exclude_from_sim no)
+		(at 50.8 165.1 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left bottom)
+		)
+		(uuid "381cf70c-2f1d-4630-8df6-f7f74de9a03c")
+	)
+	(text "Power\nIndication"
+		(exclude_from_sim no)
+		(at 309.88 182.88 0)
+		(effects
+			(font
+				(size 2.1844 1.8567)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f6bd4c9-2689-4a90-96c9-c635ff3c306f")
+	)
+	(text "Optional Power Switch Connector"
+		(exclude_from_sim no)
+		(at 157.48 137.16 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "58d19a39-a6f6-43a2-b969-067f46fce7e7")
+	)
+	(text "Header socket\nfor Tenda V2.0\nHomeplug Adapter"
+		(exclude_from_sim no)
+		(at 391.16 157.48 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c4146ab-0cb2-4941-ab0c-e392e5672a65")
+	)
+	(text "Notes"
+		(exclude_from_sim no)
+		(at 96.52 248.92 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left bottom)
+		)
+		(uuid "69274a41-b869-452a-b4ab-9a799b3f662e")
+	)
+	(text "OpenROV Topside Interface Board 2.6A"
+		(exclude_from_sim no)
+		(at 264.16 265.43 0)
+		(effects
+			(font
+				(size 7.62 6.477)
+			)
+			(justify left bottom)
+		)
+		(uuid "73f4a2ec-7cef-4bd6-a806-ab6b07ddf654")
+	)
+	(text "Header socket\nfor Tenda V2.0\nHomeplug Adapter"
+		(exclude_from_sim no)
+		(at 330.2 218.44 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "77d59a97-9b34-4dae-8bc7-67a172997317")
+	)
+	(text "Tether\nConnector"
+		(exclude_from_sim no)
+		(at 81.28 218.44 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e3f7411-f8a5-4a8a-bbc6-4b67eb1549c0")
+	)
+	(text "Ethernet\nConnect"
+		(exclude_from_sim no)
+		(at 378.46 132.08 0)
+		(effects
+			(font
+				(size 2.1844 1.8567)
+			)
+			(justify left bottom)
+		)
+		(uuid "e232d230-f124-451a-91d4-8bcdce173264")
+	)
+	(junction
+		(at 91.44 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06ad2199-414a-43f3-a2d4-3e313448812a")
+	)
+	(junction
+		(at 246.38 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1732c02a-f95c-493e-a2b7-45db1a4001d6")
+	)
+	(junction
+		(at 111.76 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3600d7cc-7b3e-4573-93d1-28af40cdd664")
+	)
+	(junction
+		(at 175.26 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d467cf5-2e9e-497e-8f22-a35944d24cb5")
+	)
+	(junction
+		(at 237.49 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f201d63-c870-47d6-9a8f-789fa790f724")
+	)
+	(junction
+		(at 266.7 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c2e370c-c40e-49e3-9c5c-9cefdedd05d7")
+	)
+	(junction
+		(at 175.26 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "918a27fa-b443-4f57-a992-6f84bb4a9747")
+	)
+	(junction
+		(at 281.94 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97aa3b78-69ec-4d31-80d1-51bdcee4226c")
+	)
+	(junction
+		(at 96.52 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a24be670-0d40-40bd-8e1f-4eaf02111dfc")
+	)
+	(junction
+		(at 93.98 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac9822e8-2b7f-4fc9-bf1b-662af5051ff2")
+	)
+	(junction
+		(at 195.58 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aff44de7-1c35-4e1b-81a3-b86d7864d9b4")
+	)
+	(junction
+		(at 337.82 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb446602-1579-4a92-8570-03ca2d95bdb8")
+	)
+	(junction
+		(at 281.94 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4117e41-7ae6-491b-b5a7-0dbf530fe10b")
+	)
+	(junction
+		(at 139.7 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d315db16-641b-4bb6-aca5-6d3b06c1257c")
+	)
+	(wire
+		(pts
+			(xy 266.7 215.9) (xy 121.92 215.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "020818c5-64d7-4d34-9a37-301ca351c076")
+	)
+	(wire
+		(pts
+			(xy 327.66 152.4) (xy 342.9 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "026bd1cb-956a-4b35-ab32-7972956bcf2e")
+	)
+	(wire
+		(pts
+			(xy 195.58 154.94) (xy 210.82 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "03e8eab7-fb67-41cc-bfec-fe893ee43049")
+	)
+	(wire
+		(pts
+			(xy 314.96 149.86) (xy 342.9 149.86)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0a380d4f-0e7d-4456-836b-3542df3f298a")
+	)
+	(polyline
+		(pts
+			(xy 27.94 251.46) (xy 27.94 241.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0e9f724a-e517-4c4b-b0f9-78314940d2ee")
+	)
+	(wire
+		(pts
+			(xy 175.26 210.82) (xy 281.94 210.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0ff48237-d616-4153-b6a6-f36936fdbe8a")
+	)
+	(wire
+		(pts
+			(xy 246.38 154.94) (xy 337.82 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1774b15c-3e1d-4c3a-8e6a-9043727c09db")
+	)
+	(wire
+		(pts
+			(xy 314.96 162.56) (xy 314.96 149.86)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1e69480f-9d55-4345-82ee-a6a7716a0693")
+	)
+	(wire
+		(pts
+			(xy 368.3 134.62) (xy 368.3 139.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1f170e04-3d58-4bb7-b51d-806f11e3b559")
+	)
+	(wire
+		(pts
+			(xy 266.7 215.9) (xy 281.94 215.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "20343df8-e4e2-4d2e-b84c-f7b0fe1b530a")
+	)
+	(wire
+		(pts
+			(xy 175.26 210.82) (xy 121.92 210.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "24738cab-db1c-4131-b04b-f4cc678ec801")
+	)
+	(wire
+		(pts
+			(xy 231.14 154.94) (xy 237.49 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "253dfdc2-8077-4a9e-b124-c286bc77fdeb")
+	)
+	(wire
+		(pts
+			(xy 96.52 175.26) (xy 96.52 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "25ab6924-49bf-45d2-b0ed-abe469e600a9")
+	)
+	(wire
+		(pts
+			(xy 370.84 160.02) (xy 337.82 160.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "25e15572-4499-4421-a307-debd82112819")
+	)
+	(wire
+		(pts
+			(xy 96.52 175.26) (xy 93.98 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "271da09d-1c51-44fa-bda6-d5d8ea041e19")
+	)
+	(wire
+		(pts
+			(xy 368.3 152.4) (xy 368.3 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "288bae8c-b334-4d42-87b3-137bec381cf2")
+	)
+	(wire
+		(pts
+			(xy 93.98 175.26) (xy 93.98 172.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2ae27a97-d8ce-4da7-8874-c8e41345a9a3")
+	)
+	(wire
+		(pts
+			(xy 101.6 165.1) (xy 101.6 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2b40728f-b186-4480-a538-359cd8e5ef89")
+	)
+	(wire
+		(pts
+			(xy 111.76 134.62) (xy 111.76 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2b9cb376-7d5e-456e-aaef-305a64c26050")
+	)
+	(wire
+		(pts
+			(xy 246.38 160.02) (xy 246.38 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2c6549ba-8d6c-4f1c-a5a3-fad68ffe938c")
+	)
+	(wire
+		(pts
+			(xy 368.3 127) (xy 368.3 124.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "32cd2c44-6f19-4ac0-92fb-5fd6b396e6e8")
+	)
+	(wire
+		(pts
+			(xy 195.58 160.02) (xy 195.58 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "340c87a9-0529-4906-890a-e5f0f808d65d")
+	)
+	(wire
+		(pts
+			(xy 327.66 180.34) (xy 327.66 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3baa34eb-1833-4555-a6fc-44bca7906ff2")
+	)
+	(wire
+		(pts
+			(xy 266.7 226.06) (xy 266.7 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4315ced2-bf65-4318-b737-0dda2b3d10d5")
+	)
+	(wire
+		(pts
+			(xy 220.98 172.72) (xy 220.98 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "446a40e3-504a-4e34-8ac2-71cb4c6c6168")
+	)
+	(wire
+		(pts
+			(xy 266.7 220.98) (xy 266.7 215.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "47aed679-39dd-4837-84c7-53bff779f2ca")
+	)
+	(wire
+		(pts
+			(xy 175.26 170.18) (xy 175.26 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8e3dd9-36a1-4e58-b858-5c3f3efdd23a")
+	)
+	(wire
+		(pts
+			(xy 139.7 137.16) (xy 139.7 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4c3883f1-d063-4f4d-917f-6f18504ee010")
+	)
+	(polyline
+		(pts
+			(xy 27.94 251.46) (xy 220.98 251.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4c5a4e74-e4be-48c2-9452-b66c9fdc980e")
+	)
+	(wire
+		(pts
+			(xy 307.34 215.9) (xy 304.8 215.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4eea473d-f186-4f83-88b3-c51c276ce846")
+	)
+	(wire
+		(pts
+			(xy 304.8 205.74) (xy 281.94 205.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4fa731ac-f6b0-4fd9-9d73-e324ec30f4c1")
+	)
+	(wire
+		(pts
+			(xy 368.3 132.08) (xy 368.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c1cab2-3b4f-49a5-97d8-b196d604cf91")
+	)
+	(wire
+		(pts
+			(xy 370.84 154.94) (xy 370.84 160.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "59a04019-40b6-449d-9660-7a354e74b5e0")
+	)
+	(wire
+		(pts
+			(xy 96.52 172.72) (xy 96.52 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5c95784c-a181-4791-8b5c-9ab225d54734")
+	)
+	(wire
+		(pts
+			(xy 88.9 175.26) (xy 88.9 172.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5cb1b605-9589-41db-b9b3-f50553809d03")
+	)
+	(wire
+		(pts
+			(xy 281.94 210.82) (xy 287.02 210.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5ed087d3-18ff-4351-9962-3abd1eec7d51")
+	)
+	(wire
+		(pts
+			(xy 91.44 175.26) (xy 93.98 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5f029339-ccd1-4914-ac3a-266160046839")
+	)
+	(wire
+		(pts
+			(xy 327.66 185.42) (xy 327.66 182.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "622f6ee1-da66-41cd-a78c-6a0849e2f45e")
+	)
+	(wire
+		(pts
+			(xy 368.3 182.88) (xy 368.3 185.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "67368d30-e912-48ed-9f5e-15a0ff152414")
+	)
+	(wire
+		(pts
+			(xy 337.82 160.02) (xy 337.82 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6869b7c8-c153-4175-bf83-4706f78baa1d")
+	)
+	(wire
+		(pts
+			(xy 304.8 220.98) (xy 281.94 220.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "69e5bbcc-8d5d-41dc-bf0a-023778cb9b37")
+	)
+	(polyline
+		(pts
+			(xy 27.94 292.1) (xy 220.98 292.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6b537e4d-0564-4ef4-9ae6-6446c1857632")
+	)
+	(polyline
+		(pts
+			(xy 27.94 241.3) (xy 220.98 241.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "71327b8f-bf57-4721-8ce4-e53e8ea4c974")
+	)
+	(wire
+		(pts
+			(xy 337.82 154.94) (xy 342.9 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "71f75e0f-2c3d-4ab6-ab41-2d9c944c3929")
+	)
+	(polyline
+		(pts
+			(xy 220.98 241.3) (xy 220.98 251.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "74e2878c-b3e1-465a-b251-f39bff9036e8")
+	)
+	(wire
+		(pts
+			(xy 373.38 154.94) (xy 370.84 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7924713a-8eb0-40dc-943f-ef26ed06746a")
+	)
+	(wire
+		(pts
+			(xy 368.3 170.18) (xy 368.3 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7ec4783b-637a-4617-9621-a4d96ad4b941")
+	)
+	(wire
+		(pts
+			(xy 327.66 152.4) (xy 327.66 163.83)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "81994e6d-604e-4444-90cf-b04717dbefed")
+	)
+	(wire
+		(pts
+			(xy 88.9 175.26) (xy 91.44 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "82a8b13b-d212-4630-9a40-5e49428976f0")
+	)
+	(wire
+		(pts
+			(xy 327.66 168.91) (xy 327.66 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "88db7eef-4b26-4030-a436-f461e3eda30b")
+	)
+	(wire
+		(pts
+			(xy 175.26 154.94) (xy 175.26 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8d67f6c4-32f3-4f0e-b7f2-5379465768a2")
+	)
+	(wire
+		(pts
+			(xy 175.26 172.72) (xy 175.26 210.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "92f4b6aa-2761-4cfa-bacb-dfc07a9ca623")
+	)
+	(wire
+		(pts
+			(xy 99.06 165.1) (xy 101.6 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "979bb8e2-5962-4392-9015-b9901e896bbc")
+	)
+	(wire
+		(pts
+			(xy 195.58 170.18) (xy 195.58 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "99271df5-4cf3-4a59-af1f-461d64ec864d")
+	)
+	(polyline
+		(pts
+			(xy 220.98 251.46) (xy 220.98 292.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9b157583-db93-426c-b7e7-f1dbfda97abf")
+	)
+	(wire
+		(pts
+			(xy 266.7 233.68) (xy 266.7 231.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9ef6d2fb-a452-46c6-834f-fc914acc9770")
+	)
+	(wire
+		(pts
+			(xy 144.78 134.62) (xy 111.76 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a2103431-588a-447f-962a-307441673f9b")
+	)
+	(wire
+		(pts
+			(xy 165.1 154.94) (xy 175.26 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a86eb39d-e118-4691-bfb4-1568310ca9d8")
+	)
+	(wire
+		(pts
+			(xy 101.6 175.26) (xy 96.52 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ad69c2e7-11b7-4800-aa13-2c2baac30d75")
+	)
+	(wire
+		(pts
+			(xy 246.38 172.72) (xy 246.38 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ae5765f4-4be1-4751-b9ce-fd564810ed10")
+	)
+	(wire
+		(pts
+			(xy 237.49 146.05) (xy 237.49 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd97047-7b58-4df3-bbfd-618a0f0e25f2")
+	)
+	(wire
+		(pts
+			(xy 111.76 154.94) (xy 124.46 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ebea0d-c568-4b80-b57d-ada65a7c733d")
+	)
+	(wire
+		(pts
+			(xy 144.78 137.16) (xy 139.7 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b9520ea5-e5d0-4254-927e-6daabbc118d8")
+	)
+	(wire
+		(pts
+			(xy 139.7 154.94) (xy 149.86 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bb30062f-d5da-478b-b57b-d760223fcb03")
+	)
+	(wire
+		(pts
+			(xy 91.44 172.72) (xy 91.44 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "be225288-4b37-4dfb-8c80-4ddb69fcb2f6")
+	)
+	(wire
+		(pts
+			(xy 373.38 149.86) (xy 368.3 149.86)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c0e99453-273d-4104-9954-cb4c73448a00")
+	)
+	(wire
+		(pts
+			(xy 368.3 152.4) (xy 373.38 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cd76a3ef-f4c4-4214-afb6-95589e8692f4")
+	)
+	(wire
+		(pts
+			(xy 237.49 154.94) (xy 246.38 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d2c1754a-a786-41b0-b72d-59493e2c6b29")
+	)
+	(wire
+		(pts
+			(xy 175.26 154.94) (xy 195.58 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d3d057ac-2cea-4de7-a410-c78fb830e2ac")
+	)
+	(wire
+		(pts
+			(xy 281.94 215.9) (xy 287.02 215.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d42b854e-2838-4b83-b3a7-a570beb2b7b2")
+	)
+	(wire
+		(pts
+			(xy 368.3 149.86) (xy 368.3 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d472c2af-4460-4587-8140-e8e77dd54915")
+	)
+	(wire
+		(pts
+			(xy 281.94 205.74) (xy 281.94 210.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d70424f3-40ea-4dd9-ac3e-720e1fb92f44")
+	)
+	(polyline
+		(pts
+			(xy 27.94 292.1) (xy 27.94 251.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e064622e-b365-46c9-95ed-a8dc14418039")
+	)
+	(wire
+		(pts
+			(xy 368.3 180.34) (xy 368.3 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a3d238-4f46-4ae7-b3c5-8783233fd277")
+	)
+	(wire
+		(pts
+			(xy 368.3 144.78) (xy 368.3 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e880eae2-8531-4869-bf33-387cb83f840f")
+	)
+	(wire
+		(pts
+			(xy 281.94 220.98) (xy 281.94 215.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ee4ce650-8096-430b-8f4d-3cb7daaa96b2")
+	)
+	(wire
+		(pts
+			(xy 129.54 154.94) (xy 132.08 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee0b983-2553-4f56-85ce-1d0d2a0b713e")
+	)
+	(wire
+		(pts
+			(xy 304.8 210.82) (xy 304.8 205.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f0a55515-37c3-43d3-b084-830fc345f42d")
+	)
+	(wire
+		(pts
+			(xy 307.34 210.82) (xy 304.8 210.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f28b8f20-c9d0-4a75-86a8-2872ee68328a")
+	)
+	(wire
+		(pts
+			(xy 132.08 154.94) (xy 139.7 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fda8cc76-51f4-427e-99d3-876d4dd026fc")
+	)
+	(wire
+		(pts
+			(xy 304.8 215.9) (xy 304.8 220.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fe12aea5-e5d1-4cbe-ad45-5260e886e876")
+	)
+	(wire
+		(pts
+			(xy 99.06 154.94) (xy 111.76 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ff405f5d-74f4-4bab-83da-8a0db8235a31")
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:USB_MINI-BSURFACE_MOUNT")
+		(at 91.44 160.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f768ef6-a3d2-4c4d-b74a-25890b9c7c7c")
+		(property "Reference" "J1"
+			(at 91.44 143.51 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+			)
+		)
+		(property "Value" "FCI 10033526-N3212MLF"
+			(at 91.44 147.32 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:USB_MINI-B_SM"
+			(at 91.44 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2a717706-79a0-477e-9aaf-9057329330b8")
+		)
+		(pin "2"
+			(uuid "65ce8123-9146-4dbf-85b7-187079de5f52")
+		)
+		(pin "1"
+			(uuid "f4f8cd7c-9cf2-44a8-873e-88fc5c94ee4c")
+		)
+		(pin "5"
+			(uuid "bb47a75b-f935-4b61-811c-74b8a5e64fce")
+		)
+		(pin "M1"
+			(uuid "ab973a23-2eb3-4212-9731-1ee34b3dd1ad")
+		)
+		(pin "M2"
+			(uuid "c38f283b-25ce-490c-9d0f-eee02c6af654")
+		)
+		(pin "M3"
+			(uuid "016e8644-b346-467f-8e43-b4c414bfd59a")
+		)
+		(pin "4"
+			(uuid "2e6f4dfa-d0a3-4436-82b1-b35ea3aa977a")
+		)
+		(pin "M4"
+			(uuid "89abcd30-a9e6-4192-9f03-5ba8b1c914d0")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1487072a-fe89-4b58-a0d7-cf1a30c130a3")
+		(property "Reference" "#PWR03"
+			(at 195.58 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af1f6a4e-a5c6-487d-a6b3-8ca6a3e3b67c")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:HDR_SOCKET_2X3")
+		(at 309.88 210.82 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21341dae-5fc3-439f-80b0-102129ca8adf")
+		(property "Reference" "J3"
+			(at 310.769 208.28 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+			)
+		)
+		(property "Value" "SSW-103-01-G-D"
+			(at 312.42 208.28 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:SSW-103-02-S-D"
+			(at 309.88 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec353a74-bb26-4c64-a94d-3762336f82cd")
+		)
+		(pin "2"
+			(uuid "d5a131b4-31be-49e9-bddb-34299e2dac2d")
+		)
+		(pin "5"
+			(uuid "0d66650c-c89b-4e76-a6b3-ee15e515b083")
+		)
+		(pin "6"
+			(uuid "24427b5b-75b3-434e-a0fa-d89e6020efbb")
+		)
+		(pin "4"
+			(uuid "0a01cf3e-4581-4fff-ab69-3ef8b6089463")
+		)
+		(pin "3"
+			(uuid "e32593ee-94aa-4502-837c-109c23697e21")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "J3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 127 154.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2268d11d-2113-4507-b4ed-ed08fc80462c")
+		(property "Reference" "R6"
+			(at 127 147.32 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "0 (Jumper)"
+			(at 127 151.13 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cc1af514-b555-4ba0-8fd8-b20f84b2dd9a")
+		)
+		(pin "1"
+			(uuid "bc475e52-0c80-4385-8968-088156fb6cce")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 175.26 167.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "259f5cc9-3f79-4c96-b871-d3057c88d1e7")
+		(property "Reference" "R1"
+			(at 177.8 165.735 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1K"
+			(at 177.8 169.545 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:R0805"
+			(at 175.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 175.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96561968-22b2-4ed8-b89f-876956831513")
+		)
+		(pin "1"
+			(uuid "458f42fa-e560-405a-af51-1cbd2744b12f")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f10be34-6dff-4815-becf-797595f63027")
+		(property "Reference" "#PWR05"
+			(at 246.38 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0157351f-2a8c-4c32-ac33-9c306a6e7993")
+		)
+		(instances
+			(project "OpenROV Topside Interface 2.6A"
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:HDR_SOCKET_2X3")
+		(at 289.56 213.36 0)
+		(mirror y)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d09692c-ebcb-4933-912b-79bb53a6f3ec")
+		(property "Reference" "J3"
+			(at 292.1 213.3599 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SSW-103-01-G-D"
+			(at 292.1 210.82 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:SSW-103-02-S-D"
+			(at 289.56 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "94a17aa2-22c4-4418-b6e3-0b1218a641ca")
+		)
+		(pin "2"
+			(uuid "12fd9f4a-e48d-40f3-9368-3aad215a8289")
+		)
+		(pin "3"
+			(uuid "b5910821-ed7d-48e3-8fcd-c34398fc5e4d")
+		)
+		(pin "1"
+			(uuid "296a70d3-8040-4c17-bef0-37af174a0e2b")
+		)
+		(pin "5"
+			(uuid "7a80dcfd-910a-4f1d-8518-4933dadd3934")
+		)
+		(pin "6"
+			(uuid "797c5d72-b824-4e12-8f79-5c1bcdd2521e")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "J3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:HDR_SOCKET_2X3")
+		(at 289.56 215.9 0)
+		(mirror y)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f09eec2-7b99-40b1-afc6-eee65dfa0a32")
+		(property "Reference" "J3"
+			(at 292.1 215.8999 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SSW-103-01-G-D"
+			(at 292.1 213.36 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:SSW-103-02-S-D"
+			(at 289.56 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8f3ab200-5935-49d1-b104-479c070fabd3")
+		)
+		(pin "3"
+			(uuid "5ecfedff-6a13-4107-b653-50809b9a53d1")
+		)
+		(pin "1"
+			(uuid "08f03ffc-a6b2-46bf-96b8-fa87b011cc20")
+		)
+		(pin "2"
+			(uuid "26bbce70-f7ce-4fff-9477-252e38021e01")
+		)
+		(pin "5"
+			(uuid "f0dcbe79-aed7-45ab-ba5c-3103d465f7cf")
+		)
+		(pin "6"
+			(uuid "7462f0a8-30a5-4d9f-9def-67fcb106fb54")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "J3")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:HDR_SOCKET_2X3")
+		(at 309.88 213.36 0)
+		(mirror y)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "544a7be9-d828-4c87-9d4f-3927d4ca8c82")
+		(property "Reference" "J3"
+			(at 312.42 213.3599 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SSW-103-01-G-D"
+			(at 312.42 210.82 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:SSW-103-02-S-D"
+			(at 309.88 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0502a486-c252-472e-b096-a73064215153")
+		)
+		(pin "2"
+			(uuid "eb05a295-d7da-4321-bf78-f5e987f13be7")
+		)
+		(pin "5"
+			(uuid "de08595a-466c-45ba-a50e-2bbba55f7eb1")
+		)
+		(pin "6"
+			(uuid "898afb20-aba9-4282-987c-53fd64ef906b")
+		)
+		(pin "4"
+			(uuid "1b06f5da-deef-4a1e-ae01-f03042724817")
+		)
+		(pin "3"
+			(uuid "acea1f8b-9c69-400b-bed9-42c7875613ec")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "J3")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:HDR_SOCKET_2X3")
+		(at 309.88 215.9 0)
+		(mirror y)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5979a4d3-0522-4c7b-b1c9-11218cbfe346")
+		(property "Reference" "J3"
+			(at 312.42 215.8999 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SSW-103-01-G-D"
+			(at 312.42 213.36 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:SSW-103-02-S-D"
+			(at 309.88 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "74ddb118-9e79-4ee5-b0f5-3230ffeb0f2b")
+		)
+		(pin "6"
+			(uuid "bbe4a3cf-1aed-4400-b3c6-95b2ff0c17a7")
+		)
+		(pin "1"
+			(uuid "c29f778c-9dcb-40db-8526-cfcf6941acbb")
+		)
+		(pin "5"
+			(uuid "33f0561d-7fd8-469a-8dbb-5c25c7718eee")
+		)
+		(pin "2"
+			(uuid "f3183a44-f1be-4d91-b4d9-e8e981cf0a28")
+		)
+		(pin "3"
+			(uuid "b077f9ad-00b4-4363-91bc-f121df1ca5d7")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "J3")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 237.49 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a5f2f5e-00dc-4724-8f90-2b682faf2436")
+		(property "Reference" "#PWR01"
+			(at 237.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 237.49 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 237.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7061d33b-8f1e-48e9-8a75-663ef014922c")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:GND")
+		(at 314.96 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d191793-63b0-4680-aef6-a2500e901ef7")
+		(property "Reference" "#SUPPLY12"
+			(at 314.96 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 314.96 168.91 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 314.96 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bb0dd84-0eeb-48b4-a33e-9f51e6a3855e")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "#SUPPLY12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 368.3 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5eb08ca3-358b-417b-b313-b8a56517b224")
+		(property "Reference" "R5"
+			(at 370.84 140.335 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "330"
+			(at 370.84 144.145 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:R0805"
+			(at 368.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 368.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 368.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0534cce-a3a9-4c0f-a669-62b83281548c")
+		)
+		(pin "1"
+			(uuid "50e31435-5d93-4372-8977-d455ea8103e8")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:HDR_1X2X0.100-ALT_SILK")
+		(at 147.32 137.16 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65cf628a-1542-4fb0-a135-538a3bcba682")
+		(property "Reference" "J5"
+			(at 147.955 139.7 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+			)
+		)
+		(property "Value" "HDR_1X2X0.100-ALT_SILK"
+			(at 146.558 135.763 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:22-23-2021_ALT_SILK"
+			(at 147.32 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77572e67-40eb-49da-b624-1af721567d18")
+		)
+		(pin "2"
+			(uuid "2dc089d4-4440-4fc9-bec7-d8920af2b477")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "J5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:HDR_SOCKET_2X3")
+		(at 375.92 154.94 0)
+		(mirror y)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b80af92-ec02-4c9e-ba83-0ed6ba3de44e")
+		(property "Reference" "J4"
+			(at 378.46 154.9399 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SSW-103-01-G-D"
+			(at 378.46 152.4 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:SSW-103-02-S-D"
+			(at 375.92 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 375.92 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f413f91f-9b7b-4da5-a786-c307044aba37")
+		)
+		(pin "3"
+			(uuid "09808f5c-82df-44a5-b6a9-b64a045f9a7c")
+		)
+		(pin "6"
+			(uuid "102e40d6-6935-4cb4-b5e9-acecf2c7deb2")
+		)
+		(pin "2"
+			(uuid "d306cd5f-dfd0-4ecc-8555-4a83f7045ce8")
+		)
+		(pin "4"
+			(uuid "c55f32d5-4f4c-4e00-b9c7-afe068393293")
+		)
+		(pin "5"
+			(uuid "08798fd7-2e55-4dab-ab75-b04ac84f7a52")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "J4")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:FCI_TERMINAL_BLOCK_2PL")
+		(at 119.38 210.82 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71208e7c-e4f8-4aa4-b962-b54e52159d33")
+		(property "Reference" "J2"
+			(at 118.491 208.28 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+			)
+		)
+		(property "Value" "FCI 20020303-D021"
+			(at 116.84 208.28 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:FCI_09-381_2PL"
+			(at 119.38 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1A"
+			(uuid "c403facd-8cbc-4394-bef7-3a7841cf0684")
+		)
+		(pin "1B"
+			(uuid "ec479411-8699-4c78-b19f-53673cc9fd99")
+		)
+		(pin "2A"
+			(uuid "df9d8741-da4a-4937-9a47-ee02fa276e6a")
+		)
+		(pin "2B"
+			(uuid "94ad6f1b-b661-4fe2-903b-36d30b2a6eb3")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "J2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small_Filled")
+		(at 368.3 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71c36989-c129-45d9-a45d-2e9c0611033a")
+		(property "Reference" "LED2"
+			(at 365.76 175.8315 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "YELLOW"
+			(at 365.76 179.6415 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 368.3 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 368.3 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol, filled shape"
+			(at 368.3 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 368.3 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dc1d4b8-22b8-4aad-bd9a-811460291137")
+		)
+		(pin "2"
+			(uuid "58a58f7d-6163-4b77-abe6-6fcc5d468185")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:CAP1206")
+		(at 246.38 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72380e73-19c9-4f64-ae43-fb32f182ee15")
+		(property "Reference" "C2"
+			(at 250.19 161.8996 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 uF X7R 16V"
+			(at 250.19 165.7096 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:R1206"
+			(at 246.38 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5abc8119-8f0f-4eea-bc63-5f5b37fca8eb")
+		)
+		(pin "1"
+			(uuid "9095cb4c-ced1-466a-827f-119214f45f7b")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:HDR_SOCKET_2X3")
+		(at 345.44 152.4 0)
+		(mirror y)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77fc7360-097c-44e5-a46f-13f94d1a4282")
+		(property "Reference" "J4"
+			(at 347.98 152.3999 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SSW-103-01-G-D"
+			(at 347.98 149.86 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:SSW-103-02-S-D"
+			(at 345.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 345.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6bf8e94c-1c79-437d-8104-97b2dbbaeb3a")
+		)
+		(pin "5"
+			(uuid "f172bb58-5360-4d22-b74a-011235aafc40")
+		)
+		(pin "1"
+			(uuid "07a6ccf1-cde4-4d97-9a1c-4960048c228b")
+		)
+		(pin "3"
+			(uuid "d649576a-096d-4aeb-a466-3eb7c0bb1d31")
+		)
+		(pin "4"
+			(uuid "5ca09aac-f82d-42e8-a429-eddff7696b65")
+		)
+		(pin "6"
+			(uuid "221fe167-8c96-47f5-b850-e35a0f5d7e9b")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "J4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small_Filled")
+		(at 368.3 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f380147-b84a-4c77-a2b9-534ae859d65b")
+		(property "Reference" "LED3"
+			(at 365.76 127.5715 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "YELLOW"
+			(at 365.76 131.3815 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 368.3 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 368.3 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol, filled shape"
+			(at 368.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 368.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d185b875-1596-4ad7-b81a-be227f28ec21")
+		)
+		(pin "1"
+			(uuid "e97a3076-890e-4d51-be4b-9391d0a02baa")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87652d45-c5f2-480e-aef1-43f4a2a63824")
+		(property "Reference" "#PWR08"
+			(at 266.7 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "793702ac-3de4-4dd4-84a3-db51aff467d8")
+		)
+		(instances
+			(project "OpenROV Topside Interface 2.6A"
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small_Filled")
+		(at 327.66 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "922377a7-54ec-4f12-a604-f801032394fe")
+		(property "Reference" "LED1"
+			(at 330.2 175.8315 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 330.2 179.6415 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 327.66 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 327.66 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol, filled shape"
+			(at 327.66 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 327.66 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55eb3325-697f-4776-b99f-afad1e0b18d2")
+		)
+		(pin "2"
+			(uuid "25c201ef-ff3c-42fb-be3d-da0d3777b938")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 368.3 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d4d5853-bc4d-4bc7-92e3-c2ffd70f52e3")
+		(property "Reference" "#PWR07"
+			(at 368.3 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 368.3 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 368.3 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cb45a93-e2e5-4450-b73f-29459a5a137b")
+		)
+		(instances
+			(project "OpenROV Topside Interface 2.6A"
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:FCI_TERMINAL_BLOCK_2PL")
+		(at 119.38 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6cf813e-6904-4780-a6aa-559cad160e5c")
+		(property "Reference" "J2"
+			(at 118.491 218.44 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+			)
+		)
+		(property "Value" "FCI 20020303-D021"
+			(at 118.491 222.25 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:FCI_09-381_2PL"
+			(at 119.38 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1B"
+			(uuid "cea48de7-a18b-4a09-b37a-8a4993f97e1e")
+		)
+		(pin "1A"
+			(uuid "d864855f-71a3-41ca-a158-d154f392a53c")
+		)
+		(pin "2A"
+			(uuid "b443f72d-838a-46de-9ac5-0c5d5bde1e85")
+		)
+		(pin "2B"
+			(uuid "d536b3f4-0ae3-42ba-abf6-924d3096954d")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6fb299e-ab1d-4bea-af31-a547953b5f7b")
+		(property "Reference" "#PWR04"
+			(at 220.98 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d493dafc-f6f7-4f13-8a1e-fab5fbc4cd95")
+		)
+		(instances
+			(project "OpenROV Topside Interface 2.6A"
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:HDR_1X2X0.100-ALT_SILK")
+		(at 147.32 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7684e5f-980e-4f01-b9e5-e6ea9677469c")
+		(property "Reference" "J5"
+			(at 147.955 132.08 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+			)
+		)
+		(property "Value" "HDR_1X2X0.100-ALT_SILK"
+			(at 146.558 133.223 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:22-23-2021_ALT_SILK"
+			(at 147.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8eb81dfa-620c-4628-8d0e-fdfba0d16d38")
+		)
+		(pin "1"
+			(uuid "271ddb32-d696-44dc-9f5f-c89f0088c6f7")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:CAP1206")
+		(at 195.58 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3d207a7-c372-403c-ba77-08d7d5b39f02")
+		(property "Reference" "C1"
+			(at 199.39 161.8996 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 uF X7R 16V"
+			(at 199.39 165.7096 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:R1206"
+			(at 195.58 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bf3c880-291b-45a2-b4c2-c0d652b4e726")
+		)
+		(pin "2"
+			(uuid "3b7c117b-04e1-4b1b-88ff-22fce27b6ab5")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:HDR_SOCKET_2X3")
+		(at 375.92 152.4 0)
+		(mirror y)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6a2bf2b-64fd-4bb2-a8f1-afcecb1d77f9")
+		(property "Reference" "J4"
+			(at 378.46 152.3999 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SSW-103-01-G-D"
+			(at 378.46 149.86 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:SSW-103-02-S-D"
+			(at 375.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 375.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "c1eb506c-093b-48bb-bc44-2c616c43e77c")
+		)
+		(pin "2"
+			(uuid "55b9bd86-4ae4-4e34-909c-d0e792dacb1d")
+		)
+		(pin "1"
+			(uuid "475d44e5-73c4-4616-902f-eadde1958197")
+		)
+		(pin "3"
+			(uuid "0500d3f4-041f-41a1-928c-633a909a8016")
+		)
+		(pin "4"
+			(uuid "939a9469-c34e-4e17-9680-59dfab4fe7fc")
+		)
+		(pin "5"
+			(uuid "085301f8-4676-4b0d-9a54-fe8ffb8b2b33")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "J4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:HDR_SOCKET_2X3")
+		(at 289.56 210.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc1565ee-dd95-4605-8e9e-2bdbc6018ddd")
+		(property "Reference" "J3"
+			(at 292.1 208.9149 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SSW-103-01-G-D"
+			(at 292.1 212.09 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:SSW-103-02-S-D"
+			(at 289.56 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "72c04fdb-73db-41cb-bca6-28f6337a8e32")
+		)
+		(pin "4"
+			(uuid "d2f8ef7e-b912-4fe3-aa10-359b832492cc")
+		)
+		(pin "5"
+			(uuid "3f6bb701-843e-407c-b34c-64ac5ff5cbc1")
+		)
+		(pin "3"
+			(uuid "75816e01-7853-4499-b453-4bd021792dde")
+		)
+		(pin "2"
+			(uuid "e50f8101-0101-427d-b816-28923d84a967")
+		)
+		(pin "1"
+			(uuid "daa9c297-11d6-4a92-b851-0b1fb10fdc69")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdab3ba5-5633-40f0-9399-6835f578232a")
+		(property "Reference" "#PWR09"
+			(at 96.52 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d111d4a-a78e-48b0-b4cc-06d81802c36a")
+		)
+		(instances
+			(project "OpenROV Topside Interface 2.6A"
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:HDR_SOCKET_2X3")
+		(at 345.44 154.94 0)
+		(mirror y)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c05e7828-afe1-49b4-8f8c-55f29a00bb15")
+		(property "Reference" "J4"
+			(at 347.98 154.9399 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SSW-103-01-G-D"
+			(at 347.98 152.4 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:SSW-103-02-S-D"
+			(at 345.44 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 345.44 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "46a17633-ed08-4883-81f4-ef0a6f132ed9")
+		)
+		(pin "1"
+			(uuid "40c6aecb-dcca-4845-831a-c53b27507a5b")
+		)
+		(pin "2"
+			(uuid "438ed7b6-3205-4e72-98c8-b1c25977cfc0")
+		)
+		(pin "6"
+			(uuid "23cc103c-19d9-4224-9866-5c4c47055949")
+		)
+		(pin "3"
+			(uuid "3c68eac6-1704-4002-8f79-62a708d65bb0")
+		)
+		(pin "4"
+			(uuid "76f049cb-12d6-4b33-ac4a-0053fafd2c3e")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "J4")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 266.7 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4515ba5-7f15-47b0-84bc-9a07262a8578")
+		(property "Reference" "R2"
+			(at 269.24 221.615 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0 (Jumper)"
+			(at 269.24 225.425 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 266.7 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 266.7 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3cf727d-be85-4510-8832-2dd7baa7cdd2")
+		)
+		(pin "1"
+			(uuid "19030478-38fe-4e2d-88a8-a61f7506299d")
+		)
+		(instances
+			(project "OpenROV Topside Interface 2.6A"
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:HDR_SOCKET_2X3")
+		(at 345.44 149.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cac19ce5-5771-4728-a33f-b276af9dbcb4")
+		(property "Reference" "J4"
+			(at 346.329 143.51 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+			)
+		)
+		(property "Value" "SSW-103-01-G-D"
+			(at 346.329 146.05 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:SSW-103-02-S-D"
+			(at 345.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 345.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbecae4e-e155-4524-b806-4a478df52a72")
+		)
+		(pin "2"
+			(uuid "bd9b37be-275f-47ce-b1fa-9440b90f13d9")
+		)
+		(pin "3"
+			(uuid "5d0ca6cf-7a17-4289-be83-9b4a84fc5d4b")
+		)
+		(pin "4"
+			(uuid "1919c8d2-168e-44f6-a4dc-60fc66dac599")
+		)
+		(pin "5"
+			(uuid "8be4a3ef-3db6-42a9-8678-b6ebc5d45d79")
+		)
+		(pin "6"
+			(uuid "a9413e77-39ac-4213-b778-d6f3cf37bf99")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:AP1117SOT223")
+		(at 220.98 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb696ae4-d497-4748-a437-146b063a86ae")
+		(property "Reference" "U1"
+			(at 220.98 143.51 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "AP1117IE33G"
+			(at 220.98 147.32 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:SOT223"
+			(at 220.98 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f4ebed98-b312-4bd1-86ff-a9ffbf5cd159")
+		)
+		(pin "2"
+			(uuid "4fd47d44-27fd-4df9-97d8-bdb783283615")
+		)
+		(pin "1"
+			(uuid "6f6387ed-3bd4-4a9c-8e0f-ab6fc2dd4350")
+		)
+		(pin "4"
+			(uuid "d9c01bbf-8382-4af6-ad08-6ea10c6e9efd")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 327.66 166.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbca483b-6648-4689-8ccd-1c10b5bf2499")
+		(property "Reference" "R3"
+			(at 330.2 164.465 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "120"
+			(at 330.2 168.275 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:R0805"
+			(at 327.66 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 327.66 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 327.66 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe875d03-7c60-4730-83fc-54773366d4bf")
+		)
+		(pin "2"
+			(uuid "74ae1338-fc3c-445d-800f-a30a9103d36d")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:FIDUCIAL_1")
+		(at 401.32 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd632fdf-44ff-4409-8f5c-c1431f640742")
+		(property "Reference" "FID2"
+			(at 405.13 246.3799 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FIDUCIAL_1"
+			(at 401.32 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:FIDUCIAL_1"
+			(at 401.32 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 401.32 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 401.32 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 368.3 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5433705-f34d-49cf-94c7-341a00ddf7ce")
+		(property "Reference" "#PWR02"
+			(at 368.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 368.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 368.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99e77a0b-1771-4ae7-bc9a-bd198a8d060f")
+		)
+		(instances
+			(project "OpenROV Topside Interface 2.6A"
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:HDR_SOCKET_2X3")
+		(at 375.92 149.86 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7d84c72-76e4-485c-b9f0-66209f6ed7a0")
+		(property "Reference" "J4"
+			(at 378.46 149.8599 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SSW-103-01-G-D"
+			(at 378.46 147.32 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:SSW-103-02-S-D"
+			(at 375.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 375.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6bfb6d54-6ded-499e-957d-23dd7fd2cd30")
+		)
+		(pin "1"
+			(uuid "026d40b3-de9e-49cb-af0c-98f16a71bbd0")
+		)
+		(pin "6"
+			(uuid "7baeb106-58ee-4f49-aac4-f780b43e1811")
+		)
+		(pin "2"
+			(uuid "30f52ddd-5ec5-4a65-9306-1b1364f768dc")
+		)
+		(pin "4"
+			(uuid "eb89d5a3-766f-47b5-a53b-d228f885d64b")
+		)
+		(pin "5"
+			(uuid "0ed047c6-80b8-474c-94e5-15a42fea6942")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "J4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 327.66 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f55c9af4-8335-4a8b-ac5f-b9bbe7d88d4a")
+		(property "Reference" "#PWR06"
+			(at 327.66 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 327.66 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 327.66 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 327.66 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b712a3bd-5edb-451e-a5ef-84d2e9f93991")
+		)
+		(instances
+			(project "OpenROV Topside Interface 2.6A"
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:FERRITESIZE_0805")
+		(at 157.48 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8727968-cff2-4eac-ad23-76e8850fa165")
+		(property "Reference" "FB1"
+			(at 157.48 147.32 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "MI0805J102R-10"
+			(at 157.48 151.13 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:R0805"
+			(at 157.48 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85213da8-88c0-4eb9-978b-8f4f007bd7e7")
+		)
+		(pin "1"
+			(uuid "e6f7036a-cc3e-41cc-a327-a8733e5d48be")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenROV Topside Interface 2.6A-eagle-import:FIDUCIAL_1")
+		(at 386.08 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8b7f322-53fc-4941-80a1-3e5b00411bc3")
+		(property "Reference" "FID1"
+			(at 389.89 246.3799 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FIDUCIAL_1"
+			(at 386.08 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:FIDUCIAL_1"
+			(at 386.08 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 386.08 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 368.3 167.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fafc51e4-25b9-4221-890e-12731cb33e5c")
+		(property "Reference" "R4"
+			(at 370.84 165.735 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "120"
+			(at 370.84 169.545 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "OpenROV Topside Interface 2.6A:R0805"
+			(at 368.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 368.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 368.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a24717cc-1969-420f-ae3b-7bf5ba322a0e")
+		)
+		(pin "2"
+			(uuid "3c89efd7-d668-4820-9a02-30ce600a3841")
+		)
+		(instances
+			(project ""
+				(path "/1cf0d249-a5ab-4bb0-b6a6-3520e9d1ee28"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,2871 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b36d7973-7dc5-4cc8-8a41-888ac13f7622")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C_Polarized_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_0_1"
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_31"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_31_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_31_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_32"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_32_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_32_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "custom_lib:DYS_mini_ESC"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.89 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "DYS_mini_ESC"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 -8.89 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -3.81 -8.89 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DYS_mini_ESC_0_1"
+				(rectangle
+					(start -10.16 6.35)
+					(end 10.16 -6.35)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "DYS_mini_ESC_1_1"
+				(pin input line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 8.89 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "OUT_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "OUT_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "OUT_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "BLDC ESC X 8"
+		(exclude_from_sim no)
+		(at 178.562 170.688 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f722c21d-7381-4414-9ef4-8ea80f88d077")
+	)
+	(wire
+		(pts
+			(xy 132.08 71.12) (xy 132.08 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e4246b9-5a6d-424c-980e-a656b5304661")
+	)
+	(wire
+		(pts
+			(xy 105.41 67.31) (xy 107.95 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277a23a5-3203-4518-bb76-279c5a8fdb36")
+	)
+	(wire
+		(pts
+			(xy 105.41 71.12) (xy 107.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29589cdf-bb78-4ab3-88de-31bcc46588d4")
+	)
+	(wire
+		(pts
+			(xy 77.47 36.83) (xy 80.01 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0a9070-7493-49a1-bd53-f0019ea63b0f")
+	)
+	(wire
+		(pts
+			(xy 105.41 129.54) (xy 107.95 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3540dc49-14b0-4e4d-b4b9-d965b3bf7135")
+	)
+	(wire
+		(pts
+			(xy 80.01 129.54) (xy 77.47 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3647666f-d51b-4100-85ac-8ad0e37f3231")
+	)
+	(wire
+		(pts
+			(xy 132.08 102.87) (xy 132.08 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cda46d5-2573-4c4a-abe1-eaee80818324")
+	)
+	(wire
+		(pts
+			(xy 105.41 133.35) (xy 107.95 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bb1bf90-cc1d-4230-807c-eec761f2693e")
+	)
+	(wire
+		(pts
+			(xy 132.08 124.46) (xy 132.08 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6601b332-5ba7-4253-831d-c6cb1687981a")
+	)
+	(wire
+		(pts
+			(xy 80.01 67.31) (xy 77.47 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69484025-be69-4d67-adc1-d5da4eecf754")
+	)
+	(wire
+		(pts
+			(xy 105.41 74.93) (xy 107.95 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ba80121-2786-4208-8b91-6c3b6b94412a")
+	)
+	(wire
+		(pts
+			(xy 132.08 62.23) (xy 132.08 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bcadf57-14c1-418e-8ef3-a1a8864b5d54")
+	)
+	(wire
+		(pts
+			(xy 105.41 40.64) (xy 107.95 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "748098b6-4bfe-49fd-a165-8f6cccabfe27")
+	)
+	(wire
+		(pts
+			(xy 105.41 99.06) (xy 107.95 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752df0e6-e374-4972-a00a-5b8f484a5060")
+	)
+	(wire
+		(pts
+			(xy 105.41 137.16) (xy 107.95 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9151a12a-389c-4d4d-bad3-e4b64ec00984")
+	)
+	(wire
+		(pts
+			(xy 105.41 102.87) (xy 107.95 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa6748af-bc33-40f3-bcbc-5131cdc25b40")
+	)
+	(wire
+		(pts
+			(xy 132.08 93.98) (xy 132.08 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa924587-6ef8-4efd-8cf9-5ad9d85d8199")
+	)
+	(wire
+		(pts
+			(xy 80.01 99.06) (xy 77.47 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e3bf48-46dd-4731-bd79-271503d316d0")
+	)
+	(wire
+		(pts
+			(xy 132.08 40.64) (xy 132.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b204e6c4-9680-4841-bd77-4c806a08786c")
+	)
+	(wire
+		(pts
+			(xy 132.08 31.75) (xy 132.08 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcacb695-2d55-4372-b3d3-5c9d9c69d61d")
+	)
+	(wire
+		(pts
+			(xy 105.41 106.68) (xy 107.95 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbac9a51-a541-444b-b5da-4c3bcdef651d")
+	)
+	(wire
+		(pts
+			(xy 132.08 133.35) (xy 132.08 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbe25a21-fb2d-4061-bec0-01ddb2208420")
+	)
+	(wire
+		(pts
+			(xy 105.41 36.83) (xy 107.95 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db239eff-4fe6-456a-a2e7-8aec85709962")
+	)
+	(wire
+		(pts
+			(xy 105.41 44.45) (xy 107.95 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffeeb7ec-84f8-4c76-ba41-423b7b8a4cb6")
+	)
+	(hierarchical_label "MOTOR_2C"
+		(shape output)
+		(at 107.95 74.93 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "0d321725-d145-428a-a708-a70db0e2c40b")
+	)
+	(hierarchical_label "MOTOR_3B"
+		(shape output)
+		(at 107.95 102.87 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "27ff64ad-1387-4fd2-998e-41018f687b14")
+	)
+	(hierarchical_label "ESC3"
+		(shape input)
+		(at 77.47 99.06 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "2963242c-d073-40a2-89d8-8c3a6013df34")
+	)
+	(hierarchical_label "ESC1"
+		(shape input)
+		(at 77.47 36.83 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "34630e95-2f28-4ad4-a86b-76680ad04e83")
+	)
+	(hierarchical_label "ESC2"
+		(shape input)
+		(at 77.47 67.31 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "38b3c33a-49b7-4d51-a669-a06cae10cd39")
+	)
+	(hierarchical_label "MOTOR_4B"
+		(shape output)
+		(at 107.95 133.35 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "45095cdc-e332-43bc-840d-699b794da38e")
+	)
+	(hierarchical_label "MOTOR_1A"
+		(shape output)
+		(at 107.95 36.83 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "485877b7-9d99-4f27-8e10-fe04d3795349")
+	)
+	(hierarchical_label "ESC4"
+		(shape input)
+		(at 77.47 129.54 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "4e438780-beff-4406-bb6a-8fe2b8ece55f")
+	)
+	(hierarchical_label "MOTOR_1C"
+		(shape output)
+		(at 107.95 44.45 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "5fc2d9bb-eab4-4584-9740-1d6109428b01")
+	)
+	(hierarchical_label "MOTOR_2B"
+		(shape output)
+		(at 107.95 71.12 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "94f095bf-39f0-4256-8e65-01494e38f973")
+	)
+	(hierarchical_label "MOTOR_2A"
+		(shape output)
+		(at 107.95 67.31 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "9bf5eae7-8a50-4d80-b784-965169151259")
+	)
+	(hierarchical_label "MOTOR_3C"
+		(shape output)
+		(at 107.95 106.68 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "a2f708c6-160a-474b-9635-1c51601ae366")
+	)
+	(hierarchical_label "MOTOR_4A"
+		(shape output)
+		(at 107.95 129.54 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "d1df7862-8d44-45c4-989d-95c1e1b78149")
+	)
+	(hierarchical_label "MOTOR_4C"
+		(shape output)
+		(at 107.95 137.16 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "f217a8ee-c456-466d-9b86-89761a1272de")
+	)
+	(hierarchical_label "MOTOR_3A"
+		(shape output)
+		(at 107.95 99.06 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "f28cc51a-d437-494a-a59c-5c9835b74c8b")
+	)
+	(hierarchical_label "MOTOR_1B"
+		(shape output)
+		(at 107.95 40.64 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "f4a59f2a-dc55-4df9-b218-8ca67cb815cf")
+	)
+	(symbol
+		(lib_id "custom_lib:DYS_mini_ESC")
+		(at 92.71 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00000000-0000-0000-0000-0000586ca1eb")
+		(property "Reference" "U2"
+			(at 94.8533 29.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DYS_mini_ESC"
+			(at 94.8533 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:DYS_Mini_ESC"
+			(at 88.9 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8d60d35-55bb-4399-be55-cfaba6680ea5")
+		)
+		(pin "2"
+			(uuid "ce419b32-71b6-4368-8bbd-212943b126f8")
+		)
+		(pin "3"
+			(uuid "8c5c4d25-3807-4a7e-9ece-c47fae43b43e")
+		)
+		(pin "4"
+			(uuid "27fc4ce9-bbf4-40e2-9c50-04f277aa62ff")
+		)
+		(pin "5"
+			(uuid "c21a600a-2e01-43c6-b65d-53e9deafa513")
+		)
+		(pin "6"
+			(uuid "f06a72c2-39e4-4f50-ad27-f05fc8732b41")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 132.08 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00000000-0000-0000-0000-0000586ca3e0")
+		(property "Reference" "C1"
+			(at 134.62 36.2838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF/25V"
+			(at 134.62 38.8238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DeviceMart" "6791"
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "909f0924-91fa-4338-a9cd-ef7d21dcb181")
+		)
+		(pin "2"
+			(uuid "ab0fcfd9-53ae-471e-b763-e3be3f78544f")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_32")
+		(lib_id "MainBoard-rescue:GND")
+		(at 92.71 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00000000-0000-0000-0000-0000586ca451")
+		(property "Reference" "#PWR018"
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e69374c9-f74c-4051-936f-51aec289fd66")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_lib:DYS_mini_ESC")
+		(at 92.71 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00000000-0000-0000-0000-0000586ca57c")
+		(property "Reference" "U3"
+			(at 94.8533 59.69 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DYS_mini_ESC"
+			(at 94.8533 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:DYS_Mini_ESC"
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06a46dbf-de02-4183-a106-2c7dc2d15a0a")
+		)
+		(pin "2"
+			(uuid "07012cab-43f6-48ca-a8d8-b2720fdea1f7")
+		)
+		(pin "3"
+			(uuid "586f6bb3-4023-4985-b61b-19f0f7bdcbd2")
+		)
+		(pin "4"
+			(uuid "8e4a451d-cec8-4dd1-bb59-484a880eb0dc")
+		)
+		(pin "5"
+			(uuid "29301d2d-6523-4b85-85e6-c801190ae470")
+		)
+		(pin "6"
+			(uuid "19cf62c6-13f4-4ade-bf6b-75e974196691")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 132.08 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00000000-0000-0000-0000-0000586ca583")
+		(property "Reference" "C2"
+			(at 134.62 66.7638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF/25V"
+			(at 134.62 69.3038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DeviceMart" "6791"
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eade9a9a-d15d-42ff-9586-606d719e8146")
+		)
+		(pin "2"
+			(uuid "57b40a05-ccfc-4cac-8006-d90cbdd95739")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_31")
+		(lib_id "MainBoard-rescue:GND")
+		(at 92.71 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00000000-0000-0000-0000-0000586ca58e")
+		(property "Reference" "#PWR020"
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54499986-2324-47e8-ada8-f7f52003c608")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_lib:DYS_mini_ESC")
+		(at 92.71 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00000000-0000-0000-0000-0000586ca66d")
+		(property "Reference" "U4"
+			(at 94.8533 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DYS_mini_ESC"
+			(at 94.8533 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:DYS_Mini_ESC"
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29e2e918-2c07-4703-8a5f-748eb9554d80")
+		)
+		(pin "2"
+			(uuid "4217718b-a5cd-4e5f-b269-26211ea9dfc9")
+		)
+		(pin "3"
+			(uuid "a713d50d-f6ff-4ca7-8a3c-a784709744b8")
+		)
+		(pin "4"
+			(uuid "27d6be50-49a6-4e42-961b-757175a5213f")
+		)
+		(pin "5"
+			(uuid "6ba6271d-4d8c-48b1-8b25-10c681e10a48")
+		)
+		(pin "6"
+			(uuid "0e20bc0c-debe-48f5-8030-48f509fddbd7")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 132.08 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00000000-0000-0000-0000-0000586ca674")
+		(property "Reference" "C3"
+			(at 134.62 98.5138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF/25V"
+			(at 134.62 101.0538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
+			(at 132.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 132.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DeviceMart" "6791"
+			(at 132.08 100.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db4583f9-ed18-45d7-bb69-0df6941d2efe")
+		)
+		(pin "2"
+			(uuid "d920bbd6-f5b6-4477-813c-de3dd369a612")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "C3")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_lib:DYS_mini_ESC")
+		(at 92.71 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00000000-0000-0000-0000-0000586ca78c")
+		(property "Reference" "U5"
+			(at 94.8533 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DYS_mini_ESC"
+			(at 94.8533 124.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:DYS_Mini_ESC"
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d26fa47-cb0e-4ce8-bd1c-e444f499174f")
+		)
+		(pin "2"
+			(uuid "164e4852-3bd0-4165-ac48-4a2471a76b8a")
+		)
+		(pin "3"
+			(uuid "4253e9a5-ff91-426c-b9ca-91a765f6a0ea")
+		)
+		(pin "4"
+			(uuid "c2e4bbe3-41ad-40f6-b914-cf7112b16831")
+		)
+		(pin "5"
+			(uuid "f2e5dd0c-9cf8-492c-8cbb-4c4e2ef1e878")
+		)
+		(pin "6"
+			(uuid "a52069dc-1062-4e77-972b-e8bf9a4d2255")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "U5")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 132.08 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00000000-0000-0000-0000-0000586ca793")
+		(property "Reference" "C4"
+			(at 134.62 128.9938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF/25V"
+			(at 134.62 131.5338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
+			(at 132.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 132.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DeviceMart" "6791"
+			(at 132.08 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7a8e5a8-9497-491a-859b-a767c7dfb281")
+		)
+		(pin "2"
+			(uuid "7ce70c13-3854-4893-89d8-ce312f7c8fb1")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_32")
+		(lib_id "MainBoard-rescue:GND")
+		(at 132.08 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14eefb03-3ca1-46f3-bc04-09447076720a")
+		(property "Reference" "#PWR028"
+			(at 132.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1782c132-5060-41cf-8a70-92b8064900aa")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 132.08 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "168785d5-19f1-4444-9e6e-a7f69a269940")
+		(property "Reference" "#PWR029"
+			(at 132.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_MOTOR"
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "724d2277-3650-456a-8070-4ced320443dc")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 92.71 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ca97276-b190-4f52-a710-90ffd29be3c8")
+		(property "Reference" "#PWR019"
+			(at 92.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_MOTOR"
+			(at 92.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 92.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70e8d031-7667-467f-a06d-8055a7cd6556")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_31")
+		(lib_id "MainBoard-rescue:GND")
+		(at 92.71 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ead01df-8454-4241-a525-90a6f953e1c8")
+		(property "Reference" "#PWR024"
+			(at 92.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8529e62e-0803-4f36-8b6b-e98c681708c8")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 132.08 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "393fab14-7156-4975-892b-df5aa3089bd3")
+		(property "Reference" "#PWR031"
+			(at 132.08 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_MOTOR"
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 132.08 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43be3b64-6610-4957-b352-d2ffe9fca2f0")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 132.08 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46383bb9-a333-4c42-a0cb-57f6466b3996")
+		(property "Reference" "#PWR027"
+			(at 132.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_MOTOR"
+			(at 132.08 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 132.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a778048-015c-4063-84ba-adcbe0d87383")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 92.71 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "557ecf62-ec16-429c-9f25-e5122440f6c7")
+		(property "Reference" "#PWR023"
+			(at 92.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_MOTOR"
+			(at 92.71 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 92.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ca8bb02-df0f-4c9a-9043-b2eb449c0358")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "#PWR023")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_31")
+		(lib_id "MainBoard-rescue:GND")
+		(at 92.71 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73cdffe3-54e3-4f6c-94ec-5ef80188dcbd")
+		(property "Reference" "#PWR022"
+			(at 92.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99e56d47-92f7-4e51-9416-b06f47fe7432")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "#PWR022")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_32")
+		(lib_id "MainBoard-rescue:GND")
+		(at 132.08 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "994a96fe-8053-4254-805d-900f85f25e7f")
+		(property "Reference" "#PWR026"
+			(at 132.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01280986-54ae-4f52-9d1a-e4a84d88f1c4")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_32")
+		(lib_id "MainBoard-rescue:GND")
+		(at 132.08 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aea4c812-cede-49d9-8569-1d112b298484")
+		(property "Reference" "#PWR030"
+			(at 132.08 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef782b0b-adab-49ea-a78d-aa64bf61313f")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_32")
+		(lib_id "MainBoard-rescue:GND")
+		(at 132.08 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8d362ab-c868-4843-941b-385277effed7")
+		(property "Reference" "#PWR032"
+			(at 132.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c6e1c79-36c5-4521-9687-e25069db0154")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 132.08 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc5cf4cc-f965-45ae-8046-9506df342b4f")
+		(property "Reference" "#PWR025"
+			(at 132.08 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_MOTOR"
+			(at 132.08 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 132.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b131d311-52fa-42c6-bd0b-d16af793805a")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 92.71 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e393f3ff-0321-46cb-b687-728806fe1ecb")
+		(property "Reference" "#PWR021"
+			(at 92.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_MOTOR"
+			(at 92.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7ddb012-d62e-4ea5-a7ff-5e6df4318fc1")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "#PWR021")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 92.71 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4f8e373-b39b-450a-a49b-84c7a0bbe418")
+		(property "Reference" "#PWR017"
+			(at 92.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_MOTOR"
+			(at 92.71 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 92.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "441228b7-3988-4507-aa6a-17f7c223754d")
+		)
+		(instances
+			(project "ROV Main Board"
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/55397c44-dbc5-41d8-a573-23f6cff1fdff/f23f515f-1b0e-4543-8a87-31c4fed51ddf"
+					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/f6c27ed3-073f-4619-8c01-ca19cd948077/f83681f2-a142-428e-8a19-9575426a7c2b/a5e21ba9-5e7e-408a-893a-637ec3eaca88"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
