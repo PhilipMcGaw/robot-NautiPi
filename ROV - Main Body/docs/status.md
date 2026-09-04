@@ -41,7 +41,7 @@ relevant Control, Cockpit, or HiL/SiL test record.
 - `MASTER_CONTEXT.md`
 - `docs/documentation-policy.md`
 - `docs/roadmap.md`
-- `ROV---Cockpit/docs/status.md`
-- `ROV---Control/docs/status.md`
-- `ROV---Datalogger/docs/status.md`
-- `ROV---HiL-and-SiL/docs/status.md`
+- `robot-CuttleOS/docs/status.md`
+- `robot-CuttleOS/docs/status.md`
+- `robot-CuttleOS/docs/status.md`
+- `robot-SquidLink/docs/status.md`

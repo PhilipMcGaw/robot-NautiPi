@@ -74,6 +74,47 @@ evidence remain planned.
 Status: documentation and structure exist; complete models, bridge execution,
 scenarios, and validation remain planned.
 
+
+## 6. ROV physical development
+
+- Record the ROV mounting-hole pattern as the mechanical payload interface.
+- Define the payload datum, hole patterns, keep-out zones, mass and moment
+  limits, clearances, fasteners, cable routing, power, and communications.
+- Record the effects of each payload on buoyancy, trim, stability, water flow,
+  service access, and thruster or camera clearance.
+- Version the physical interface and record payload compatibility against each
+  ROV revision.
+- Create a maintained ROV bill of materials with revisions, substitutions, and
+  availability notes.
+- Add separate test records for motor thrust, buoyancy and balance, leak
+  checks, payload fit, and tether or network operation as applicable.
+- Link each payload to its physical record, CuttleOS profile capability, and
+  SquidLink model only when the relevant information exists.
+
+Status: mounting provision is recorded; the BOM and dedicated physical test
+records remain planned.
+
+## 7. ROV operational documentation
+
+- [ ] Record the ROV physical emergency cutoff, propulsion isolation, guards,
+  fusing, current limits, and brown-out behaviour.
+- [ ] Record pressure vessels, seals, penetrators, leak detection, tether risks,
+  recovery constraints, and payload entanglement risks.
+- [ ] Create pre-dive, post-dive, leak, rinse, and storage checklists.
+- [ ] Do not enable an automatic surface or return response until its physical
+  behaviour is verified with the installed tether, buoyancy, and payload.
+- Record depth, temperature, pressure, ingress, and environmental ratings for
+  relevant components where the manufacturer provides them.
+- Maintain wiring diagrams, connector records, and physical operating
+  procedures alongside the applicable hardware revision.
+- Record pre-dive, post-dive, leak, rinse, storage, and inspection checks where
+  they apply to the ROV hardware.
+- Link hardware revisions and commissioning records to the active CuttleOS
+  profile and software revision where practical.
+
+Status: the need for these records is established; the component register and
+complete operational procedures remain planned.
+
 ## Completion rule
 
 Each change updates the relevant component documentation and master context.

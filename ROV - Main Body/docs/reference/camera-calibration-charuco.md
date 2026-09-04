@@ -31,6 +31,8 @@ be used. It is less accurate for calibration because it uses marker corners.
 
 For the wider multi-view reconstruction workflow, see [photogrammetry and 3D scanning](photogrammetry-3d-scanning.md).
 
+For the Kyoto dot camera and 360-degree export workflow, see [Kyoto dot camera dewarp reference](kyoto-dot-360-dewarp.md).
+
 ## ROV integration notes
 
 Calibration belongs to the camera/media and vision pipeline, not to the ADM133

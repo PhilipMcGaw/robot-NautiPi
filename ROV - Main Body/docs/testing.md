@@ -16,8 +16,8 @@ python3 tests/test_documentation.py
 Review the active contract before any message or profile test:
 
 ```text
-ROV---Cockpit/docs/robot-profile-requirements.md
-ROV---Control/docs/nats.md
+robot-CuttleOS/docs/robot-profile-requirements.md
+robot-CuttleOS/docs/nats.md
 ```
 
 ## 2. Disconnected integration checks
@@ -25,7 +25,7 @@ ROV---Control/docs/nats.md
 With propulsion disconnected or inhibited, confirm that the expected active
 profile is installed and that Cockpit, Control, Datalogger, NATS, Nginx, and
 camera services report the expected status. Use the checks in
-`ROV---Control/docs/deployment.md`; do not print NATS credentials.
+`robot-CuttleOS/docs/deployment.md`; do not print NATS credentials.
 
 Use Cockpit simulation or HiL/SiL to exercise presentation and logical-command
 handling before connecting hardware. Simulation success is not physical

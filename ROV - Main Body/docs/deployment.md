@@ -7,24 +7,22 @@ configuration from project notes.
 
 ## Current deployment ownership
 
-Cockpit, Control, and Datalogger are separate Git repositories installed
-side-by-side on the same Raspberry Pi. Cockpit owns the canonical provisioner;
-it installs the co-located services and renders their paths for the selected
-runtime account. Control owns network, SMB, Avahi, hostname, and NATS service
-configuration. Datalogger owns local message persistence.
+CuttleOS contains the Cockpit, Control, and Datalogger services and owns their
+co-located Raspberry Pi deployment. Follow the current CuttleOS provisioner and
+service documentation for installation, networking, NATS, and local persistence.
 
-From the parent directory containing the sibling checkouts, read and follow:
+From the CuttleOS repository, read and follow:
 
-```text
-ROV---Cockpit/docs/deployment.md
-ROV---Control/docs/deployment.md
-ROV---Control/docs/remote-ssh-access.md
-ROV---Datalogger/docs/status.md
+```
+docs/deployment.md
+docs/remote-ssh-access.md
+docs/robot-profile-requirements.md
+docs/status.md
 ```
 
 The active robot profile is installed at `/etc/robot/profile.json`. Each robot
 has one fixed active profile, loaded during boot. It is a Git-versioned JSON
-profile originating from `ROV---Cockpit/configs/profiles/`; switching it is a
+profile originating from `robot-CuttleOS/configs/profiles/`; switching it is a
 reviewed SSH maintenance operation followed by the required restart or reboot,
 not a Cockpit UI operation.
 

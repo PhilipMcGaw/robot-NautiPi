@@ -24,7 +24,7 @@ with propulsion disabled. Browser input is never the only safety mechanism;
 Control owns dead-man, neutral, arming, timeout, and output safety behaviour.
 
 The current Cockpit authentication and supported browser details are maintained
-in `ROV---Cockpit/docs/`. Use HTTPS for Cockpit access beyond a trusted local
+in `robot-CuttleOS/docs/`. Use HTTPS for Cockpit access beyond a trusted local
 network. Do not copy a historical `Configs/users.json` path from this
 repository; Cockpit owns its current authentication configuration.
 

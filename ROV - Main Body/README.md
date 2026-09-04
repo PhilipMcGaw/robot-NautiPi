@@ -7,7 +7,6 @@ repository.
 
 ## Contents
 
-- `CPS/` — component and bill-of-materials spreadsheets.
 - `KiCAD/` — board designs, schematics, footprints, datasheets, and related design resources.
 - `HighROV-Cutting-Patterns/` — retained mechanical cutting patterns and reference documents.
 - `ROV/` — historical ROV photographs, reports, presentations, and reference files.

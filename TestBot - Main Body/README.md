@@ -23,6 +23,7 @@ The hardware is a development build. The presence of an item in this list does n
 - [`Photos/`](Photos/) — build photographs and inspection evidence.
 - [`Reference/`](Reference/) — external mechanical references and supplier documentation.
 - [`docs/`](docs/) — build notes, test records, and decisions.
+- [Weekend mechanical assembly plan](docs/weekend-mechanical-assembly.md) — assembly scope, measurements, and evidence checklist.
 
 ## Provisional mechanical reference
 
