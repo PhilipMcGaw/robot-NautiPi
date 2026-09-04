@@ -22,6 +22,10 @@ The repositories are separate and connected by documented interfaces. NautiPi is
 
 The cross-repository system architecture is maintained in [Chartroom](https://chartroom.philipmcgaw.com/). NautiPi-specific physical hardware architecture is defined in [`docs/hardware-architecture.md`](docs/hardware-architecture.md).
 
+## Documentation standard
+
+Project-wide documentation conventions are defined by the [Robots Project Documentation Standard](https://chartroom.philipmcgaw.com/development/documentation-standard/), maintained in Chartroom. NautiPi follows that standard and does not maintain a separate copy of the project-wide documentation rules.
+
 ## Repository layout
 
 ### ROV hardware
@@ -59,8 +63,6 @@ CuttleOS is the current software architecture and runtime boundary. SquidLink is
 Hardware references in NautiPi do not, by themselves, authorise a Control allocation, GPIO assignment, RS-485 mapping, or production wiring arrangement. Such allocations must be established by the current engineering and software interface documentation.
 
 ## Documentation
-
-The NautiPi documentation policy is maintained in [`docs/documentation-policy.md`](docs/documentation-policy.md). It follows the wider project documentation style, including formal British English, Oxford commas, NIST SI conventions, precise technical terminology, and explicit validation status.
 
 For cross-project documentation and engineering rationale, see [Chartroom](https://chartroom.philipmcgaw.com/).
 
