@@ -2,6 +2,9 @@
 
 The main pin and bus reference is [pin reference](pins.md). The KiCad projects under `KiCAD/` are the authoritative source for board-level connectivity.
 
+The maintained vendor-reference mapping for the Adeept ADM133 Robot HAT V3.1
+is [ADM133 interfaces](reference/adeept-robot-hat-adm133-interfaces.md).
+
 ## Interfaces in use
 
 - UART serial links to navigation and attached controllers.

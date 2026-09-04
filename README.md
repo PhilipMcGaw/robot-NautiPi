@@ -31,6 +31,10 @@ The cross-repository system architecture is authoritative in [CuttleOS `docs/sys
 - [`K9 - Camera/`](<K9 - Camera/>) — retained camera setup material and reference videos.
 - [`K9 - Main Body/`](<K9 - Main Body/README.md>) — K9 main-body hardware designs, body-control modules, motor-driver material, and project references.
 
+### Testbot hardware
+
+- [TestBot - Main Body/](<TestBot - Main Body/README.md>) — physical Testbot CAD, wiring, build notes, photographs, and validation evidence.
+
 ### Other retained material
 
 - [`Remote Sensors/`](<Remote Sensors/>) — retained remote-sensor project material.

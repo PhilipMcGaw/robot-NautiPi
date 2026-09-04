@@ -47,6 +47,8 @@ outside this architecture.
 
 ### Camera/media services
 
+Camera calibration guidance is documented in [camera calibration with ArUco and ChArUco](reference/camera-calibration-charuco.md).
+
 The Cockpit camera pipeline supports a profile-defined inventory. Nginx is the
 browser-facing reverse proxy; capture, processing, and streaming adapters stay
 behind the Cockpit camera/media boundary. Camera configuration and real-device

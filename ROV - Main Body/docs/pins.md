@@ -2,7 +2,7 @@
 
 These tables are a physical-reference starting point, not an approved runtime
 allocation. In particular, the Adeept ADM133 control mapping is maintained in
-`ROV---Control/docs/adeept-robot-hat-adm133-interfaces.md`; its Raspberry Pi
+`reference/adeept-robot-hat-adm133-interfaces.md`; its Raspberry Pi
 GPIO and motor/servo reservations must be verified on the fitted board before
 use. Do not create Cockpit commands from these pin numbers. Control owns the
 profile-defined physical mapping and safety validation.
