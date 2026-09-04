@@ -1,6 +1,6 @@
 # robot-NautiPi
 
-[![Software, documentation, and reference material: CC BY-NC-SA 4.0](https://img.shields.io/badge/Software_and_documentation-CC_BY--NC-SA_4.0-purple.svg)](LICENSE-CC-BY-NC-SA-4.0.txt)
+[![Software, documentation, and reference material: CC BY-NC-SA 4.0](https://img.shields.io/badge/Software_and_documentation-CC_BY-NC-SA_4.0-purple.svg)](LICENSE-CC-BY-NC-SA-4.0.txt)
 [![Hardware: CERN-OHL-S 2.0](https://img.shields.io/badge/Hardware-CERN--OHL--S_2.0-purple.svg)](LICENSE-CERN-OHL-S-2.0.txt)
 [![KiCad](https://img.shields.io/badge/Design-KiCad-314cb0.svg)](https://www.kicad.org/)
 [![Fusion 360](https://img.shields.io/badge/Design-Fusion_360-f26b38.svg)](https://www.autodesk.com/products/fusion-360/overview)
@@ -8,14 +8,19 @@
 
 NautiPi is the physical hardware and embedded-project repository for the robot projects. It contains electronics, PCB and KiCad work, Arduino projects, component records, mechanical references, photographs, and retained historical hardware material.
 
+## Robots project
+
+Cross-project architecture, engineering rationale, significant decisions, reusable guidance, and the overall roadmap are maintained in [Chartroom](https://chartroom.philipmcgaw.com/).
+
 NautiPi works alongside the other current project repositories:
 
-- [CuttleOS](https://github.com/PhilipMcGaw/robot-CuttleOS) owns the robot-side software, including Cockpit, Control, and Datalogger.
-- [SquidLink](https://github.com/PhilipMcGaw/robot-SquidLink) provides the independent ROS 2/Gazebo simulation and integration-test environment.
+- [Chartroom](https://chartroom.philipmcgaw.com/) — central engineering knowledge base and cross-project documentation.
+- [CuttleOS](https://github.com/PhilipMcGaw/robot-CuttleOS) — robot-side software, including Cockpit, Control, and Datalogger.
+- [SquidLink](https://github.com/PhilipMcGaw/robot-SquidLink) — independent ROS 2/Gazebo simulation and integration-test environment.
 
-The repositories are separate and connected by documented interfaces. NautiPi is the source of truth for the physical hardware design record; it is not the source of truth for software implementation or simulation behaviour.
+The repositories are separate and connected by documented interfaces. NautiPi is the source of truth for the physical hardware design record; it is not the source of truth for software implementation or simulation behaviour. Chartroom records the cross-project engineering context.
 
-The cross-repository system architecture is authoritative in [CuttleOS `docs/system-architecture.md`](https://github.com/PhilipMcGaw/robot-CuttleOS/blob/main/docs/system-architecture.md). NautiPi-specific physical hardware architecture is defined in [`docs/hardware-architecture.md`](docs/hardware-architecture.md).
+The cross-repository system architecture is maintained in [Chartroom](https://chartroom.philipmcgaw.com/). NautiPi-specific physical hardware architecture is defined in [`docs/hardware-architecture.md`](docs/hardware-architecture.md).
 
 ## Repository layout
 
@@ -56,6 +61,8 @@ Hardware references in NautiPi do not, by themselves, authorise a Control alloca
 ## Documentation
 
 The NautiPi documentation policy is maintained in [`docs/documentation-policy.md`](docs/documentation-policy.md). It follows the wider project documentation style, including formal British English, Oxford commas, NIST SI conventions, precise technical terminology, and explicit validation status.
+
+For cross-project documentation and engineering rationale, see [Chartroom](https://chartroom.philipmcgaw.com/).
 
 Each substantial hardware project should have a local `README.md` describing its purpose, contents, current status, and relationship to the wider system.
 
