@@ -33,6 +33,6 @@ documentation first.
 
 ## Hardware records
 
-[`pins.md`](pins.md), `KiCAD/`, and `` are valuable source/reference material for
+[`pins.md`](pins.md) and `KiCAD/` are valuable source/reference material for
 physical design work. Verify a selected board revision and record commissioning
 evidence before relying on a pin, connector, or electrical assumption.
