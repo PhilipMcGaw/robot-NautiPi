@@ -12,9 +12,9 @@ active Cockpit, Control, Datalogger, or simulation implementations.
 - [robot-SquidLink](https://github.com/PhilipMcGaw/robot-SquidLink) — independent
   ROS 2/Gazebo simulation and integration testing.
 - [`KiCAD/`](../KiCAD/) and [pin reference](pins.md) — hardware design and
-- [ROV safety and control](safety-and-control.md) — physical cutoffs, pre-dive checks, recovery constraints, and evidence.
   historical physical-reference material. These require normal commissioning
   and do not authorise hardware use by themselves.
+- [ROV safety and control](safety-and-control.md) — physical cutoffs, pre-dive checks, recovery constraints, and evidence.
 
 ## Retained integration material
 
