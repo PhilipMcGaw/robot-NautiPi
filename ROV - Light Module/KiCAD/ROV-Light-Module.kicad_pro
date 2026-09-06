@@ -630,6 +630,48 @@
       "/A9{slash}D9": [
         "PCBway min 1 oz "
       ],
+      "/Arduino Driver PCB/A9{slash}D9": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/Builtin_LED": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/Data_A": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/Data_B": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/LED_PWM": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/NeoPixle": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/SCL": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/SDA": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/SERIAL_DIR": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/SERIAL_RX": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/SERIAL_TX": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/STATUS_LED": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/UPDI": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/Vmeasure": [
+        "PCBway min 1 oz "
+      ],
       "/B": [
         "PCBway min 1 oz "
       ],
@@ -1106,13 +1148,17 @@
         "uuid": "4b85b8a1-3b52-4af9-b3a4-471ab529b035"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U2-3,U6,L2,R7,R9-11,R20,JP1,JP3,D4-5,D10,D13,C3-4,C9,C13-17,#PWR8-9,#PWR14,#PWR16,#PWR27-28,#PWR37-46,#PWR49-50,#PWR55-60,#PWR63,#PWR70,#PWR80,J1,J4,J6",
     "variants": []
   },
   "sheets": [
     [
       "4b85b8a1-3b52-4af9-b3a4-471ab529b035",
       "ROV-Light-Module"
+    ],
+    [
+      "309ce292-f7c5-47a6-adf1-c0f2f6349c2f",
+      "Arduino Driver PCB"
     ]
   ],
   "text_variables": {},
