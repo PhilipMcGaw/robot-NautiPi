@@ -1,7 +1,7 @@
 # ROV Light Module
 
-This folder contains the KiCad design files, reference material, and embedded
-project work for the ROV light module.
+This folder contains the KiCad design files, reference material, and project
+work for the ROV light module.
 
 ## Contents
 
