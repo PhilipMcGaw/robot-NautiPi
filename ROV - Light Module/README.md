@@ -1,7 +1,6 @@
 # ROV Light Module
 
-This folder contains the KiCad design files, reference material, and project
-work for the ROV light module.
+This folder contains the KiCad design files, reference material, and embedded-project material for the ROV light module.
 
 ## Contents
 
@@ -16,8 +15,8 @@ with the ROV are not recorded as complete here.
 
 ## Related material
 
-- [KiCad](https://www.kicad.org/) — PCB design software
-- `Software/Light/led-tricks-gamma-correction.pdf` — retained LED control reference
+- [KiCad](https://www.kicad.org/) — PCB design software.
+- `Software/Light/led-tricks-gamma-correction.pdf` — retained LED-control reference.
 
 ## Licensing
 
