@@ -42,6 +42,4 @@ relevant Control, Cockpit, or HiL/SiL test record.
 - `docs/documentation-policy.md`
 - `docs/roadmap.md`
 - `robot-CuttleOS/docs/status.md`
-- `robot-CuttleOS/docs/status.md`
-- `robot-CuttleOS/docs/status.md`
 - `robot-SquidLink/docs/status.md`
