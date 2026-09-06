@@ -2176,6 +2176,218 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky_Small_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D3"
+				(at -1.5241 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ZLLS1000TA"
+				(at 1.0159 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.co.uk/datasheet/3/175/1/ZLLS1000.pdf"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky Diodes & Rectifiers VR=40V IF=1.16A IR=20uA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "RS" "155-169"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Mouser" "522-ZLLS1000TA"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "DigiKey" "ZLLS1000CT-ND - Cut Tape (CT)"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "MFR Number" "ZLLS1000TA"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_Small_Filled_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_Schottky_Small_Filled_1_1"
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "Annode"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "Cathode"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED_Small_Filled"
 			(pin_numbers
 				(hide yes)
@@ -2953,248 +3165,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KiCad Symbols:BAT54S"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 1.524 -5.334 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BAT54S"
-				(at -6.35 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 1.778 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
-				(at -2.032 7.366 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
-				(at 0.508 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "ki_keywords" "schottky diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BAT54S_0_1"
-				(polyline
-					(pts
-						(xy -3.302 1.016) (xy -1.778 0) (xy -3.302 -1.016) (xy -3.302 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 0) (xy -3.302 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -0.762) (xy -1.27 -1.016) (xy -1.778 -1.016) (xy -1.778 1.016) (xy -2.286 1.016) (xy -2.286 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 1.016) (xy 3.302 0) (xy 1.778 -1.016) (xy 1.778 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0) (xy 1.778 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -0.762) (xy 3.81 -1.016) (xy 3.302 -1.016) (xy 3.302 1.016) (xy 2.794 1.016) (xy 2.794 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BAT54S_1_1"
-				(pin passive line
-					(at -6.35 0 0)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 3.81)
-					(name "K"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 5.08)
-					(name "COM"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -5472,6 +5442,17 @@
 		)
 		(uuid "c0c97077-737c-4c7a-8ba8-244b277e6858")
 	)
+	(text "C5 The AL8805 datasheet states that a capacitor can be placed across\nthe LEDs to reduce LED-current ripple, and specifically gives 1 µF\nas an example."
+		(exclude_from_sim no)
+		(at 177.038 101.092 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left top)
+		)
+		(uuid "f3f12e31-54da-449f-a17b-9b22e679c1fd")
+	)
 	(junction
 		(at 77.47 118.11)
 		(diameter 0)
@@ -5483,12 +5464,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10133216-2a9a-4c1c-acfd-625b43a00623")
-	)
-	(junction
-		(at 138.43 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1597efc3-ef53-42a6-bdfc-5a26513bf96b")
 	)
 	(junction
 		(at 154.94 106.68)
@@ -5515,19 +5490,13 @@
 		(uuid "2f866ed0-231b-4b65-9811-ecab14a303b3")
 	)
 	(junction
-		(at 133.35 137.16)
+		(at 130.81 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e297cf0-aaa1-4274-a3b5-3ea518904602")
 	)
 	(junction
-		(at 138.43 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52a0763d-2e46-4121-b39d-1bca9b668e2b")
-	)
-	(junction
-		(at 133.35 106.68)
+		(at 130.81 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a37e71e-2cfd-4e93-ac22-1190d768c51c")
@@ -5543,18 +5512,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93eb009d-d8bf-403d-8739-89946cadcf08")
-	)
-	(junction
-		(at 129.54 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a206bf2f-fc0f-4ab1-8e34-fa9fde725ec9")
-	)
-	(junction
-		(at 129.54 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac196ab7-b512-4fc3-976c-1f93c5e6c117")
 	)
 	(junction
 		(at 163.83 106.68)
@@ -5587,10 +5544,6 @@
 	(no_connect
 		(at 74.93 123.19)
 		(uuid "60ed5a32-d9ca-4d59-8ab7-b8d281afd187")
-	)
-	(no_connect
-		(at 138.43 127)
-		(uuid "8f4630b6-1690-4c0b-80c5-5706484e8f7a")
 	)
 	(no_connect
 		(at 74.93 125.73)
@@ -5738,6 +5691,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 106.68) (xy 130.81 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35755885-27d2-4223-b95a-37d78d0374a9")
+	)
+	(wire
+		(pts
 			(xy 34.29 173.99) (xy 34.29 186.69)
 		)
 		(stroke
@@ -5745,16 +5708,6 @@
 			(type default)
 		)
 		(uuid "370faf51-609b-497f-b123-e46c25e27880")
-	)
-	(wire
-		(pts
-			(xy 129.54 106.68) (xy 133.35 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38db7b47-48a8-47b5-a193-d4e3d2e1be6a")
 	)
 	(wire
 		(pts
@@ -5788,7 +5741,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 106.68) (xy 129.54 106.68)
+			(xy 128.27 106.68) (xy 146.05 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5805,16 +5758,6 @@
 			(type default)
 		)
 		(uuid "3fc53675-19b2-4c70-a515-63cc295e825c")
-	)
-	(wire
-		(pts
-			(xy 138.43 114.3) (xy 138.43 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fd7f1d3-6d49-46e0-a378-7f44b8b9766c")
 	)
 	(wire
 		(pts
@@ -5908,16 +5851,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 116.84) (xy 138.43 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ca89f1f-ab0f-49f4-92a0-ef84fa964030")
-	)
-	(wire
-		(pts
 			(xy 77.47 160.02) (xy 93.98 160.02)
 		)
 		(stroke
@@ -5968,16 +5901,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 106.68) (xy 138.43 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5da5a52a-5b46-4c56-ab11-aa3507197639")
-	)
-	(wire
-		(pts
 			(xy 146.05 106.68) (xy 154.94 106.68)
 		)
 		(stroke
@@ -5985,16 +5908,6 @@
 			(type default)
 		)
 		(uuid "5db590c6-31d5-462e-a98b-d0b59f3f351f")
-	)
-	(wire
-		(pts
-			(xy 133.35 106.68) (xy 133.35 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f34719e-3557-4668-b5c5-97502186e94a")
 	)
 	(wire
 		(pts
@@ -6025,16 +5938,6 @@
 			(type default)
 		)
 		(uuid "68cb670b-cf4e-434b-a46d-6c301d73903b")
-	)
-	(wire
-		(pts
-			(xy 129.54 114.3) (xy 129.54 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ba35e64-3e7f-425d-951d-fc871a0b115a")
 	)
 	(polyline
 		(pts
@@ -6098,7 +6001,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 133.35) (xy 133.35 137.16)
+			(xy 130.81 129.54) (xy 130.81 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6125,16 +6028,6 @@
 			(type default)
 		)
 		(uuid "7bc77bac-2c8f-4b1f-863f-0e34891057a9")
-	)
-	(wire
-		(pts
-			(xy 138.43 116.84) (xy 146.05 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ce737c8-9272-4c68-962f-77975d815da7")
 	)
 	(wire
 		(pts
@@ -6198,7 +6091,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 116.84) (xy 129.54 116.84)
+			(xy 128.27 116.84) (xy 146.05 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6408,16 +6301,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 137.16) (xy 146.05 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc12890c-81f5-4bba-a130-a27871473915")
-	)
-	(wire
-		(pts
 			(xy 24.13 162.56) (xy 24.13 165.1)
 		)
 		(stroke
@@ -6428,17 +6311,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 106.68) (xy 129.54 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfc41d8c-90e6-4f2c-9648-75890c7c6de3")
-	)
-	(wire
-		(pts
-			(xy 128.27 137.16) (xy 133.35 137.16)
+			(xy 128.27 137.16) (xy 146.05 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6535,16 +6408,6 @@
 			(type default)
 		)
 		(uuid "dddc6b56-20de-4fdc-a6a0-ed93572c7f5b")
-	)
-	(wire
-		(pts
-			(xy 138.43 106.68) (xy 138.43 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2fb07e1-d517-457c-b103-c7f48c2f0f0b")
 	)
 	(wire
 		(pts
@@ -6645,16 +6508,6 @@
 			(type default)
 		)
 		(uuid "fead440f-9dfe-47c1-b33b-f77387b8df80")
-	)
-	(wire
-		(pts
-			(xy 138.43 106.68) (xy 146.05 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff74b780-14dc-47e3-a4fe-68af4304458e")
 	)
 	(label "Neo_Mid"
 		(at 80.01 120.65 0)
@@ -6799,6 +6652,42 @@
 	(netclass_flag ""
 		(length 1)
 		(shape round)
+		(at 133.35 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(color 255 153 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "0250acc8-cf4e-4915-bd7a-520ecb13acb7")
+		(property "Netclass" "1 oz - 1 A"
+			(at 133.9799 115.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Component Class" ""
+			(at -111.76 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
 		(at 34.29 179.07 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6873,7 +6762,7 @@
 	(netclass_flag ""
 		(length 1)
 		(shape round)
-		(at 76.2 115.57 0)
+		(at 148.59 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6882,9 +6771,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1ed27149-79c9-4b0e-a664-f0e47b6d73b8")
-		(property "Netclass" "1 oz - 2 A"
-			(at 76.8299 114.57 0)
+		(uuid "1ec3a039-8ae1-48ce-8992-7cab4b0ed1e8")
+		(property "Netclass" "1 oz - 1 A"
+			(at 149.2199 126 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6895,7 +6784,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -168.91 87.63 0)
+			(at -96.52 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6909,7 +6798,7 @@
 	(netclass_flag ""
 		(length 1)
 		(shape round)
-		(at 148.59 116.84 0)
+		(at 60.96 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6918,9 +6807,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "25bc2bfc-67a0-4f8a-9af4-8e33bdaacba1")
-		(property "Netclass" "1 oz - 2 A"
-			(at 149.2199 115.84 0)
+		(uuid "225c2d8e-17d7-4205-926c-850dbe93e987")
+		(property "Netclass" "1 oz - 1 A"
+			(at 61.5899 114.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6931,7 +6820,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -96.52 88.9 0)
+			(at -184.15 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7005,6 +6894,42 @@
 		)
 		(property "Component Class" ""
 			(at -149.86 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
+		(at 52.07 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(color 255 153 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4eaf36af-8f9f-49d1-bf66-a4f9333211be")
+		(property "Netclass" "1 oz - 1 A"
+			(at 52.6999 119.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Component Class" ""
+			(at -193.04 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7127,7 +7052,7 @@
 	(netclass_flag ""
 		(length 1)
 		(shape round)
-		(at 60.96 115.57 0)
+		(at 76.2 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7136,9 +7061,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "603845c6-a254-43b6-9831-96afe5d7352a")
-		(property "Netclass" "1 oz - 2 A"
-			(at 61.5899 114.57 0)
+		(uuid "5e738542-cbe1-4b7f-8124-6b9e930d229e")
+		(property "Netclass" "1 oz - 1 A"
+			(at 76.8299 114.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7149,7 +7074,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -184.15 87.63 0)
+			(at -168.91 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7173,7 +7098,7 @@
 			(justify left bottom)
 		)
 		(uuid "63b3a0dd-82bd-471c-8c94-44d6974f9948")
-		(property "Netclass" "1 oz - 2 A"
+		(property "Netclass" "1 oz - 1 A"
 			(at 88.2599 161.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7186,6 +7111,42 @@
 		)
 		(property "Component Class" ""
 			(at -157.48 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
+		(at 87.63 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(color 255 153 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fd2fd04-dcaf-4c05-a119-0864b7a214a0")
+		(property "Netclass" "1 oz - 1 A"
+			(at 88.2599 159.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Component Class" ""
+			(at -157.48 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7235,78 +7196,6 @@
 	(netclass_flag ""
 		(length 1)
 		(shape round)
-		(at 129.54 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(color 255 153 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "81581ec3-2b99-4caa-a490-764e06f91089")
-		(property "Netclass" "1 oz - 2 A"
-			(at 130.1699 136.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Component Class" ""
-			(at -115.57 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1)
-		(shape round)
-		(at 148.59 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(color 255 153 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "8abb0ab0-ef15-495b-9a45-a2d43533462a")
-		(property "Netclass" "1 oz - 2 A"
-			(at 149.2199 126 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Component Class" ""
-			(at -96.52 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1)
-		(shape round)
 		(at 198.12 127 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7343,7 +7232,7 @@
 	(netclass_flag ""
 		(length 1)
 		(shape round)
-		(at 52.07 120.65 0)
+		(at 129.54 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7352,9 +7241,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ab6f17c0-92f3-4891-8068-084e2d860a76")
-		(property "Netclass" "1 oz - 2 A"
-			(at 52.6999 119.65 0)
+		(uuid "9f65b48f-5998-411b-8024-4e27eba84eab")
+		(property "Netclass" "1 oz - 1 A"
+			(at 130.1699 136.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7365,7 +7254,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -193.04 92.71 0)
+			(at -115.57 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7410,42 +7299,6 @@
 					(italic yes)
 				)
 				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1)
-		(shape round)
-		(at 87.63 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(color 255 153 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "c90656fc-a398-40df-99bf-ead2fa9a1f20")
-		(property "Netclass" "1 oz - 2 A"
-			(at 88.2599 159.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Component Class" ""
-			(at -157.48 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
 			)
 		)
 	)
@@ -7830,25 +7683,25 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000058636c29")
 		(property "Reference" "C2"
-			(at 166.37 120.6562 0)
+			(at 161.29 119.3862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 166.37 123.1962 0)
+			(at 161.29 121.9262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
@@ -7882,6 +7735,17 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Voltage" "25 V+"
+			(at 161.29 124.4662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -9202,92 +9066,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KiCad Symbols:BAT54S")
-		(at 133.35 127 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43bec142-8be3-4c45-b550-9fed6f7c3e4b")
-		(property "Reference" "D2"
-			(at 130.81 125.4759 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT54S"
-			(at 130.81 128.0159 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 125.73 125.222 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
-			(at 125.984 129.032 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
-			(at 126.492 126.492 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "29c027b8-9bfd-44b1-9473-b6626a9f350b")
-		)
-		(pin "3"
-			(uuid "5c50780e-096b-44ef-ac3c-4cfe965146d7")
-		)
-		(pin "1"
-			(uuid "f22ccf30-ed5a-418f-91a2-99de6898f302")
-		)
-		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 199.39 139.7 0)
 		(unit 1)
@@ -10343,154 +10121,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 129.54 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "7ed03bf3-a88b-49a0-a05e-8a920092433a")
-		(property "Reference" "R6"
-			(at 132.08 110.4899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.5"
-			(at 132.08 113.0299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 129.54 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rl_group_521_rohs_l.pdf"
-			(at 129.54 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 129.54 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "311-0.5LWCT-ND"
-			(at 129.54 111.76 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacture" "RL1206FR-070R5L"
-			(at 129.54 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "ALT RS" "223-1701"
-			(at 129.54 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alt Manufactute" "CRM1206-FX-R510ELF"
-			(at 129.54 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "250 mW"
-			(at 129.54 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Partsbox" "https://partsbox.com/I24gh3zxsktgpx94e4epv1nrpe6"
-			(at 129.54 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3940e5b4-f774-4c81-9f36-f6924b2e4578")
-		)
-		(pin "2"
-			(uuid "b0dfbaa7-4c39-4eec-bd3c-77aaf325ff0c")
-		)
-		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 64.77 167.64 0)
 		(unit 1)
@@ -10649,19 +10279,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 138.43 111.76 0)
+		(lib_id "Device:D_Schottky_Small_Filled")
+		(at 130.81 127 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "94f97502-70a2-4835-9bed-7222dea52e51")
-		(property "Reference" "R5"
-			(at 140.97 110.4899 0)
+		(uuid "8c3d8a87-9278-45a8-8227-f8f60ac9ef37")
+		(property "Reference" "D3"
+			(at 133.35 125.4759 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10671,8 +10301,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.5"
-			(at 140.97 113.0299 0)
+		(property "Value" "ZLLS1000TA"
+			(at 133.35 128.0159 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10682,8 +10312,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 138.43 111.76 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 130.81 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10693,8 +10323,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rl_group_521_rohs_l.pdf"
-			(at 138.43 111.76 0)
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/3/175/1/ZLLS1000.pdf"
+			(at 130.81 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10704,8 +10334,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 138.43 111.76 0)
+		(property "Description" "Schottky Diodes & Rectifiers VR=40V IF=1.16A IR=20uA"
+			(at 130.81 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10715,8 +10345,8 @@
 				)
 			)
 		)
-		(property "DigiKey" "311-0.5LWCT-ND"
-			(at 138.43 111.76 90)
+		(property "DigiKey" "ZLLS1000CT-ND - Cut Tape (CT)"
+			(at 130.81 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10726,8 +10356,8 @@
 				)
 			)
 		)
-		(property "Manufacture" "RL1206FR-070R5L"
-			(at 138.43 111.76 0)
+		(property "RS" "155-169"
+			(at 130.81 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10737,41 +10367,8 @@
 				)
 			)
 		)
-		(property "ALT RS" "223-1701"
-			(at 138.43 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alt Manufactute" "CRM1206-FX-R510ELF"
-			(at 138.43 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "250 mW"
-			(at 138.43 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Partsbox" "https://partsbox.com/I24gh3zxsktgpx94e4epv1nrpe6"
-			(at 138.43 111.76 0)
+		(property "Mouser" "522-ZLLS1000TA"
+			(at 130.81 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10780,17 +10377,28 @@
 					(size 1.524 1.524)
 				)
 			)
+		)
+		(property "MFR Number" "ZLLS1000TA"
+			(at 130.81 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5ca536ca-3f9d-48c3-870d-13168206eb16")
 		)
 		(pin "1"
-			(uuid "45cb865a-9efe-4881-93fb-a0451ae4ca3c")
-		)
-		(pin "2"
-			(uuid "92c904bb-0f37-4607-ad89-4f50fb6661aa")
+			(uuid "2c23fdf8-c060-4610-bfbc-cd40c725fa6b")
 		)
 		(instances
 			(project "ROV-Light-Module"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035"
-					(reference "R5")
+					(reference "D3")
 					(unit 1)
 				)
 			)

@@ -3599,6 +3599,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "V_in 12-18 V nominal, 24 VDC Max"
+		(exclude_from_sim no)
+		(at 44.196 59.436 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "373e12da-c4c3-42a2-9057-201dd0097f55")
+	)
 	(text "The Feedback LED is not part of the AVR HDPI header standard, however, I\nhave included it on the un-used pin so that I can have a status/feedback\nLED for visual feedback from the microcontroller."
 		(exclude_from_sim no)
 		(at 64.008 147.574 0)
@@ -5329,6 +5339,42 @@
 	(netclass_flag ""
 		(length 1)
 		(shape round)
+		(at 43.18 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(color 255 153 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "40e63142-2073-4231-8edd-7d8db6ba2612")
+		(property "Netclass" "1 oz - 1 A"
+			(at 43.8099 33.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Component Class" ""
+			(at -201.93 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
 		(at 106.68 93.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5652,78 +5698,6 @@
 	(netclass_flag ""
 		(length 1)
 		(shape round)
-		(at 43.18 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(color 255 153 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d424306-56ab-428e-ade1-83e1e7f4455c")
-		(property "Netclass" "1 oz - 2 A"
-			(at 43.8099 33.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Component Class" ""
-			(at -201.93 6.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1)
-		(shape round)
-		(at 153.67 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(color 255 153 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d4f2b81-9a7f-49af-a67e-347e382f01d4")
-		(property "Netclass" "1 oz - 2 A"
-			(at 154.2999 30.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Component Class" ""
-			(at -91.44 3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1)
-		(shape round)
 		(at 251.46 154.94 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5904,6 +5878,42 @@
 	(netclass_flag ""
 		(length 1)
 		(shape round)
+		(at 146.05 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(color 255 153 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7baa6cc-28d0-4d68-9ece-ae25bbb6408c")
+		(property "Netclass" "1 oz - 1 A"
+			(at 146.6799 30.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Component Class" ""
+			(at -99.06 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
 		(at 106.68 91.44 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5940,42 +5950,6 @@
 	(netclass_flag ""
 		(length 1)
 		(shape round)
-		(at 50.8 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(color 255 153 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0da52f9-18aa-47bd-b475-db8b55543495")
-		(property "Netclass" "1 oz - 2 A"
-			(at 51.4299 33.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Component Class" ""
-			(at -194.31 6.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1)
-		(shape round)
 		(at 64.77 104.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5999,6 +5973,42 @@
 		)
 		(property "Component Class" ""
 			(at 309.88 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
+		(at 165.1 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(color 255 153 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c29ecf6a-5f3b-46f4-b696-d3ffc0160123")
+		(property "Netclass" "1 oz - 1 A"
+			(at 165.7299 30.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Component Class" ""
+			(at -80.01 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6084,7 +6094,7 @@
 	(netclass_flag ""
 		(length 1)
 		(shape round)
-		(at 205.74 31.75 0)
+		(at 50.8 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6093,9 +6103,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f1399ee0-fd76-4136-a423-f1d86706c69a")
-		(property "Netclass" "1 oz - 2 A"
-			(at 206.3699 30.75 0)
+		(uuid "dd26dabb-b59b-4546-9fc3-9dbfbe0c086e")
+		(property "Netclass" "1 oz - 1 A"
+			(at 51.4299 33.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6106,7 +6116,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -39.37 3.81 0)
+			(at -194.31 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
