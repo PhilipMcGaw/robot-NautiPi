@@ -844,8 +844,11 @@
       "Net-(U5-AREF)": [
         "PCBway min 1 oz "
       ],
+      "V_Supply": [
+        "1 oz - 2 A"
+      ],
       "V_in": [
-        "1 oz - 1 A"
+        "1 oz - 2 A"
       ],
       "V_in_Mid": [
         "1 oz - 1 A"
@@ -1149,7 +1152,7 @@
         "uuid": "4b85b8a1-3b52-4af9-b3a4-471ab529b035"
       }
     ],
-    "used_designators": "U2-3,U6,L2,D3-5,D10,D13,#PWR8-9,#PWR14,#PWR16,#PWR27-28,#PWR37-46,#PWR49-50,#PWR55-60,#PWR63,#PWR70,#PWR80,C3-4,C9,C13-17,R7,R9-11,R20,JP1,JP3,J1,J4,J6",
+    "used_designators": "U2-3,U6,L2,D3-5,D10,D13,#PWR8-9,#PWR11,#PWR14,#PWR16,#PWR27-28,#PWR37-46,#PWR49-50,#PWR55-60,#PWR63-66,#PWR70,#PWR80,C3-4,C9,C13-17,R7,R9-11,R20,JP1,JP3,J1,J4,J6",
     "variants": []
   },
   "sheets": [
