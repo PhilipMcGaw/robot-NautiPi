@@ -79,6 +79,7 @@ This is a logical interface view, not an electrical wiring schematic. See
 responsibilities and the source-of-truth split between CuttleOS, NautiPi, and
 SquidLink. Use the KiCad schematics and hardware wiring records for connector,
 pin, power, and safety details.
+
 ## Active software sources
 
 The active robot software is maintained in [robot-CuttleOS](https://github.com/PhilipMcGaw/robot-CuttleOS).
@@ -104,5 +105,5 @@ notices. The parent NautiPi licensing map is the source of truth for this folder
 ## People who have helped
 
 - Philip 'Skippy' McGaw - <philip@mcgaw.eu> - [philipmcgaw.com](https://philipmcgaw.com)
-- Tamarisk 'NotQuiteHere' McGaw - <tamarisk@mcgaw.eu> - [tamarisk.it](https://tamarisk.it)
+- Tamarisk 'NotQuiteHere' McGaw - <tamarisk@mcgaw.com> - [tamarisk.it](https://tamarisk.it)
 - Bob 'thinkl33t' Clough - <bob@clough.me> - [thinkl33t.co.uk](https://thinkl33t.co.uk)
