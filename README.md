@@ -1,6 +1,6 @@
 # robot-NautiPi
 
-[![Software, documentation, and reference material: CC BY-NC-SA 4.0](https://img.shields.io/badge/Software_and_documentation-CC_BY-NC-SA_4.0-purple.svg)](LICENSE-CC-BY-NC-SA-4.0.txt)
+[![Software, documentation, and reference material: CC BY-NC-SA 4.0](https://img.shields.io/badge/Software_and_documentation-CC_BY_NC_SA_4.0-purple.svg)](LICENSE-CC-BY-NC-SA-4.0.txt)
 [![Hardware: CERN-OHL-S 2.0](https://img.shields.io/badge/Hardware-CERN--OHL--S_2.0-purple.svg)](LICENSE-CERN-OHL-S-2.0.txt)
 [![KiCad](https://img.shields.io/badge/Design-KiCad-314cb0.svg)](https://www.kicad.org/)
 [![Fusion 360](https://img.shields.io/badge/Design-Fusion_360-f26b38.svg)](https://www.autodesk.com/products/fusion-360/overview)
@@ -33,7 +33,7 @@ Project-wide documentation conventions are defined by the [Robots Project Docume
 - [`ROV - Conductivity Temperature and Depth Transducer/`](<ROV - Conductivity Temperature and Depth Transducer/README.md>) — conductivity, temperature, and depth transducer design and embedded-project material.
 - [`ROV - Light Module/`](<ROV - Light Module/README.md>) — ROV lighting electronics and embedded-project material.
 - [`ROV - Main Body/`](<ROV - Main Body/README.md>) — main-body hardware archive, including PCB designs, component records, mechanical references, and historical integration material.
-- [`ROV - Navigator/`](<ROV - Navigator/README.md>) — Navigator PCB, schematics, power-management, status LED, leak-detection, and shared KiCad resources.
+- [`ROV - Navigator/`](<ROV - Navigator/README.md>) — Navigator PCB, schematics, power management, status LED, leak detection, and shared KiCad resources.
 
 ### K9 hardware
 
@@ -41,12 +41,16 @@ Project-wide documentation conventions are defined by the [Robots Project Docume
 
 ### Testbot hardware
 
-- [TestBot - Main Body/](<TestBot - Main Body/README.md>) — physical Testbot CAD, wiring, build notes, photographs, and validation evidence.
+- [`TestBot - Main Body/`](<TestBot - Main Body/README.md>) — physical Testbot CAD, wiring, build notes, photographs, and validation evidence.
+
+### MarsBot hardware and research
+
+- [`MarsBot - Main Body/`](<MarsBot - Main Body/README.md>) — retained MarsBot main-body material and long-horizon rover-development research and roadmap work.
 
 ### Other retained material
 
-- [`Remote Sensors/`](<Remote Sensors/>) — retained remote-sensor project material.
-- [`Traffic Light/`](<Traffic Light/>) — historical traffic-light project photographs and reference material.
+- [`Remote Sensors/`](<Remote Sensors/README.md>) — retained remote-sensor project material.
+- [`Traffic Light/`](<Traffic Light/README.md>) — historical traffic-light project photographs and reference material.
 
 ## Current status
 
