@@ -24,6 +24,6 @@ The current robot software architecture is maintained in CuttleOS, while simulat
 
 ## Documentation
 
-Repository-wide documentation requirements are defined in `../docs/documentation-policy.md`.
+Project-wide documentation requirements are defined by the [Robots Project Documentation Standard](https://chartroom.philipmcgaw.com/development/documentation-standard/), maintained in Chartroom.
 
-The parent repository `README.md` and `LICENSES.md` provide the wider project context and licensing information.
+The parent repository [`README.md`](../README.md) and [`LICENSES.md`](../LICENSES.md) provide the wider project context and licensing information.
