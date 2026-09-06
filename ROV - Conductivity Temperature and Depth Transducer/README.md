@@ -1,7 +1,7 @@
 # ROV Conductivity, Temperature, and Depth Transducer
 
-This folder contains the KiCad design files, reference material, and embedded
-project work for the ROV conductivity, temperature, and depth transducer.
+This folder contains the KiCad design files, reference material, and project
+work for the ROV conductivity, temperature, and depth transducer.
 
 ## Contents
 
