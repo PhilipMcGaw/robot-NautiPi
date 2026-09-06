@@ -1,7 +1,6 @@
 # ROV Conductivity, Temperature, and Depth Transducer
 
-This folder contains the KiCad design files, reference material, and project
-work for the ROV conductivity, temperature, and depth transducer.
+This folder contains the KiCad design files, reference material, and embedded-project material for the ROV conductivity, temperature, and depth transducer.
 
 ## Contents
 
@@ -20,7 +19,7 @@ with the ROV are not recorded as complete here.
 - [OpenCTD on GitHub](https://github.com/OceanographyforEveryone/OpenCTD)
 - [Conduino](https://github.com/feslab/conduino)
 - [OpenCTD with Conduino](https://github.com/kpdangelo/OpenCTDwithConduino)
-- [KiCad](https://www.kicad.org/) — PCB design software
+- [KiCad](https://www.kicad.org/) — PCB design software.
 
 ## Licensing
 
