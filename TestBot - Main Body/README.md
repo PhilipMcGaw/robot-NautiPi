@@ -1,8 +1,8 @@
 # TestBot - Main Body
 
-Physical design record for Testbot, a small differential-drive Raspberry Pi robot using an Adeept Robot HAT V3.1.
+Physical design record for TestBot, a small differential-drive Raspberry Pi robot using an Adeept Robot HAT V3.1.
 
-This folder is the source of truth for Testbot’s physical build record. It is deliberately separate from the future ROS 2/Gazebo digital twin. Record the real robot here first; create or update the digital twin only after the mechanical arrangement, wiring, and measurements are sufficiently stable.
+This folder is the source of truth for TestBot’s physical build record. It is deliberately separate from the future ROS 2/Gazebo digital twin. Record the real robot here first; create or update the digital twin only after the mechanical arrangement, wiring, and measurements are sufficiently stable.
 
 ## Current hardware
 
@@ -27,11 +27,11 @@ The hardware is a development build. The presence of an item in this list does n
 
 ## Provisional mechanical reference
 
-The physical layout is expected to resemble the [Dual Drive Robot Base on Printables](https://www.printables.com/model/187907-dual-drive-robot-base). That model is a layout reference only. Testbot’s own CAD, dimensions, mounting points, and licensing record must be established before any derivative geometry is distributed.
+The physical layout is expected to resemble the [Dual Drive Robot Base on Printables](https://www.printables.com/model/187907-dual-drive-robot-base). That model is a layout reference only. TestBot’s own CAD, dimensions, mounting points, and licensing record must be established before any derivative geometry is distributed.
 
 ## Related projects
 
-- [CuttleOS Testbot profile](https://github.com/PhilipMcGaw/robot-CuttleOS/blob/main/configs/profiles/testbot.json) — robot-side software and logical hardware contract.
+- [CuttleOS TestBot profile](https://github.com/PhilipMcGaw/robot-CuttleOS/blob/main/configs/profiles/testbot.json) — robot-side software and logical hardware contract.
 - [Adeept ADM133 hardware reference](https://github.com/PhilipMcGaw/robot-CuttleOS/blob/main/docs/adeept-robot-hat-adm133.md) — HAT capabilities, channel reservations, and validation status.
 - [SquidLink](https://github.com/PhilipMcGaw/robot-SquidLink) — future ROS 2, Gazebo, and integration-test work.
 
