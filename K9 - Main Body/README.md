@@ -26,12 +26,18 @@ Material under `to sort/` is not an approved source of truth. Before using it,
 confirm the relevant board revision, firmware revision, wiring, component
 values, and physical test evidence.
 
-## Active software sources
+## Active software and system documentation
 
 The active robot software is maintained in
-[robot-CuttleOS](https://github.com/PhilipMcGaw/robot-CuttleOS). Hardware
-interfaces, robot profiles, deployment, and validation status are defined by
-that project and its current documentation.
+[robot-CuttleOS](https://github.com/PhilipMcGaw/robot-CuttleOS). The independent
+ROS 2/Gazebo simulation and integration-test environment is maintained in
+[robot-SquidLink](https://github.com/PhilipMcGaw/robot-SquidLink). Cross-project
+architecture, engineering rationale, and project-wide documentation are
+maintained in [Chartroom](https://chartroom.philipmcgaw.com/).
+
+Hardware interfaces, robot profiles, deployment, and validation status are
+defined by the current engineering documentation rather than by historical
+material retained in this folder.
 
 ## Licensing
 
