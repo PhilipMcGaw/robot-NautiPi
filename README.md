@@ -1,6 +1,6 @@
 # robot-NautiPi
 
-[![Software, documentation, and reference material: CC BY-NC-SA 4.0](https://img.shields.io/badge/Software_and_documentation-CC_BY-NC-SA_4.0-purple.svg)](LICENSE-CC-BY-NC-SA-4.0.txt)
+[![Software, documentation, and reference material: CC BY-NC-SA 4.0](https://img.shields.io/badge/Software_and_documentation-CC_BY--NC--SA_4.0-purple.svg)](LICENSE-CC-BY-NC-SA-4.0.txt)
 [![Hardware: CERN-OHL-S 2.0](https://img.shields.io/badge/Hardware-CERN--OHL--S_2.0-purple.svg)](LICENSE-CERN-OHL-S-2.0.txt)
 [![KiCad](https://img.shields.io/badge/Design-KiCad-314cb0.svg)](https://www.kicad.org/)
 [![Fusion 360](https://img.shields.io/badge/Design-Fusion_360-f26b38.svg)](https://www.autodesk.com/products/fusion-360/overview)
