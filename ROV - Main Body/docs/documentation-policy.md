@@ -6,21 +6,15 @@ This is a hard completion requirement, not an optional follow-up. A behaviour-af
 
 Before reporting a change complete, check the relevant documentation, update the master context when architecture or current behaviour changes, remove stale contradictory text, and record any checks that could not be run.
 
-This repository distinguishes active integration material from historical
-reference material. Historical material MUST be labelled as such and MUST NOT
-be presented as a current NATS contract, deployment instruction, profile, or
-physical mapping. When a current component repository supersedes a root note,
-the root note must link or refer to the maintained source of truth.
+This repository distinguishes active integration material from historical reference material. Historical material MUST be labelled as such and MUST NOT be presented as a current NATS contract, deployment instruction, profile, or physical mapping. When a current component repository supersedes a root note, the root note must link or refer to the maintained source of truth.
 
-Run the root documentation checks before reporting an integration/hardware
-documentation change complete:
+Project-wide documentation conventions are maintained by Chartroom. This document records the additional currency and evidence rules that apply to the ROV Main Body archive.
+
+Run the root documentation checks before reporting an integration or hardware documentation change complete:
 
 ```zsh
 python3 tests/test_documentation.py
 python3 tests/documentation_change_policy.py <changed repository-relative paths>
 ```
 
-Use formal British English, SI units, and recognised symbols. State whether a
-capability is implemented, automated-test verified, bench-tested,
-production-validated, or planned/unverified; software presence alone is not
-physical evidence.
+Use formal British English, Oxford commas, SI units, and recognised symbols. State whether a capability is implemented, automated-test verified, bench-tested, production-validated, or planned/unverified; software presence alone is not physical evidence.
