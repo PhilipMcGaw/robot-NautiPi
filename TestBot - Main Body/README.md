@@ -9,7 +9,7 @@ This folder is the source of truth for TestBot’s physical build record. It is 
 - Raspberry Pi with Pi Camera.
 - Adeept Robot HAT V3.1.
 - Two yellow 3–12 VDC motors, connected to M1 and M2 for differential steering.
-- Two 18650 LiPo batteries in the HAT’s 2S1P arrangement.
+- Two 18650 lithium-ion cells in the HAT’s 2S1P arrangement.
 - 9g servo for camera tilt, currently recorded on PCA9685 channel 0.
 - Two onboard WS2812 LEDs for robot status indication.
 - Onboard passive buzzer for the Cockpit horn function.
