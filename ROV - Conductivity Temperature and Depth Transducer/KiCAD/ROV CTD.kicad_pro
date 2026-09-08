@@ -592,7 +592,7 @@
         "PCBway min 1 oz "
       ],
       "+5V": [
-        "1 oz - 2 A",
+        "1 oz - 1 A",
         "PCBway min 1 oz "
       ],
       "+5V_Mid": [
@@ -647,6 +647,30 @@
         "PCBway min 1 oz "
       ],
       "/AD{slash}CS": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/A3{slash}D3": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/Builtin_LED": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/Data_A": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/Data_B": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/SERIAL_RX": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/SERIAL_TX": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/UPDI": [
+        "PCBway min 1 oz "
+      ],
+      "/Arduino Driver PCB/Vmeasure": [
         "PCBway min 1 oz "
       ],
       "/B": [
@@ -805,6 +829,9 @@
       "/Top_TDS": [
         "PCBway min 1 oz "
       ],
+      "/Top_TDS_En": [
+        "PCBway min 1 oz "
+      ],
       "/Top_Temp": [
         "PCBway min 1 oz "
       ],
@@ -941,7 +968,7 @@
         "PCBway min 1 oz "
       ],
       "Net-(U3-SW)": [
-        "1 oz - 2 A"
+        "1 oz - 1 A"
       ],
       "Net-(U4-C_{FLY+})": [
         "PCBway min 1 oz "
@@ -951,6 +978,9 @@
       ],
       "Net-(U5-AREF)": [
         "PCBway min 1 oz "
+      ],
+      "V_Supply": [
+        "1 oz - 2 A"
       ],
       "V_in": [
         "1 oz - 2 A"
@@ -1287,6 +1317,10 @@
     [
       "ca4f46b8-1067-479f-855d-d4866b315eff",
       "Conductivity Transducer"
+    ],
+    [
+      "b1565afd-b735-4054-9aaf-effbb35036b6",
+      "Arduino Driver PCB"
     ]
   ],
   "text_variables": {},

@@ -630,6 +630,9 @@
       "/A9{slash}D9": [
         "PCBway min 1 oz "
       ],
+      "/Arduino Driver PCB/A3{slash}D3": [
+        "PCBway min 1 oz "
+      ],
       "/Arduino Driver PCB/A9{slash}D9": [
         "PCBway min 1 oz "
       ],
@@ -1161,7 +1164,7 @@
         "uuid": "4b85b8a1-3b52-4af9-b3a4-471ab529b035"
       }
     ],
-    "used_designators": "J4-5,R2,R4,#PWR67-69",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

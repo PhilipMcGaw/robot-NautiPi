@@ -5070,8 +5070,8 @@
 			(uuid "4a6f61c4-04e7-4109-bebb-bf670bbb0f30")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "U3")
 					(unit 1)
 				)
@@ -5152,8 +5152,8 @@
 			(uuid "fd004297-8132-4e93-b9e5-4c133777528c")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "R11")
 					(unit 1)
 				)
@@ -5309,8 +5309,8 @@
 			(uuid "f8799bf7-f5f9-4cee-bde6-ae3d1662b2c9")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "D5")
 					(unit 1)
 				)
@@ -5388,8 +5388,8 @@
 			(uuid "8be6bd2e-d470-4247-90e9-1dc2ed832fb6")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR065")
 					(unit 1)
 				)
@@ -5465,8 +5465,8 @@
 			(uuid "7d0f31dd-8dc2-46f1-b46f-8c24615466f7")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR060")
 					(unit 1)
 				)
@@ -5544,8 +5544,8 @@
 			(uuid "832c3933-748c-4694-8277-f2d3d61d43a5")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR040")
 					(unit 1)
 				)
@@ -5623,8 +5623,8 @@
 			(uuid "9e64ff88-7c99-49b0-8471-342c0ee21a70")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR050")
 					(unit 1)
 				)
@@ -5701,8 +5701,8 @@
 			(uuid "957af6c5-47e0-4b0a-bfbb-a0439a075d62")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR038")
 					(unit 1)
 				)
@@ -5805,8 +5805,8 @@
 			(uuid "ac9ca16a-ae8a-4217-a459-7b556d9ddf24")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "C3")
 					(unit 1)
 				)
@@ -5887,8 +5887,8 @@
 			(uuid "8d58952d-c45e-42f8-acd1-22c6f2530183")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "C16")
 					(unit 1)
 				)
@@ -5966,8 +5966,8 @@
 			(uuid "59ea75a4-a94c-41f7-8f23-9262a76622ec")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR056")
 					(unit 1)
 				)
@@ -6070,8 +6070,8 @@
 			(uuid "0727033b-cb81-42e5-b44e-f6c05299eb0a")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "C13")
 					(unit 1)
 				)
@@ -6150,8 +6150,8 @@
 			(uuid "1832e7c2-4ba5-4c3e-973c-ee7c9eb09d7f")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "C15")
 					(unit 1)
 				)
@@ -6232,8 +6232,8 @@
 			(uuid "fabb2b37-a93d-412b-9a46-e0a61f4995fe")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "R7")
 					(unit 1)
 				)
@@ -6311,8 +6311,8 @@
 			(uuid "78e9535b-0edd-4350-907f-49b2050741e1")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR037")
 					(unit 1)
 				)
@@ -6393,8 +6393,8 @@
 			(uuid "4ab1ecbd-8b97-4db7-a7ad-7a32dd9f69f9")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "R10")
 					(unit 1)
 				)
@@ -6472,8 +6472,8 @@
 			(uuid "ea8b9b90-e3c4-4736-90b6-0b598a73808f")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR045")
 					(unit 1)
 				)
@@ -6551,8 +6551,8 @@
 			(uuid "96700974-f3c0-45c9-a078-d431bcf7ce89")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -6630,8 +6630,8 @@
 			(uuid "fcc740c2-64d1-4068-83c3-43d776fa41d9")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR070")
 					(unit 1)
 				)
@@ -6707,8 +6707,8 @@
 			(uuid "6ce5568c-c9d2-43a6-accf-0e7bfb0d4866")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR027")
 					(unit 1)
 				)
@@ -6800,8 +6800,8 @@
 			(uuid "8ce8635b-e124-442d-b61e-69a5e65a49ce")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "D10")
 					(unit 1)
 				)
@@ -6877,8 +6877,8 @@
 			(uuid "d082be72-06cb-47fa-97fd-b532e955f021")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR057")
 					(unit 1)
 				)
@@ -6956,8 +6956,8 @@
 			(uuid "5e447842-1e89-47ba-96f9-905e6bdf9bfc")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR044")
 					(unit 1)
 				)
@@ -7033,8 +7033,8 @@
 			(uuid "7afffaa2-0125-4226-bd7d-e9a1d01bfb11")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR059")
 					(unit 1)
 				)
@@ -7110,8 +7110,8 @@
 			(uuid "ca35052f-4f0b-46f1-a0d5-549c03eff07c")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR058")
 					(unit 1)
 				)
@@ -7189,8 +7189,8 @@
 			(uuid "06a25e8a-0838-440c-9074-62ef2636575b")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR014")
 					(unit 1)
 				)
@@ -7290,8 +7290,8 @@
 			(uuid "d420d609-864b-43f0-b3ee-ea78ba5ac746")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "U6")
 					(unit 1)
 				)
@@ -7379,8 +7379,8 @@
 			(uuid "18396ec3-43ff-4548-8c4c-5b52c3f3347c")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "J6")
 					(unit 1)
 				)
@@ -7458,8 +7458,8 @@
 			(uuid "62c7ceb7-4624-4aee-87b9-286a97d7a4d9")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR049")
 					(unit 1)
 				)
@@ -7562,8 +7562,8 @@
 			(uuid "271e020d-b170-4b77-afec-1dd14b1da098")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "C9")
 					(unit 1)
 				)
@@ -7641,8 +7641,8 @@
 			(uuid "3b8194d1-0f9b-4e56-86e6-b9f06e47366e")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR028")
 					(unit 1)
 				)
@@ -7733,8 +7733,8 @@
 			(uuid "7f648bed-4851-492a-9a47-1c88ccb77b67")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "J1")
 					(unit 1)
 				)
@@ -7812,8 +7812,8 @@
 			(uuid "a276f85b-76f6-4324-bbce-cefab8cc330d")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR055")
 					(unit 1)
 				)
@@ -7891,8 +7891,8 @@
 			(uuid "44f9142a-9824-450a-80d3-efd97c5da9d3")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR046")
 					(unit 1)
 				)
@@ -7973,8 +7973,8 @@
 			(uuid "3a0b0895-be9b-4625-9918-27bbf3fe8f77")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "R9")
 					(unit 1)
 				)
@@ -8052,8 +8052,8 @@
 			(uuid "b0825c42-dca5-4c1a-9c40-9714e8be3e4a")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR016")
 					(unit 1)
 				)
@@ -8130,8 +8130,8 @@
 			(uuid "17c1d9d1-da34-4fa6-9c25-b1d6f0b575e1")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR064")
 					(unit 1)
 				)
@@ -8232,8 +8232,8 @@
 			(uuid "2dce2647-03c6-49b3-8ec5-5fdbd3ecb1c5")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "L2")
 					(unit 1)
 				)
@@ -8314,8 +8314,8 @@
 			(uuid "5f29c293-6141-41bd-8444-71da572d2934")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "C14")
 					(unit 1)
 				)
@@ -8396,8 +8396,8 @@
 			(uuid "c8806a13-e197-42af-bdd9-f1e49c05e3f0")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "C17")
 					(unit 1)
 				)
@@ -8500,8 +8500,8 @@
 			(uuid "b8a49320-5fce-403c-ab60-578c3da8a82b")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "C4")
 					(unit 1)
 				)
@@ -8619,8 +8619,8 @@
 			(uuid "c3c870b9-a196-4017-b149-d04516dc6d4e")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "U2")
 					(unit 1)
 				)
@@ -8697,8 +8697,8 @@
 			(uuid "d518a681-03d7-4dae-a7b7-0d57a02b503b")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR039")
 					(unit 1)
 				)
@@ -8776,8 +8776,8 @@
 			(uuid "cd8bd67e-8aca-4643-b143-56e4c344c75d")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR041")
 					(unit 1)
 				)
@@ -8869,8 +8869,8 @@
 			(uuid "3a5e8dd3-fcb1-4965-bbd2-e1d4a82b5d49")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "D4")
 					(unit 1)
 				)
@@ -8948,8 +8948,8 @@
 			(uuid "51129b7d-6bfe-428e-b286-db66221de068")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -9027,8 +9027,8 @@
 			(uuid "dc4d1899-a28d-41fe-8c6f-d9d43f45b498")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR09")
 					(unit 1)
 				)
@@ -9106,8 +9106,8 @@
 			(uuid "301896c1-8a04-4fa7-994a-3d2c05612747")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR063")
 					(unit 1)
 				)
@@ -9185,8 +9185,8 @@
 			(uuid "b6a6080b-f57a-4813-934c-5b8ef483d8c7")
 		)
 		(instances
-			(project "ROV-Light-Module"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/309ce292-f7c5-47a6-adf1-c0f2f6349c2f"
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/b1565afd-b735-4054-9aaf-effbb35036b6"
 					(reference "#PWR066")
 					(unit 1)
 				)

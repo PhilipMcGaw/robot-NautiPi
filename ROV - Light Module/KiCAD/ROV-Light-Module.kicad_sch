@@ -5820,7 +5820,7 @@
 		)
 		(uuid "36d22c5f-5695-4ec5-b2fd-cda7b08473d9")
 	)
-	(text "600 mA current limit"
+	(text "600 mA current limit\n0.5 Ω / 3 ≈ 0.167 Ω"
 		(exclude_from_sim no)
 		(at 137.16 105.41 0)
 		(effects
@@ -5956,6 +5956,10 @@
 	(no_connect
 		(at 60.96 123.19)
 		(uuid "60ed5a32-d9ca-4d59-8ab7-b8d281afd187")
+	)
+	(no_connect
+		(at 80.01 26.67)
+		(uuid "c2f8c0de-8ac2-4fe8-a927-7192936444fd")
 	)
 	(no_connect
 		(at 60.96 125.73)
@@ -6163,6 +6167,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 24.13) (xy 80.01 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3411a3e5-707e-41c9-be98-ad751819ff2b")
+	)
+	(wire
+		(pts
 			(xy 130.81 106.68) (xy 130.81 124.46)
 		)
 		(stroke
@@ -6210,6 +6224,16 @@
 			(type dash)
 		)
 		(uuid "3b6492eb-1efc-4ffe-87d0-40c31f71c189")
+	)
+	(wire
+		(pts
+			(xy 77.47 31.75) (xy 80.01 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9f6046-db7a-41e2-8dd8-74a605d2646b")
 	)
 	(wire
 		(pts
@@ -6563,6 +6587,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 29.21) (xy 80.01 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b26c77-0169-407f-b4ce-d5848f0a5092")
+	)
+	(wire
+		(pts
 			(xy 45.72 115.57) (xy 45.72 113.03)
 		)
 		(stroke
@@ -6693,6 +6727,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 21.59) (xy 80.01 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a1d593-7034-47a2-86da-1e3317bd7661")
+	)
+	(wire
+		(pts
 			(xy 12.7 189.23) (xy 12.7 191.77)
 		)
 		(stroke
@@ -6750,6 +6794,16 @@
 			(type default)
 		)
 		(uuid "9b8e23ae-f68a-4c51-aa3a-8976f586a6e0")
+	)
+	(wire
+		(pts
+			(xy 77.47 26.67) (xy 80.01 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c734090-7ead-465d-989a-1fc84c39402f")
 	)
 	(wire
 		(pts
@@ -6873,6 +6927,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 39.37) (xy 80.01 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1f452b-2c36-459b-b377-710e889218aa")
+	)
+	(wire
+		(pts
 			(xy 24.13 162.56) (xy 24.13 165.1)
 		)
 		(stroke
@@ -6880,6 +6944,16 @@
 			(type default)
 		)
 		(uuid "be2dccb6-7b45-4468-be7e-e1b3fdc26249")
+	)
+	(wire
+		(pts
+			(xy 77.47 36.83) (xy 80.01 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d33bcd-26e5-40af-abc5-3ac402d463f8")
 	)
 	(wire
 		(pts
@@ -7111,6 +7185,16 @@
 		)
 		(uuid "fead440f-9dfe-47c1-b33b-f77387b8df80")
 	)
+	(label "A9{slash}D9"
+		(at 80.01 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "051f047b-e888-4dbc-8a96-7d3d5e2ce4d4")
+	)
 	(label "LED_PWM"
 		(at 121.92 59.69 0)
 		(effects
@@ -7120,6 +7204,26 @@
 			(justify left bottom)
 		)
 		(uuid "16802471-9324-4c34-b09d-2956cd87721f")
+	)
+	(label "SCL"
+		(at 80.01 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25ff13f5-8b39-46ea-89d3-fdebd2d0980c")
+	)
+	(label "LED_PWM"
+		(at 80.01 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "330af3a1-c556-47b1-bd6f-b9ab5eb5bc16")
 	)
 	(label "Neo_Mid"
 		(at 73.66 120.65 180)
@@ -7171,6 +7275,16 @@
 		)
 		(uuid "52de9a02-bc9b-4fef-8255-1d97104d73cd")
 	)
+	(label "STATUS_LED"
+		(at 80.01 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58ee51fe-92b0-4391-8e65-7787691e2893")
+	)
 	(label "LED+_L"
 		(at 173.99 116.84 180)
 		(effects
@@ -7190,6 +7304,16 @@
 			(justify left bottom)
 		)
 		(uuid "7cf3e772-eca5-4f54-891b-cced0965606d")
+	)
+	(label "SDA"
+		(at 80.01 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ed97d13-7bdd-45f4-8508-23a776104e0f")
 	)
 	(label "A9{slash}D9"
 		(at 95.25 62.23 180)
@@ -7240,6 +7364,16 @@
 			(justify left bottom)
 		)
 		(uuid "abc058e0-199a-4755-817c-1ba2e89fd2df")
+	)
+	(label "NeoPixle"
+		(at 80.01 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b48b0696-86ee-4774-81f6-c6c3c1b09bda")
 	)
 	(label "Neo_Up"
 		(at 53.34 162.56 0)
@@ -8362,7 +8496,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000058637b8a")
 		(property "Reference" "D1"
-			(at 101.5365 153.67 0)
+			(at 101.5365 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8372,7 +8506,7 @@
 			)
 		)
 		(property "Value" "CXA1304"
-			(at 101.5365 156.21 0)
+			(at 101.5365 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8461,6 +8595,16 @@
 		(property "Partsbox" "https://partsbox.com/Icxkb0zpbyygfkb8ns1rwsq7qss"
 			(at 101.6 160.02 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "notes" "Cree XLamp CXA1304, 9 V class"
+			(at 101.5365 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13928,6 +14072,76 @@
 					(size 1.524 1.524)
 				)
 				(justify left top)
+			)
+		)
+		(pin "A9{slash}D9" bidirectional
+			(at 77.47 29.21 0)
+			(uuid "9228655c-7fc0-4a76-a2b5-abb9f269c246")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 77.47 36.83 0)
+			(uuid "ccf13bab-bf90-4d80-baeb-343e76e8a060")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 77.47 39.37 0)
+			(uuid "c7b7a896-f806-426f-b67e-828a70bf4873")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "~A0{slash}D0" bidirectional
+			(at 77.47 21.59 0)
+			(uuid "c18d20f7-790c-417d-a834-81929f8f6109")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "~A1{slash}D1" bidirectional
+			(at 77.47 24.13 0)
+			(uuid "b6a660d1-1643-4624-8831-a924465bfb6f")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "~A10{slash}D10_SCK" bidirectional
+			(at 77.47 31.75 0)
+			(uuid "186fc5d9-850e-4acf-ba58-30c7d285d6a0")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "A3{slash}D3" bidirectional
+			(at 77.47 26.67 0)
+			(uuid "720b57a4-1b10-4915-967e-a9cdc327ddf6")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
 			)
 		)
 		(instances
