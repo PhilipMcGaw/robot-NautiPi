@@ -4135,7 +4135,7 @@
 			(justify left bottom)
 		)
 		(uuid "117c67b1-72d6-4c7d-b6f3-e4a9fdbb6f21")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 32.3799 40.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4171,7 +4171,7 @@
 			(justify left bottom)
 		)
 		(uuid "241acacb-b038-405f-ade3-a1fd3945166d")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 65.3999 105.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4207,7 +4207,7 @@
 			(justify left bottom)
 		)
 		(uuid "296b2d61-e4e9-4ccb-b7f4-7bb87b44f92a")
-		(property "Net Class" "1 oz - 2 A"
+		(property "Netclass" "1 oz - 2 A"
 			(at 39.9999 33.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4243,7 +4243,7 @@
 			(justify left bottom)
 		)
 		(uuid "3b9540ca-13be-4f21-9233-8e3187157385")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 65.3999 90.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4279,7 +4279,7 @@
 			(justify left bottom)
 		)
 		(uuid "3f8024da-17d4-451e-b13f-3242681c73fc")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 107.3099 103.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4315,7 +4315,7 @@
 			(justify left bottom)
 		)
 		(uuid "44ae8adf-5c04-4122-9721-aa15b399356e")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 107.3099 92.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4351,7 +4351,7 @@
 			(justify left bottom)
 		)
 		(uuid "4d9f90f8-bce9-482e-b0b8-075db4fdd131")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 221.6099 92.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4387,7 +4387,7 @@
 			(justify left bottom)
 		)
 		(uuid "52fec0b3-4889-426d-bd17-3df8d86f5f1c")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 175.53 40.0101 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4423,7 +4423,7 @@
 			(justify left bottom)
 		)
 		(uuid "5411dfd2-58aa-44dc-be5d-f91a9959fe88")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 32.3799 35.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4459,7 +4459,7 @@
 			(justify left bottom)
 		)
 		(uuid "5480a2fd-e08a-4e3a-b535-0a37ec86f90b")
-		(property "Net Class" "1 oz - 2 A"
+		(property "Netclass" "1 oz - 2 A"
 			(at 28.5699 33.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4495,7 +4495,7 @@
 			(justify left bottom)
 		)
 		(uuid "5d891f1a-c6a9-4b0c-bb78-73e31be110c2")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 102.2299 167.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4531,7 +4531,7 @@
 			(justify left bottom)
 		)
 		(uuid "693d67e4-862a-4336-aaa1-888ac9722a33")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 107.3099 100.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4567,7 +4567,7 @@
 			(justify left bottom)
 		)
 		(uuid "6941b522-90c2-4f36-a5a6-0508293be889")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 65.3999 108.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4603,7 +4603,7 @@
 			(justify left bottom)
 		)
 		(uuid "79cf235d-c437-4f38-8c6c-660fef8b1a41")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 128.54 107.3201 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4639,7 +4639,7 @@
 			(justify left bottom)
 		)
 		(uuid "7e064640-5d9a-4d7f-9ed2-4ccebd6de3a9")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 107.3099 98.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4675,7 +4675,7 @@
 			(justify left bottom)
 		)
 		(uuid "85fa4d5c-83e7-47b8-9e3c-469fb8d4ae1d")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 107.3099 95.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4711,7 +4711,7 @@
 			(justify left bottom)
 		)
 		(uuid "8c909a36-c372-4740-a779-053b700dc363")
-		(property "Net Class" "1 oz - 2 A"
+		(property "Netclass" "1 oz - 2 A"
 			(at 32.3799 43.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4747,7 +4747,7 @@
 			(justify left bottom)
 		)
 		(uuid "9da21b14-12d9-4fbf-a9b1-3addb5dce309")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 32.3799 38.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4783,7 +4783,7 @@
 			(justify left bottom)
 		)
 		(uuid "a7baa6cc-28d0-4d68-9ece-ae25bbb6408c")
-		(property "Net Class" "1 oz - 1 A"
+		(property "Netclass" "1 oz - 1 A"
 			(at 135.2499 30.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4819,7 +4819,7 @@
 			(justify left bottom)
 		)
 		(uuid "aa071b24-2805-4f6c-9614-90230b237b12")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 107.3099 90.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4855,7 +4855,7 @@
 			(justify left bottom)
 		)
 		(uuid "b308814d-40ad-4c95-bc16-42a335f11ac4")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 65.3999 103.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4891,7 +4891,7 @@
 			(justify left bottom)
 		)
 		(uuid "c29ecf6a-5f3b-46f4-b696-d3ffc0160123")
-		(property "Net Class" "1 oz - 1 A"
+		(property "Netclass" "1 oz - 1 A"
 			(at 154.2999 30.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4927,7 +4927,7 @@
 			(justify left bottom)
 		)
 		(uuid "c8d4fb7a-61e3-43bd-acdb-035904b7db3a")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 135.2499 33.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4963,7 +4963,7 @@
 			(justify left bottom)
 		)
 		(uuid "d747acd8-bfb0-4313-a0eb-720fab3c0c4d")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 221.6099 103.14 0)
 			(show_name no)
 			(do_not_autoplace no)
