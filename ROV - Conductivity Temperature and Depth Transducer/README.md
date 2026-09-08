@@ -7,6 +7,12 @@ This folder contains the KiCad design files, reference material, and embedded-pr
 - `KiCAD/` — schematics, PCB layouts, project files, generated documents, and component resources.
 - `Software/` — Arduino and PlatformIO firmware experiments and supporting libraries.
 
+## Interface baseline
+
+The shared node design target is **12–18 VDC nominal**, with a **24 VDC maximum
+design input**. The planned field interface is Modbus RTU over RS-485 at 115200 8N1;
+500 kbit/s remains optional pending complete harness and populated-bus testing.
+
 ## Current status
 
 The design and reference material are retained for continued development and

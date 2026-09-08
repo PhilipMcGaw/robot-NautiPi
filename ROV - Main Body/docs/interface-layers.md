@@ -71,6 +71,6 @@ flowchart LR
   protection, distribution, and return paths belong in the hardware records.
 
 For a particular robot, the authoritative implementation is split across the
-three repositories: CuttleOS defines the application contract and profile,
+three implementation repositories. CuttleOS defines the application contract and profile,
 NautiPi records the physical implementation, and SquidLink represents the
-logical behaviour in ROS 2/Gazebo.
+logical behaviour in ROS 2/Gazebo. Chartroom records the shared architecture and engineering rationale.
