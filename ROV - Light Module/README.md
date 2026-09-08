@@ -7,6 +7,13 @@ This folder contains the KiCad design files, reference material, and embedded-pr
 - `KiCAD/` — schematics, PCB layouts, project files, and generated documents.
 - `Software/` — Arduino and PlatformIO firmware experiments and supporting libraries.
 
+
+## Board-level design notes
+
+The final NeoPixel in the string is D9. Its data output is intentionally left
+unconnected because there is no downstream NeoPixel device. No termination is
+required on this output.
+
 ## Current status
 
 The design and reference material are retained for continued development and

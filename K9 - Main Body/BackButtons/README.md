@@ -41,4 +41,4 @@ This material is distributed under the licence stated by the repository root `RE
 
 - [CuttleOS](https://github.com/PhilipMcGaw/robot-CuttleOS) — system software and runtime architecture.
 - [SquidLink](https://github.com/PhilipMcGaw/robot-SquidLink) — ROS 2/Gazebo simulation and integration testing.
-- [Chartroom](https://github.com/PhilipMcGaw/robot-Chartroom) — project documentation and engineering context, where applicable.
+- [Chartroom](https://github.com/PhilipMcGaw/robot-ChartRoom) — project documentation and engineering context, where applicable.
