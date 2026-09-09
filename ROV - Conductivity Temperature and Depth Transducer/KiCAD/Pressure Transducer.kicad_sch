@@ -945,7 +945,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "This is baised on the reference from SparkFun CC-BY-SA 4.0\n(MS5803-14BA Breakout PCB v10.pdf)"
+	(text "This is based on the SparkFun reference design MS5803-14BA Breakout PCB v10.pdf, licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)"
 		(exclude_from_sim no)
 		(at 184.912 173.99 0)
 		(effects
@@ -1664,7 +1664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0018c721-a184-47e2-96bd-6a4a0edbffa4")
-		(property "Reference" "R15"
+		(property "Reference" "R2"
 			(at 168.91 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1728,7 +1728,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "R15")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1746,7 +1746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05e47668-6d9b-4ddd-9323-484640aaab43")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR022"
 			(at 67.31 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -1807,7 +1807,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "#PWR026")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -1825,7 +1825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ec37078-59d4-4406-a152-954ed84565d3")
-		(property "Reference" "R13"
+		(property "Reference" "R5"
 			(at 217.17 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1889,7 +1889,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "R13")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -1907,7 +1907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0faa4225-50fc-4d57-8512-863ba6676b46")
-		(property "Reference" "M2"
+		(property "Reference" "M1"
 			(at 192.4686 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1986,7 +1986,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "M2")
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -2004,7 +2004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16fd74f0-b0e1-463d-ade6-a8db6dc79175")
-		(property "Reference" "R12"
+		(property "Reference" "R4"
 			(at 208.28 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2068,7 +2068,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "R12")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2086,7 +2086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "184f4809-f9fc-4562-9fb2-8b50d29cb750")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 69.85 73.6662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2172,7 +2172,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2190,7 +2190,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1a5c88be-a645-4514-be23-cc7d7c31ba54")
-		(property "Reference" "JP3"
+		(property "Reference" "JP1"
 			(at 210.82 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2255,7 +2255,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "JP3")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -2273,7 +2273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23b7fb69-d4ad-4a6c-bba7-d66eae7b22f8")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR025"
 			(at 175.26 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2334,7 +2334,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "#PWR010")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2352,7 +2352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29efcd30-08d1-4087-b0fe-5bc33e319cc4")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR026"
 			(at 190.5 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2412,7 +2412,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "#PWR01")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2430,7 +2430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39b8080a-be1a-4154-a041-0b45f14eac6a")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR024"
 			(at 166.37 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2491,7 +2491,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "#PWR07")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -2509,7 +2509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48fc12ae-bb99-4241-a6cd-7fb697b75153")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR020"
 			(at 67.31 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2570,7 +2570,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "#PWR023")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2588,7 +2588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "546a2ced-5642-4267-87fb-05e68d2eb45f")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR023"
 			(at 67.31 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2649,7 +2649,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "#PWR029")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -2667,7 +2667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58c0afe3-f1db-4dea-9a5e-3a18e2dbbeaf")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR031"
 			(at 214.63 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2728,7 +2728,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "#PWR022")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2746,7 +2746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c95119b-52da-499a-bc2a-538162278d20")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR021"
 			(at 67.31 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2807,7 +2807,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "#PWR024")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -2825,7 +2825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6668a965-7a1c-48c5-a5dc-a1ccdf9928b8")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR027"
 			(at 190.5 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2886,7 +2886,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "#PWR013")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2904,7 +2904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66ef6373-a03e-4677-b561-4616d45a9590")
-		(property "Reference" "R14"
+		(property "Reference" "R3"
 			(at 177.8 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2968,7 +2968,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "R14")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2986,7 +2986,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6dbec74d-d911-4451-bea6-a964b3fe6cdc")
-		(property "Reference" "JP4"
+		(property "Reference" "JP2"
 			(at 219.71 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3051,7 +3051,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "JP4")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -3069,7 +3069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dad0093-0e4e-4953-a73b-9ada431c017e")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 69.85 95.2562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3155,7 +3155,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3173,7 +3173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc09363c-8d74-46a3-9a42-2e22095f04f5")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR029"
 			(at 205.74 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3234,7 +3234,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "#PWR018")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3252,7 +3252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddeba014-78ee-4eda-8615-674ae8384ed2")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR030"
 			(at 214.63 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3313,7 +3313,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "#PWR06")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3331,7 +3331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0f7b1d5-95e7-4089-aa11-8a2019940e63")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR028"
 			(at 205.74 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3392,10 +3392,11 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/150d263f-d8d0-41bc-b04b-394586738282"
-					(reference "#PWR03")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
 		)
 	)
 )
+

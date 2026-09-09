@@ -1398,7 +1398,7 @@
 		)
 		(uuid "144a90b8-cf92-4a5a-a020-33eb49d55136")
 	)
-	(text "Probe is baised on work done by the Marco Carminati and Paolo Luzzatto-Fegiz. \nConduino CC-BY-SA 4.0 (https://github.com/feslab/conduino). As modified \nby the OpenCPD team CC-BY-SA 4.0 (Conduino-V01.pdf).\n\nPCB design development baised on the DFRobot Gravity EC Sensor DFR0300"
+	(text "Probe is based on the work of Marco Carminati and Paolo Luzzatto-Fegiz, published as Conduino (https://github.com/feslab/conduino), licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). As modified by the OpenCPD team in Conduino-V01.pdf, also identified as CC BY-SA 4.0.\n\nPCB design development based on the DFRobot Gravity EC Sensor DFR0300"
 		(exclude_from_sim no)
 		(at 184.658 173.99 0)
 		(effects
@@ -3248,7 +3248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "006e08d6-f362-4c00-a148-74064eb2a059")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR047"
 			(at 133.35 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -3309,7 +3309,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR067")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3327,7 +3327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02ca9f2b-4721-4aba-b259-443f3309cacb")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR055"
 			(at 222.25 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -3388,85 +3388,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 121.92 12.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0365b12d-ff0a-4834-be46-e448ab44feb6")
-		(property "Reference" "#PWR075"
-			(at 121.92 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 121.92 7.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 121.92 12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "85b92072-4bc7-4817-aa2b-ee3664fe2827")
-		)
-		(instances
-			(project "ROV CTD"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR075")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -3484,7 +3406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07cc5beb-7c25-4134-973a-406cc4c8cf4e")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR041"
 			(at 92.71 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3545,7 +3467,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR034")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3563,7 +3485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cac7989-f60c-4251-9d6d-cb5815a4beb2")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 54.61 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -3682,7 +3604,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3700,7 +3622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e04bcf2-7c8d-4680-8b14-47a31135ea67")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR051"
 			(at 156.21 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -3760,7 +3682,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR081")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3778,7 +3700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "106772ad-3e99-4fe3-9612-d18434b51ed8")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR056"
 			(at 232.41 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -3839,7 +3761,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR066")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3857,7 +3779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11605708-f0ae-4d37-863d-a9a9d21c480d")
-		(property "Reference" "R21"
+		(property "Reference" "R11"
 			(at 149.86 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3919,7 +3841,85 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "R21")
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 133.35 17.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "164958fc-bf2d-4b3b-b3f0-22e27534179e")
+		(property "Reference" "#PWR046"
+			(at 133.35 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_Mid"
+			(at 133.35 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 133.35 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c61412b6-192a-4759-a21f-61527195ec34")
+		)
+		(instances
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -3937,7 +3937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1733f091-2343-4f25-8a81-49077810bc3d")
-		(property "Reference" "C25"
+		(property "Reference" "C17"
 			(at 158.75 21.5962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4023,7 +4023,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "C25")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -4041,7 +4041,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "17bef930-2cda-4df7-9997-e1eebf4a8b3d")
-		(property "Reference" "R26"
+		(property "Reference" "R8"
 			(at 92.71 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4103,7 +4103,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "R26")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4122,7 +4122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a0d05de-a44e-4c07-83f9-6c2d8478aa8b")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 59.69 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4220,85 +4220,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 133.35 17.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d70ebd8-11a2-4977-a4d3-3790a5a0b57a")
-		(property "Reference" "#PWR079"
-			(at 133.35 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 133.35 12.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 133.35 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "63929558-faa5-4a2c-a7e5-6ac74676f92b")
-		)
-		(instances
-			(project "ROV CTD"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR079")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4316,7 +4238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f390e83-e018-4173-b111-60793f0daf44")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR042"
 			(at 115.57 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4377,7 +4299,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR053")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4395,7 +4317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21b6cdf8-cf71-4000-8e36-6838df402f2c")
-		(property "Reference" "C23"
+		(property "Reference" "C15"
 			(at 135.89 21.5962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4481,7 +4403,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "C23")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4499,7 +4421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "221a5d9e-6f94-4cff-a72f-fe80ef800621")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR050"
 			(at 154.94 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4560,7 +4482,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR054")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4578,7 +4500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "286eaae1-b892-459f-aeb8-7bfc73b76291")
-		(property "Reference" "C28"
+		(property "Reference" "C14"
 			(at 110.4963 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4662,7 +4584,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "C28")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -4680,7 +4602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c2e6703-e14c-447c-a372-cf6b9da0104f")
-		(property "Reference" "C26"
+		(property "Reference" "C18"
 			(at 168.91 21.5962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4766,7 +4688,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "C26")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4784,7 +4706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36d0f665-7694-4a56-a6f4-cafb28927bf2")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR043"
 			(at 116.84 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -4844,7 +4766,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR078")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4862,7 +4784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3767dac0-f9ab-4041-bb88-dc3396fa5462")
-		(property "Reference" "R27"
+		(property "Reference" "R14"
 			(at 182.88 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4924,7 +4846,85 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "R27")
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 121.92 12.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3951c426-4e46-436a-bde3-9a6e21426955")
+		(property "Reference" "#PWR044"
+			(at 121.92 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_Mid"
+			(at 121.92 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 121.92 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fed3d079-967c-44c4-b4da-fb1b43db27d8")
+		)
+		(instances
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4942,7 +4942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fb2058b-515f-4535-a007-4da512237806")
-		(property "Reference" "R24"
+		(property "Reference" "R16"
 			(at 217.17 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5004,7 +5004,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "R24")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5022,7 +5022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40d63809-7eac-4f40-9d84-702fa6940f45")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 11.43 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5083,7 +5083,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -5101,7 +5101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "417a8b62-7726-4a21-9bc1-dda39c2e540e")
-		(property "Reference" "R28"
+		(property "Reference" "R15"
 			(at 201.93 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5163,7 +5163,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "R28")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5181,7 +5181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45da4146-a5d1-4163-a34a-53b191526f5e")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR035"
 			(at 49.53 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5242,7 +5242,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR043")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5260,7 +5260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c1c1c55-26cf-4b29-96e9-10915e817efa")
-		(property "Reference" "R18"
+		(property "Reference" "R6"
 			(at 44.45 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5322,7 +5322,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "R18")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5340,7 +5340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57a367da-65ea-4089-9d6f-3137ed5f2191")
-		(property "Reference" "D9"
+		(property "Reference" "D3"
 			(at 234.95 105.4099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5426,7 +5426,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "D9")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5444,7 +5444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59c2eb65-c8d6-4e36-bf73-9d028dae575f")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR049"
 			(at 143.51 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5505,7 +5505,85 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR068")
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 66.04 12.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a3521d2-a480-4422-a36e-12695ca51b1e")
+		(property "Reference" "#PWR037"
+			(at 66.04 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_Mid"
+			(at 66.04 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 66.04 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2617a52-97c7-4c19-8d71-fc808c789215")
+		)
+		(instances
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -5523,7 +5601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f4341db-a105-4c6e-80ac-79f49994ecb5")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 123.19 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5623,7 +5701,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "U1")
+					(reference "U3")
 					(unit 5)
 				)
 			)
@@ -5641,7 +5719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a7a377e-c948-4cfa-8922-fe87375da588")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR036"
 			(at 54.61 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5702,7 +5780,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR021")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -5720,7 +5798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c8fe085-aec3-46b9-8d2a-bfd4b0fe00ea")
-		(property "Reference" "R23"
+		(property "Reference" "R13"
 			(at 165.1 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5782,7 +5860,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "R23")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5800,7 +5878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fa2b281-f12c-4ca1-8a3b-413b2f98d9da")
-		(property "Reference" "C27"
+		(property "Reference" "C11"
 			(at 74.9363 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5884,7 +5962,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "C27")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -5903,7 +5981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7015337e-4c65-4eb0-8976-2d32fabcc507")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 134.62 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6001,7 +6079,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "U1")
+					(reference "U3")
 					(unit 2)
 				)
 			)
@@ -6123,7 +6201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7523e25e-4b29-4f34-8a92-f9a503b6d463")
-		(property "Reference" "R22"
+		(property "Reference" "R12"
 			(at 165.1 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6185,7 +6263,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "R22")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6203,7 +6281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7996e6f5-809f-4443-8bda-0ee2eb2b2da7")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR052"
 			(at 156.21 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6264,7 +6342,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR069")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -6282,7 +6360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81518869-69f4-4ecc-ba0c-09aa7af938d7")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR039"
 			(at 82.55 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6343,7 +6421,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR033")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -6362,7 +6440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83a8c245-3bf2-4edf-80e0-330fcadd7728")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 40.64 21.5962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6448,7 +6526,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6466,7 +6544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "861096ab-a1b4-4c8b-ac6f-6ac22a9cebb8")
-		(property "Reference" "R17"
+		(property "Reference" "R7"
 			(at 59.69 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6528,7 +6606,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "R17")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6546,7 +6624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86d63d74-8dd9-460f-a1a0-79b7b2639600")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR034"
 			(at 21.59 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6607,7 +6685,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -6718,84 +6796,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 143.51 17.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "907bbc3a-899d-439e-97f7-b71432ae54f6")
-		(property "Reference" "#PWR080"
-			(at 143.51 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 143.51 12.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 143.51 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "43dc356d-7b6a-4526-af0d-c53cbf87faa5")
-		)
-		(instances
-			(project "ROV CTD"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 134.62 88.9 90)
 		(unit 1)
@@ -6807,7 +6807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "921cd6a0-6cb4-47c9-b1ec-adcb5d67180d")
-		(property "Reference" "R20"
+		(property "Reference" "R10"
 			(at 134.62 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6869,7 +6869,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "R20")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6887,7 +6887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b36a8a4-738f-4343-a944-d414aa1a3fdd")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR040"
 			(at 92.71 16.51 0)
 			(hide yes)
 			(show_name no)
@@ -6947,7 +6947,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR077")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6965,7 +6965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3d8010b-b7c7-4049-bc53-1b99e862c3ee")
-		(property "Reference" "C20"
+		(property "Reference" "C13"
 			(at 95.25 21.5962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7051,7 +7051,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "C20")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7069,7 +7069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad02a4d4-a8c5-4ba0-96c9-72adf7561eea")
-		(property "Reference" "C22"
+		(property "Reference" "C19"
 			(at 224.79 105.4162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7155,7 +7155,85 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "C22")
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 143.51 17.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baa75fc9-e610-44e6-943a-e8fa7839a81d")
+		(property "Reference" "#PWR048"
+			(at 143.51 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_Mid"
+			(at 143.51 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 143.51 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df1f8e0c-bec3-4c7b-aa8f-2db75aca0700")
+		)
+		(instances
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -7173,7 +7251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb67a910-5b18-454e-8e26-109f77b61015")
-		(property "Reference" "C24"
+		(property "Reference" "C16"
 			(at 146.05 21.5962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7259,7 +7337,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "C24")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7277,7 +7355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c41bec36-e841-4358-b94c-7f943d112f80")
-		(property "Reference" "C19"
+		(property "Reference" "C9"
 			(at 24.13 21.5962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7363,7 +7441,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "C19")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7382,7 +7460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5ac9d6c-d63b-4e8b-8687-b3dd9f0b66e0")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 165.1 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7480,86 +7558,8 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "U1")
+					(reference "U3")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 66.04 12.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5bedadf-3f9c-4ed9-ab75-4249524b85b4")
-		(property "Reference" "#PWR074"
-			(at 66.04 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 66.04 7.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 66.04 12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8e82832b-d756-44f4-8e27-d0db4fba2864")
-		)
-		(instances
-			(project "ROV CTD"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR074")
-					(unit 1)
 				)
 			)
 		)
@@ -7678,7 +7678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf9c2ab5-1622-42af-b263-08e14c519d8f")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR045"
 			(at 124.46 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7739,7 +7739,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR052")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7758,7 +7758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d016e2fe-1310-482b-8992-c5712925e6e7")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 201.93 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7856,7 +7856,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "U1")
+					(reference "U3")
 					(unit 4)
 				)
 			)
@@ -7874,7 +7874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd3324c5-796f-4a10-b9eb-4136196049c0")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR053"
 			(at 166.37 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -7934,7 +7934,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR082")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -7952,7 +7952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de59786c-3451-487f-8773-d365523516ac")
-		(property "Reference" "C18"
+		(property "Reference" "C8"
 			(at 13.97 21.5962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8038,7 +8038,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "C18")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8056,7 +8056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0b2a2be-0798-4a9e-844b-7e0d681ca909")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR038"
 			(at 74.93 16.51 0)
 			(hide yes)
 			(show_name no)
@@ -8116,7 +8116,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR076")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8134,7 +8134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6e8c708-ee36-427f-819d-d16101dc1395")
-		(property "Reference" "R19"
+		(property "Reference" "R9"
 			(at 118.11 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8198,85 +8198,7 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 11.43 12.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8c8056a-13bd-467e-b308-17afdc152bc4")
-		(property "Reference" "#PWR073"
-			(at 11.43 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 11.43 7.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 11.43 12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 11.43 12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 11.43 12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "929576fc-635c-4f6b-9c2e-b925f1deb70a")
-		)
-		(instances
-			(project "ROV CTD"
-				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR073")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8294,7 +8216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea50cf31-5f5c-4d54-aa96-efdee983b4d1")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR054"
 			(at 166.37 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8355,10 +8277,89 @@
 		(instances
 			(project "ROV CTD"
 				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
-					(reference "#PWR070")
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 11.43 12.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff09f0d4-a222-4b98-981d-f75c3dce375d")
+		(property "Reference" "#PWR032"
+			(at 11.43 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_Mid"
+			(at 11.43 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 11.43 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 11.43 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 11.43 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d296a4ab-ac4f-4cc0-b2c3-e54a70fbdaa6")
+		)
+		(instances
+			(project "ROV CTD"
+				(path "/4b85b8a1-3b52-4af9-b3a4-471ab529b035/ca4f46b8-1067-479f-855d-d4866b315eff"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
 		)
 	)
 )
+

@@ -592,11 +592,13 @@
         "PCBway min 1 oz "
       ],
       "+5V": [
-        "1 oz - 1 A",
+        "1 oz - 1 A"
+      ],
+      "+5V_Bot": [
         "PCBway min 1 oz "
       ],
       "+5V_Mid": [
-        "1 oz - 2 A"
+        "PCBway min 1 oz "
       ],
       "+5V_Up": [
         "1 oz - 2 A"
@@ -688,6 +690,9 @@
       "/Bot_SDA": [
         "PCBway min 1 oz "
       ],
+      "/Bot_Status_LED": [
+        "PCBway min 1 oz "
+      ],
       "/Bot_Temp": [
         "PCBway min 1 oz "
       ],
@@ -733,7 +738,16 @@
       "/Mid_SDA": [
         "PCBway min 1 oz "
       ],
+      "/Mid_Status_LED": [
+        "PCBway min 1 oz "
+      ],
       "/Mid_TDS": [
+        "PCBway min 1 oz "
+      ],
+      "/Mid_TDS_En": [
+        "PCBway min 1 oz "
+      ],
+      "/Mid_TDS_OSC": [
         "PCBway min 1 oz "
       ],
       "/Mid_Temp": [
@@ -832,6 +846,9 @@
       "/Top_TDS_En": [
         "PCBway min 1 oz "
       ],
+      "/Top_TDS_OSC": [
+        "PCBway min 1 oz "
+      ],
       "/Top_Temp": [
         "PCBway min 1 oz "
       ],
@@ -852,6 +869,9 @@
       ],
       "GND_Mid": [
         "1 oz - 2 A"
+      ],
+      "Net-(C11-Pad1)": [
+        "PCBway min 1 oz "
       ],
       "Net-(C21-Pad1)": [
         "PCBway min 1 oz "
@@ -890,7 +910,7 @@
         "PCBway min 1 oz "
       ],
       "Net-(D5-A)": [
-        "1 oz - 2 A"
+        "PCBway min 1 oz "
       ],
       "Net-(D6-A)": [
         "PCBway min 1 oz "
@@ -937,6 +957,12 @@
       "Net-(J9-Pin_5)": [
         "PCBway min 1 oz "
       ],
+      "Net-(R10-Pad2)": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(R15-Pad2)": [
+        "PCBway min 1 oz "
+      ],
       "Net-(R17-Pad2)": [
         "PCBway min 1 oz "
       ],
@@ -964,11 +990,29 @@
       "Net-(U1D--)": [
         "PCBway min 1 oz "
       ],
+      "Net-(U2-C_{FLY+})": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(U2-C_{FLY-})": [
+        "PCBway min 1 oz "
+      ],
       "Net-(U3-BST)": [
         "PCBway min 1 oz "
       ],
       "Net-(U3-SW)": [
         "1 oz - 1 A"
+      ],
+      "Net-(U3A--)": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(U3B--)": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(U3C--)": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(U3D--)": [
+        "PCBway min 1 oz "
       ],
       "Net-(U4-C_{FLY+})": [
         "PCBway min 1 oz "
@@ -978,6 +1022,12 @@
       ],
       "Net-(U5-AREF)": [
         "PCBway min 1 oz "
+      ],
+      "Net-(U5-BST)": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(U5-SW)": [
+        "1 oz - 1 A"
       ],
       "V_Supply": [
         "1 oz - 2 A"
@@ -1001,6 +1051,9 @@
         "PCBway min 1 oz "
       ],
       "unconnected-(J8-Pin_5-Pad5)": [
+        "PCBway min 1 oz "
+      ],
+      "unconnected-(R6-Pad1)": [
         "PCBway min 1 oz "
       ],
       "unconnected-(U2-A8{slash}D8_MOSI-Pad11)": [
@@ -1302,7 +1355,7 @@
         "uuid": "4b85b8a1-3b52-4af9-b3a4-471ab529b035"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D7,#PWR85-86,R21",
     "variants": []
   },
   "sheets": [

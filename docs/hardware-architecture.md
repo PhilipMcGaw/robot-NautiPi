@@ -143,3 +143,9 @@ what was tested. At minimum, relevant records should identify:
 A design file or photograph is not evidence that hardware has been manufactured,
 assembled, commissioned, calibrated, or production-validated.
 
+## Modular transducer architecture
+
+The CTD is treated as one combined logical transducer because conductivity, temperature, and pressure are a coherent measurement set. Temperature compensates conductivity, pressure provides depth, and the three measurements support derived salinity and density.
+
+Unrelated sensing functions should normally be implemented as separate RS-485/Modbus nodes. This keeps optical, chemical, and analogue front ends isolated and allows each module to be calibrated, replaced, and reused independently while sharing the common Arduino node framework.
+

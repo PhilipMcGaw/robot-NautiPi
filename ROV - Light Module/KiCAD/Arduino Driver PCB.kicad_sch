@@ -2984,7 +2984,7 @@
 		)
 		(uuid "373e12da-c4c3-42a2-9057-201dd0097f55")
 	)
-	(text "The Feedback LED is not part of the AVR HDPI header standard, however, I\nhave included it on the un-used pin so that I can have a status/feedback\nLED for visual feedback from the microcontroller."
+	(text "The Feedback LED (built in) is not part of the AVR UPDI header standard, however, I\nhave included it on the un-used pin so that I can have a status/feedback\nLED for visual feedback from the microcontroller."
 		(exclude_from_sim no)
 		(at 70.358 181.61 0)
 		(effects
@@ -2997,11 +2997,12 @@
 	)
 	(text "### V_in Measurement\n\nThe input voltage is measured through a 51 kΩ / 12 kΩ resistor divider.\n\nThe expected ADC voltage is:\n\n`Vmeasure = V_in × 12 / (51 + 12)`\n\n| Input voltage | Expected Vmeasure |\n|---:|---:|\n| 12 VDC | 2.29 V |\n| 18 VDC | 3.43 V |\n| 24 VDC | 4.57 V |\n\nThese values assume ideal resistor values. Component tolerance and supply variation will introduce small differences."
 		(exclude_from_sim no)
-		(at 254.254 43.18 0)
+		(at 208.534 17.272 0)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
+			(justify left top)
 		)
 		(uuid "cf38f616-88dc-4830-9fca-8c6717dde6f5")
 	)
@@ -4135,7 +4136,7 @@
 			(justify left bottom)
 		)
 		(uuid "117c67b1-72d6-4c7d-b6f3-e4a9fdbb6f21")
-		(property "Netclass" "PCBway min 1 oz "
+		(property "Net Class" "PCBway min 1 oz "
 			(at 32.3799 40.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4171,7 +4172,7 @@
 			(justify left bottom)
 		)
 		(uuid "241acacb-b038-405f-ade3-a1fd3945166d")
-		(property "Netclass" "PCBway min 1 oz "
+		(property "Net Class" "PCBway min 1 oz "
 			(at 65.3999 105.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4207,7 +4208,7 @@
 			(justify left bottom)
 		)
 		(uuid "296b2d61-e4e9-4ccb-b7f4-7bb87b44f92a")
-		(property "Netclass" "1 oz - 2 A"
+		(property "Net Class" "1 oz - 2 A"
 			(at 39.9999 33.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4243,7 +4244,7 @@
 			(justify left bottom)
 		)
 		(uuid "3b9540ca-13be-4f21-9233-8e3187157385")
-		(property "Netclass" "PCBway min 1 oz "
+		(property "Net Class" "PCBway min 1 oz "
 			(at 65.3999 90.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4279,7 +4280,7 @@
 			(justify left bottom)
 		)
 		(uuid "3f8024da-17d4-451e-b13f-3242681c73fc")
-		(property "Netclass" "PCBway min 1 oz "
+		(property "Net Class" "PCBway min 1 oz "
 			(at 107.3099 103.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4315,7 +4316,7 @@
 			(justify left bottom)
 		)
 		(uuid "44ae8adf-5c04-4122-9721-aa15b399356e")
-		(property "Netclass" "PCBway min 1 oz "
+		(property "Net Class" "PCBway min 1 oz "
 			(at 107.3099 92.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4351,7 +4352,7 @@
 			(justify left bottom)
 		)
 		(uuid "4d9f90f8-bce9-482e-b0b8-075db4fdd131")
-		(property "Netclass" "PCBway min 1 oz "
+		(property "Net Class" "PCBway min 1 oz "
 			(at 221.6099 92.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4387,7 +4388,7 @@
 			(justify left bottom)
 		)
 		(uuid "52fec0b3-4889-426d-bd17-3df8d86f5f1c")
-		(property "Netclass" "PCBway min 1 oz "
+		(property "Net Class" "PCBway min 1 oz "
 			(at 175.53 40.0101 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4423,7 +4424,7 @@
 			(justify left bottom)
 		)
 		(uuid "5411dfd2-58aa-44dc-be5d-f91a9959fe88")
-		(property "Netclass" "PCBway min 1 oz "
+		(property "Net Class" "PCBway min 1 oz "
 			(at 32.3799 35.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4459,7 +4460,7 @@
 			(justify left bottom)
 		)
 		(uuid "5480a2fd-e08a-4e3a-b535-0a37ec86f90b")
-		(property "Netclass" "1 oz - 2 A"
+		(property "Net Class" "1 oz - 2 A"
 			(at 28.5699 33.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4495,7 +4496,7 @@
 			(justify left bottom)
 		)
 		(uuid "5d891f1a-c6a9-4b0c-bb78-73e31be110c2")
-		(property "Netclass" "PCBway min 1 oz "
+		(property "Net Class" "PCBway min 1 oz "
 			(at 102.2299 167.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4531,7 +4532,7 @@
 			(justify left bottom)
 		)
 		(uuid "693d67e4-862a-4336-aaa1-888ac9722a33")
-		(property "Netclass" "PCBway min 1 oz "
+		(property "Net Class" "PCBway min 1 oz "
 			(at 107.3099 100.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4567,7 +4568,7 @@
 			(justify left bottom)
 		)
 		(uuid "6941b522-90c2-4f36-a5a6-0508293be889")
-		(property "Netclass" "PCBway min 1 oz "
+		(property "Net Class" "PCBway min 1 oz "
 			(at 65.3999 108.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4603,7 +4604,7 @@
 			(justify left bottom)
 		)
 		(uuid "79cf235d-c437-4f38-8c6c-660fef8b1a41")
-		(property "Netclass" "PCBway min 1 oz "
+		(property "Net Class" "PCBway min 1 oz "
 			(at 128.54 107.3201 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4639,7 +4640,7 @@
 			(justify left bottom)
 		)
 		(uuid "7e064640-5d9a-4d7f-9ed2-4ccebd6de3a9")
-		(property "Netclass" "PCBway min 1 oz "
+		(property "Net Class" "PCBway min 1 oz "
 			(at 107.3099 98.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4675,7 +4676,7 @@
 			(justify left bottom)
 		)
 		(uuid "85fa4d5c-83e7-47b8-9e3c-469fb8d4ae1d")
-		(property "Netclass" "PCBway min 1 oz "
+		(property "Net Class" "PCBway min 1 oz "
 			(at 107.3099 95.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4711,7 +4712,7 @@
 			(justify left bottom)
 		)
 		(uuid "8c909a36-c372-4740-a779-053b700dc363")
-		(property "Netclass" "1 oz - 2 A"
+		(property "Net Class" "1 oz - 2 A"
 			(at 32.3799 43.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4747,7 +4748,7 @@
 			(justify left bottom)
 		)
 		(uuid "9da21b14-12d9-4fbf-a9b1-3addb5dce309")
-		(property "Netclass" "PCBway min 1 oz "
+		(property "Net Class" "PCBway min 1 oz "
 			(at 32.3799 38.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4783,7 +4784,7 @@
 			(justify left bottom)
 		)
 		(uuid "a7baa6cc-28d0-4d68-9ece-ae25bbb6408c")
-		(property "Netclass" "1 oz - 1 A"
+		(property "Net Class" "1 oz - 1 A"
 			(at 135.2499 30.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4819,7 +4820,7 @@
 			(justify left bottom)
 		)
 		(uuid "aa071b24-2805-4f6c-9614-90230b237b12")
-		(property "Netclass" "PCBway min 1 oz "
+		(property "Net Class" "PCBway min 1 oz "
 			(at 107.3099 90.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4855,7 +4856,7 @@
 			(justify left bottom)
 		)
 		(uuid "b308814d-40ad-4c95-bc16-42a335f11ac4")
-		(property "Netclass" "PCBway min 1 oz "
+		(property "Net Class" "PCBway min 1 oz "
 			(at 65.3999 103.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4891,7 +4892,7 @@
 			(justify left bottom)
 		)
 		(uuid "c29ecf6a-5f3b-46f4-b696-d3ffc0160123")
-		(property "Netclass" "1 oz - 1 A"
+		(property "Net Class" "1 oz - 1 A"
 			(at 154.2999 30.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4927,7 +4928,7 @@
 			(justify left bottom)
 		)
 		(uuid "c8d4fb7a-61e3-43bd-acdb-035904b7db3a")
-		(property "Netclass" "PCBway min 1 oz "
+		(property "Net Class" "PCBway min 1 oz "
 			(at 135.2499 33.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4963,7 +4964,7 @@
 			(justify left bottom)
 		)
 		(uuid "d747acd8-bfb0-4313-a0eb-720fab3c0c4d")
-		(property "Netclass" "PCBway min 1 oz "
+		(property "Net Class" "PCBway min 1 oz "
 			(at 221.6099 103.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5048,6 +5049,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 123.19 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 123.19 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 123.19 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 			)
 		)
@@ -5142,6 +5176,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 176.53 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 176.53 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 176.53 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 			)
 		)
@@ -5299,6 +5366,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 35.56 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 35.56 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 35.56 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 			)
 		)
@@ -5798,6 +5898,39 @@
 				)
 			)
 		)
+		(property "Current" ""
+			(at 200.66 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 200.66 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 200.66 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b1908fe1-595e-4732-b502-b9845a15aca4")
 		)
@@ -5877,6 +6010,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 143.51 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 143.51 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 143.51 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 			)
 		)
@@ -6063,6 +6229,39 @@
 				)
 			)
 		)
+		(property "Current" ""
+			(at 73.66 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 73.66 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 73.66 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "256d5a1a-82b0-46a1-92cf-0ea46509564b")
 		)
@@ -6140,6 +6339,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 138.43 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 138.43 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 138.43 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 			)
 		)
@@ -6222,6 +6454,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 129.54 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 129.54 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 129.54 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 			)
 		)
@@ -6383,6 +6648,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 63.5 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 63.5 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 63.5 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 			)
 		)
@@ -6790,6 +7088,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 176.53 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 176.53 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 176.53 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 			)
 		)
@@ -7265,6 +7596,39 @@
 				)
 			)
 		)
+		(property "Current" ""
+			(at 238.76 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 238.76 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 238.76 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "26662b24-05da-47f5-b2d0-0556315ac7c1")
 		)
@@ -7360,6 +7724,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 19.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 19.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 19.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 			)
 		)
@@ -7555,6 +7952,39 @@
 				)
 			)
 		)
+		(property "Current" ""
+			(at 187.96 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 187.96 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 187.96 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "acd37b1b-9a1c-4af9-b115-ea06be60814c")
 		)
@@ -7711,6 +8141,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 110.49 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 110.49 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 110.49 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 			)
 		)
@@ -7963,6 +8426,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 63.5 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 63.5 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 63.5 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 			)
 		)
@@ -8225,6 +8721,39 @@
 				)
 			)
 		)
+		(property "Current" ""
+			(at 149.86 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 149.86 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 149.86 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3edd4ec8-6d46-43d2-80d9-678aa231f327")
 		)
@@ -8307,6 +8836,39 @@
 				)
 			)
 		)
+		(property "Current" ""
+			(at 104.14 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 104.14 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 104.14 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "39eb9038-3384-4131-b5de-e28867a5bbcc")
 		)
@@ -8386,6 +8948,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 160.02 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 160.02 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 160.02 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 			)
 		)
@@ -8493,6 +9088,39 @@
 				)
 			)
 		)
+		(property "Current" ""
+			(at 41.91 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 41.91 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 41.91 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c45e52b8-d1d2-476a-95cf-79eb5d308779")
 		)
@@ -8573,6 +9201,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 90.17 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 90.17 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 90.17 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 			)
 		)
@@ -8859,6 +9520,39 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 129.54 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 129.54 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 129.54 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 			)
 		)

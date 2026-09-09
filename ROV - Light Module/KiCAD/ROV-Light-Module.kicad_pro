@@ -1097,6 +1097,30 @@
           "label": "MFR",
           "name": "MFR",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR Number",
+          "name": "MFR Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "notes",
+          "name": "notes",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": false
         }
       ],
       "filter_string": "",
