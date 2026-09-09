@@ -41,9 +41,10 @@ remain unvalidated.
   servo/motor allocation conflict checks, indicators, and safe limits.
 - Bench-commission each ADM133 interface; `servo-00` through `servo-15` are
   stable aliases, not evidence that a physical output has been verified.
-- Define and implement RS-485 transport for attached microcontrollers,
-  including electrical arrangement, UART settings, addressing, framing, CRC,
-  half-duplex control, timing, retries, and safe link-loss handling.
+- Define and implement Modbus RTU over RS-485 transport for attached microcontrollers,
+  using 115200 8N1 by default, 500 kbit/s only after validation, ten-address
+  node-type blocks, EEPROM-persisted robot-local addressing, unique-ID discovery,
+  framing, CRC, half-duplex control, timing, retries, and safe link-loss handling.
 - Keep motor mixing, limits, neutral, timeouts, emergency stop, and hardware
   mappings in Control.
 
@@ -120,3 +121,6 @@ complete operational procedures remain planned.
 Each change updates the relevant component documentation and master context.
 Each milestone is complete only when its repository status records the required
 implementation, automated-test, bench, and production evidence.
+
+
+

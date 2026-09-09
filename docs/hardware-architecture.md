@@ -80,8 +80,7 @@ Operational communications
 This permits address reassignment while retaining traceability to the physical
 device.
 
-The exact mechanism depends on the selected microcontroller and embedded
-implementation.
+For the ATtiny1614 nodes, the factory serial number is the permanent identity. The Modbus address is a robot-local assignment stored in EEPROM with version and CRC. Uncommissioned nodes use internal address value `0xFF` and are discovered over RS-485 by unique ID, allowing sealed nodes to be moved between robots. See the [ChartRoom embedded-node profiles](https://github.com/PhilipMcGaw/robot-ChartRoom/blob/main/docs/architecture/embedded-nodes.md).
 
 ## 5. RS-485
 
@@ -102,7 +101,7 @@ The physical design must establish, and evidence should verify:
 - EMC considerations;
 - fault behaviour.
 
-The RS-485 physical layer does not define the CuttleOS application contract.
+The field-bus application protocol is Modbus RTU over RS-485. The default is 115200 baud, 8N1; 500 kbit/s is optional pending complete harness validation. The RS-485 physical layer does not define the CuttleOS application contract.
 
 ## 6. Bus performance
 
@@ -143,3 +142,4 @@ what was tested. At minimum, relevant records should identify:
 
 A design file or photograph is not evidence that hardware has been manufactured,
 assembled, commissioned, calibrated, or production-validated.
+
