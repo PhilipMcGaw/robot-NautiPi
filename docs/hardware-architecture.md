@@ -148,4 +148,12 @@ assembled, commissioned, calibrated, or production-validated.
 The CTD is treated as one combined logical transducer because conductivity, temperature, and pressure are a coherent measurement set. Temperature compensates conductivity, pressure provides depth, and the three measurements support derived salinity and density.
 
 Unrelated sensing functions should normally be implemented as separate RS-485/Modbus nodes. This keeps optical, chemical, and analogue front ends isolated and allows each module to be calibrated, replaced, and reused independently while sharing the common Arduino node framework.
+## PCB function identification
+
+All new devices based on the Light/CTD controller shall include a resistor network on `A3/D3`. Existing legacy boards may remain exceptions until their hardware is revised.
+
+The shared Arduino node design uses a resistor network on `A3/D3` to identify the function of the populated PCB. Firmware reads this analogue function ID during startup, selects the compatible profile, and can reject an incompatible firmware image by entering a safe diagnostic state.
+
+This hardware function ID is separate from the robot-local Modbus address stored in EEPROM. The same firmware framework can therefore be reused across modular node types while preserving explicit hardware/firmware compatibility checks.
+The initial function-code allocation is Function 1 for Light and Function 2 for CTD; Functions 3-8 are reserved. The resistor values and ADC bands shall be validated against supply variation, component tolerance, noise, and input leakage.
 

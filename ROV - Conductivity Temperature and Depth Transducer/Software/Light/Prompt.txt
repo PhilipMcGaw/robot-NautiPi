@@ -24,7 +24,7 @@ Use the following requirements exactly:
 
     Built‑in LED on PA2
 
-    RS‑485 DE/RE on PA3
+    RS‑485 direction is handled automatically by the transceiver; PA3 is reserved for the PCB function-ID strap
 
     VIN sense on PA4 (37k/12k divider)
 
