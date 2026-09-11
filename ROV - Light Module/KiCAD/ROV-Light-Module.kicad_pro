@@ -598,7 +598,7 @@
         "1 oz - 1 A"
       ],
       "+5V_Up": [
-        "1 oz - 2 A"
+        "1 oz - 1 A"
       ],
       "+Ve": [
         "1 oz - 1 A"
@@ -699,6 +699,9 @@
       "/Function": [
         "PCBway min 1 oz "
       ],
+      "/Function_Mid": [
+        "PCBway min 1 oz "
+      ],
       "/LED+_L": [
         "1 oz - 1 A"
       ],
@@ -724,6 +727,9 @@
         "PCBway min 1 oz "
       ],
       "/Neo_Up": [
+        "PCBway min 1 oz "
+      ],
+      "/Neopixle_Mid": [
         "PCBway min 1 oz "
       ],
       "/PWM": [
@@ -860,10 +866,10 @@
         "PCBway min 1 oz "
       ],
       "V_Supply": [
-        "1 oz - 2 A"
+        "1 oz - 1 A"
       ],
       "V_in": [
-        "1 oz - 2 A"
+        "1 oz - 1 A"
       ],
       "V_in_Mid": [
         "1 oz - 1 A"
@@ -1191,7 +1197,7 @@
         "uuid": "4b85b8a1-3b52-4af9-b3a4-471ab529b035"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR75",
     "variants": []
   },
   "sheets": [

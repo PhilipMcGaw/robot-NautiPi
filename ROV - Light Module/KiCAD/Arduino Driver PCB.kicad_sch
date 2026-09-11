@@ -4198,42 +4198,6 @@
 	(netclass_flag ""
 		(length 1)
 		(shape round)
-		(at 39.37 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(color 255 153 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "296b2d61-e4e9-4ccb-b7f4-7bb87b44f92a")
-		(property "Net Class" "1 oz - 2 A"
-			(at 39.9999 33.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Component Class" ""
-			(at -205.74 6.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1)
-		(shape round)
 		(at 64.77 91.44 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4450,42 +4414,6 @@
 	(netclass_flag ""
 		(length 1)
 		(shape round)
-		(at 27.94 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(color 255 153 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "5480a2fd-e08a-4e3a-b535-0a37ec86f90b")
-		(property "Net Class" "1 oz - 2 A"
-			(at 28.5699 33.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Component Class" ""
-			(at -217.17 6.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1)
-		(shape round)
 		(at 101.6 168.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4630,6 +4558,42 @@
 	(netclass_flag ""
 		(length 1)
 		(shape round)
+		(at 39.37 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(color 255 153 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ca75387-0339-4251-bc0c-29d0560cb8a6")
+		(property "Net Class" "1 oz - 1 A"
+			(at 39.9999 33.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Component Class" ""
+			(at -205.74 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
 		(at 106.68 99.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4653,6 +4617,42 @@
 		)
 		(property "Component Class" ""
 			(at -138.43 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape round)
+		(at 29.21 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(color 255 153 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "853d307d-66a0-4a1c-a09e-991776bc89e8")
+		(property "Net Class" "1 oz - 1 A"
+			(at 29.8399 33.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Component Class" ""
+			(at -215.9 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
