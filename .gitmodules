@@ -1,0 +1,6 @@
+[submodule "ROV - Conductivity Temperature and Depth Transducer/KiCAD/Common"]
+	path = ROV - Conductivity Temperature and Depth Transducer/KiCAD/Common
+	url = https://github.com/PhilipMcGaw/common_kicad
+[submodule "ROV - Light Module/KiCAD/Common"]
+	path = ROV - Light Module/KiCAD/Common
+	url = https://github.com/PhilipMcGaw/common_kicad
