@@ -254,7 +254,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.1"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -708,6 +708,9 @@
       "/Data_B": [
         "PCBway min 1 oz "
       ],
+      "/Function": [
+        "PCBway min 1 oz "
+      ],
       "/LED+_L": [
         "1 oz - 2 A"
       ],
@@ -876,6 +879,9 @@
       "Net-(C21-Pad1)": [
         "PCBway min 1 oz "
       ],
+      "Net-(C24-Pad1)": [
+        "PCBway min 1 oz "
+      ],
       "Net-(C27-Pad1)": [
         "PCBway min 1 oz "
       ],
@@ -895,6 +901,15 @@
         "PCBway min 1 oz "
       ],
       "Net-(D12-A)": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(D13-A)": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(D13-K)": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(D2-A)": [
         "PCBway min 1 oz "
       ],
       "Net-(D2-K)": [
@@ -969,7 +984,13 @@
       "Net-(R20-Pad2)": [
         "PCBway min 1 oz "
       ],
+      "Net-(R23-Pad2)": [
+        "PCBway min 1 oz "
+      ],
       "Net-(R24-Pad1)": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(R28-Pad2)": [
         "PCBway min 1 oz "
       ],
       "Net-(U1-CTRL)": [
@@ -1026,14 +1047,32 @@
       "Net-(U5-BST)": [
         "PCBway min 1 oz "
       ],
+      "Net-(U5-C_{FLY+})": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(U5-C_{FLY-})": [
+        "PCBway min 1 oz "
+      ],
       "Net-(U5-SW)": [
         "1 oz - 1 A"
       ],
+      "Net-(U7A--)": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(U7B--)": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(U7C--)": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(U7D--)": [
+        "PCBway min 1 oz "
+      ],
       "V_Supply": [
-        "1 oz - 2 A"
+        "1 oz - 1 A"
       ],
       "V_in": [
-        "1 oz - 2 A"
+        "1 oz - 1 A"
       ],
       "V_in_Mid": [
         "1 oz - 2 A"
@@ -1355,7 +1394,7 @@
         "uuid": "4b85b8a1-3b52-4af9-b3a4-471ab529b035"
       }
     ],
-    "used_designators": "D7,#PWR85-86,R21",
+    "used_designators": "U4-5,U7,M1,J2-3,J5,J8,J10,H1-2,C1,C6-7,C19-34,D2,D7,D12-14,#PWR1-5,#PWR12,#PWR42-43,#PWR76-123,JP1-2,R5-6,R19-33",
     "variants": []
   },
   "sheets": [
@@ -1364,16 +1403,16 @@
       "ROV CTD"
     ],
     [
-      "150d263f-d8d0-41bc-b04b-394586738282",
-      "Pressure Transducer"
+      "309ce292-f7c5-47a6-adf1-c0f2f6349c2f",
+      "Arduino Driver PCB"
     ],
     [
-      "ca4f46b8-1067-479f-855d-d4866b315eff",
+      "e7892cfa-fb65-49ba-b199-82a7c5974164",
       "Conductivity Transducer"
     ],
     [
-      "b1565afd-b735-4054-9aaf-effbb35036b6",
-      "Arduino Driver PCB"
+      "d2e3d421-56cf-4c4b-84e7-3f0b55169ef2",
+      "Pressure Transducer"
     ]
   ],
   "text_variables": {},
